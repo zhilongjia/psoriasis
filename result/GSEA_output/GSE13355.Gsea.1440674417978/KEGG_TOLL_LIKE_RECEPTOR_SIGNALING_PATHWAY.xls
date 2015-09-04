@@ -1,0 +1,99 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	FOS	FOS	v-fos FBJ murine osteosarcoma viral oncogene homolog	225	0.3107023239135742	0.014854522	No	
+row_1	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	923	0.18487268686294556	-0.0037654347	No	
+row_2	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	1287	0.15852610766887665	-0.008289015	No	
+row_3	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	2167	0.11541412770748138	-0.041557014	No	
+row_4	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2599	0.10018502920866013	-0.054245736	No	
+row_5	MAP2K7	MAP2K7	mitogen-activated protein kinase kinase 7	3593	0.07414138317108154	-0.09650317	No	
+row_6	MAPK1	MAPK1	mitogen-activated protein kinase 1	4056	0.06382760405540466	-0.11372556	No	
+row_7	TLR4	TLR4	toll-like receptor 4	4156	0.06146718189120293	-0.11344373	No	
+row_8	CTSK	CTSK	cathepsin K (pycnodysostosis)	5170	0.04331129416823387	-0.15923902	No	
+row_9	LBP	LBP	lipopolysaccharide binding protein	6241	0.02731812745332718	-0.20914307	No	
+row_10	IRF5	IRF5	interferon regulatory factor 5	6523	0.024159438908100128	-0.2208369	No	
+row_11	TLR5	TLR5	toll-like receptor 5	6821	0.020651021972298622	-0.23360251	No	
+row_12	JUN	JUN	jun oncogene	6916	0.01967180334031582	-0.23655096	No	
+row_13	IFNA16	IFNA16	interferon, alpha 16	6985	0.018966812640428543	-0.23829019	No	
+row_14	MAPK10	MAPK10	mitogen-activated protein kinase 10	7013	0.01872413419187069	-0.23805039	No	
+row_15	MAP3K7	MAP3K7	mitogen-activated protein kinase kinase kinase 7	7556	0.01395249180495739	-0.26331934	No	
+row_16	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	7652	0.012999311089515686	-0.26687118	No	
+row_17	IFNA17	IFNA17	interferon, alpha 17	7726	0.012544333003461361	-0.26938808	No	
+row_18	IFNA6	IFNA6	interferon, alpha 6	7749	0.012410681694746017	-0.26942924	No	
+row_19	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	7940	0.011065361090004444	-0.27777416	No	
+row_20	IFNA1	IFNA1	interferon, alpha 1	8126	0.009837904013693333	-0.28597727	No	
+row_21	RIPK1	RIPK1	receptor (TNFRSF)-interacting serine-threonine kinase 1	8658	0.006077515427023172	-0.31136444	No	
+row_22	IFNB1	IFNB1	interferon, beta 1, fibroblast	8695	0.0058927820064127445	-0.31263006	No	
+row_23	IFNA8	IFNA8	interferon, alpha 8	8721	0.0057288240641355515	-0.3133729	No	
+row_24	IFNA10	IFNA10	interferon, alpha 10	8773	0.005367598496377468	-0.31541356	No	
+row_25	MAPK11	MAPK11	mitogen-activated protein kinase 11	9397	0.0015218708431348205	-0.34566545	No	
+row_26	MAPK12	MAPK12	mitogen-activated protein kinase 12	9446	0.001311225933022797	-0.34789702	No	
+row_27	IFNA14	IFNA14	interferon, alpha 14	9485	0.0010603942209854722	-0.34966183	No	
+row_28	IFNA13	IFNA13	interferon, alpha 13	9760	-6.71029498334974E-4	-0.3629667	No	
+row_29	TRAF6	TRAF6	TNF receptor-associated factor 6	9762	-6.852212827652693E-4	-0.3629585	No	
+row_30	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	9972	-0.0018481340957805514	-0.372996	No	
+row_31	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	10214	-0.002982295351102948	-0.38449964	No	
+row_32	IFNA7	IFNA7	interferon, alpha 7	10744	-0.0059497905895113945	-0.4097999	No	
+row_33	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	10766	-0.006066058296710253	-0.4103197	No	
+row_34	IFNA4	IFNA4	interferon, alpha 4	10845	-0.006495883222669363	-0.41358313	No	
+row_35	IFNA21	IFNA21	interferon, alpha 21	10857	-0.0065699610859155655	-0.41357338	No	
+row_36	IL12A	IL12A	interleukin 12A (natural killer cell stimulatory factor 1, cytotoxic lymphocyte maturation factor 1, p35)	11372	-0.009484594687819481	-0.43784842	No	
+row_37	IFNAR1	IFNAR1	interferon (alpha, beta and omega) receptor 1	12042	-0.013209199532866478	-0.46937189	No	
+row_38	MAPK9	MAPK9	mitogen-activated protein kinase 9	12618	-0.016687721014022827	-0.4960226	No	
+row_39	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	12920	-0.01861437037587166	-0.5091526	No	
+row_40	IFNA5	IFNA5	interferon, alpha 5	12995	-0.01903395727276802	-0.5111788	No	
+row_41	IFNA2	IFNA2	interferon, alpha 2	13486	-0.022340629249811172	-0.5332149	No	
+row_42	TIRAP	TIRAP	toll-interleukin 1 receptor (TIR) domain containing adaptor protein	13494	-0.022392544895410538	-0.531695	No	
+row_43	TLR6	TLR6	toll-like receptor 6	13531	-0.022592902183532715	-0.53157246	No	
+row_44	IRF3	IRF3	interferon regulatory factor 3	14246	-0.028940599411725998	-0.56398255	No	
+row_45	TLR3	TLR3	toll-like receptor 3	14464	-0.03097464330494404	-0.5719892	No	
+row_46	CD40	CD40	CD40 molecule, TNF receptor superfamily member 5	14750	-0.033851612359285355	-0.5830724	No	
+row_47	MAPK14	MAPK14	mitogen-activated protein kinase 14	14886	-0.03522529453039169	-0.58672726	No	
+row_48	TLR9	TLR9	toll-like receptor 9	15374	-0.041087470948696136	-0.6070589	No	
+row_49	MAPK3	MAPK3	mitogen-activated protein kinase 3	15752	-0.046106308698654175	-0.6216095	No	
+row_50	IRAK4	IRAK4	interleukin-1 receptor-associated kinase 4	15904	-0.04822347313165665	-0.6249641	No	
+row_51	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	16199	-0.05333591625094414	-0.63486665	No	
+row_52	TICAM1	TICAM1	toll-like receptor adaptor molecule 1	16422	-0.05765771120786667	-0.6408992	Yes	
+row_53	MAP2K4	MAP2K4	mitogen-activated protein kinase kinase 4	16445	-0.05809054896235466	-0.6371434	Yes	
+row_54	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	16559	-0.06045064330101013	-0.6376287	Yes	
+row_55	CD14	CD14	CD14 molecule	16571	-0.06067633628845215	-0.6331216	Yes	
+row_56	MAPK8	MAPK8	mitogen-activated protein kinase 8	16573	-0.06072334572672844	-0.628123	Yes	
+row_57	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	16600	-0.06135908514261246	-0.6242906	Yes	
+row_58	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	16705	-0.06366253644227982	-0.62407005	Yes	
+row_59	TLR7	TLR7	toll-like receptor 7	16761	-0.06498177349567413	-0.6213506	Yes	
+row_60	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	16833	-0.06657346338033676	-0.619279	Yes	
+row_61	TICAM2	TICAM2	toll-like receptor adaptor molecule 2	16971	-0.06986600160598755	-0.62015206	Yes	
+row_62	TBK1	TBK1	TANK-binding kinase 1	17141	-0.07336677610874176	-0.6222944	Yes	
+row_63	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	17146	-0.0735296905040741	-0.6163776	Yes	
+row_64	FADD	FADD	Fas (TNFRSF6)-associated via death domain	17633	-0.08608520776033401	-0.6329202	Yes	
+row_65	IFNAR2	IFNAR2	interferon (alpha, beta and omega) receptor 2	17689	-0.08744032680988312	-0.6283339	Yes	
+row_66	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	17956	-0.0961809828877449	-0.63330984	Yes	
+row_67	TLR1	TLR1	toll-like receptor 1	18049	-0.09854086488485336	-0.6296051	Yes	
+row_68	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	18136	-0.1015922799706459	-0.6253542	Yes	
+row_69	TRAF3	TRAF3	TNF receptor-associated factor 3	18245	-0.1056705191731453	-0.62183696	Yes	
+row_70	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	18571	-0.12010274827480316	-0.6277014	Yes	
+row_71	CD80	CD80	CD80 molecule	18738	-0.12900008261203766	-0.6250732	Yes	
+row_72	MAP2K6	MAP2K6	mitogen-activated protein kinase kinase 6	18858	-0.13626223802566528	-0.6195496	Yes	
+row_73	IRAK1	IRAK1	interleukin-1 receptor-associated kinase 1	18912	-0.13899999856948853	-0.61058015	Yes	
+row_74	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	18960	-0.14241111278533936	-0.6010346	Yes	
+row_75	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	19014	-0.14554114639759064	-0.59152144	Yes	
+row_76	IL12B	IL12B	interleukin 12B (natural killer cell stimulatory factor 2, cytotoxic lymphocyte maturation factor 2, p40)	19110	-0.15215888619422913	-0.58350617	Yes	
+row_77	MAP3K8	MAP3K8	mitogen-activated protein kinase kinase kinase 8	19314	-0.1675189584493637	-0.5794804	Yes	
+row_78	IKBKE	IKBKE	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase epsilon	19334	-0.1686706244945526	-0.5663868	Yes	
+row_79	CCL5	CCL5	chemokine (C-C motif) ligand 5	19556	-0.18972182273864746	-0.56139326	Yes	
+row_80	IL6	IL6	interleukin 6 (interferon, beta 2)	19629	-0.19911010563373566	-0.5483539	Yes	
+row_81	MAPK13	MAPK13	mitogen-activated protein kinase 13	19650	-0.20172441005706787	-0.5325616	Yes	
+row_82	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	19714	-0.2124568372964859	-0.517974	Yes	
+row_83	TOLLIP	TOLLIP	toll interacting protein	19725	-0.2142581045627594	-0.50065225	Yes	
+row_84	MYD88	MYD88	myeloid differentiation primary response gene (88)	19763	-0.22015254199504852	-0.48415717	Yes	
+row_85	LY96	LY96	lymphocyte antigen 96	19850	-0.23724427819252014	-0.4686307	Yes	
+row_86	SPP1	SPP1	secreted phosphoprotein 1 (osteopontin, bone sialoprotein I, early T-lymphocyte activation 1)	19870	-0.24047741293907166	-0.44956848	Yes	
+row_87	CD86	CD86	CD86 molecule	19871	-0.2409038543701172	-0.42954436	Yes	
+row_88	TLR8	TLR8	toll-like receptor 8	20169	-0.3152305483818054	-0.41782427	Yes	
+row_89	TLR2	TLR2	toll-like receptor 2	20194	-0.32335764169692993	-0.39211676	Yes	
+row_90	CCL4	CCL4	chemokine (C-C motif) ligand 4	20217	-0.3323667347431183	-0.3655629	Yes	
+row_91	STAT1	STAT1	signal transducer and activator of transcription 1, 91kDa	20244	-0.3456980884075165	-0.33809596	Yes	
+row_92	IL1B	IL1B	interleukin 1, beta	20245	-0.3476039469242096	-0.30920282	Yes	
+row_93	CXCL11	CXCL11	chemokine (C-X-C motif) ligand 11	20435	-0.49123963713645935	-0.27758646	Yes	
+row_94	IRF7	IRF7	interferon regulatory factor 7	20518	-0.6401925683021545	-0.22837153	Yes	
+row_95	CXCL9	CXCL9	chemokine (C-X-C motif) ligand 9	20552	-0.7371490001678467	-0.16870818	Yes	
+row_96	CXCL10	CXCL10	chemokine (C-X-C motif) ligand 10	20570	-0.9114881157875061	-0.093773425	Yes	
+row_97	IL8	IL8	interleukin 8	20592	-1.1481014490127563	6.3378975E-4	Yes	

@@ -1,0 +1,150 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PLCB4	PLCB4	phospholipase C, beta 4	87	0.40694916248321533	0.030898089	No	
+row_1	LPL	LPL	lipoprotein lipase	175	0.3309590518474579	0.055232406	No	
+row_2	APOE	APOE	apolipoprotein E	384	0.25753211975097656	0.0673095	No	
+row_3	PLCB1	PLCB1	phospholipase C, beta 1 (phosphoinositide-specific)	825	0.19446337223052979	0.06259807	No	
+row_4	SNCA	SNCA	synuclein, alpha (non A4 component of amyloid precursor)	1016	0.17700429260730743	0.068599336	No	
+row_5	COX7A1	COX7A1	cytochrome c oxidase subunit VIIa polypeptide 1 (muscle)	1061	0.17445027828216553	0.081516914	No	
+row_6	ITPR3	ITPR3	inositol 1,4,5-triphosphate receptor, type 3	1424	0.15044300258159637	0.07681602	No	
+row_7	ATP2A3	ATP2A3	ATPase, Ca++ transporting, ubiquitous	1792	0.13059161603450775	0.07015602	No	
+row_8	MAPT	MAPT	microtubule-associated protein tau	2192	0.11426062881946564	0.06052115	No	
+row_9	CACNA1D	CACNA1D	calcium channel, voltage-dependent, L type, alpha 1D subunit	2325	0.10991614311933517	0.06356278	No	
+row_10	NOS1	NOS1	nitric oxide synthase 1 (neuronal)	2396	0.10752373933792114	0.06942851	No	
+row_11	ITPR2	ITPR2	inositol 1,4,5-triphosphate receptor, type 2	2727	0.09635354578495026	0.06161981	No	
+row_12	GSK3B	GSK3B	glycogen synthase kinase 3 beta	2765	0.0953335389494896	0.068045735	No	
+row_13	PPP3CC	PPP3CC	protein phosphatase 3 (formerly 2B), catalytic subunit, gamma isoform (calcineurin A gamma)	3004	0.0888252705335617	0.064084	No	
+row_14	APP	APP	amyloid beta (A4) precursor protein (peptidase nexin-II, Alzheimer disease)	3112	0.08609408140182495	0.06629004	No	
+row_15	ITPR1	ITPR1	inositol 1,4,5-triphosphate receptor, type 1	3545	0.07510926574468613	0.051660262	No	
+row_16	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	3937	0.06640442460775375	0.038282793	No	
+row_17	RYR3	RYR3	ryanodine receptor 3	4004	0.06484952569007874	0.040657997	No	
+row_18	GNAQ	GNAQ	guanine nucleotide binding protein (G protein), q polypeptide	4020	0.06454916298389435	0.045500293	No	
+row_19	MAPK1	MAPK1	mitogen-activated protein kinase 1	4056	0.06382760405540466	0.049302604	No	
+row_20	APBB1	APBB1	amyloid beta (A4) precursor protein-binding, family B, member 1 (Fe65)	4185	0.06055878475308418	0.048276443	No	
+row_21	BACE2	BACE2	beta-site APP-cleaving enzyme 2	4678	0.05174970626831055	0.028695963	No	
+row_22	LRP1	LRP1	low density lipoprotein-related protein 1 (alpha-2-macroglobulin receptor)	4941	0.04701433703303337	0.019949554	No	
+row_23	SDHA	SDHA	succinate dehydrogenase complex, subunit A, flavoprotein (Fp)	5004	0.04607878252863884	0.020898936	No	
+row_24	ATF6	ATF6	activating transcription factor 6	5086	0.04450543224811554	0.020783642	No	
+row_25	GRIN2C	GRIN2C	glutamate receptor, ionotropic, N-methyl D-aspartate 2C	5382	0.03975805640220642	0.00979732	No	
+row_26	NDUFA5	NDUFA5	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 5, 13kDa	5401	0.03934101015329361	0.01231557	No	
+row_27	PPP3R1	PPP3R1	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, alpha isoform (calcineurin B, type I)	5640	0.035525862127542496	0.0037500167	No	
+row_28	NDUFS4	NDUFS4	NADH dehydrogenase (ubiquinone) Fe-S protein 4, 18kDa (NADH-coenzyme Q reductase)	5763	0.033770252019166946	7.032495E-4	No	
+row_29	APH1A	APH1A	anterior pharynx defective 1 homolog A (C. elegans)	5788	0.03345964103937149	0.002420189	No	
+row_30	GRIN2A	GRIN2A	glutamate receptor, ionotropic, N-methyl D-aspartate 2A	5823	0.03277187794446945	0.003588892	No	
+row_31	GRIN2D	GRIN2D	glutamate receptor, ionotropic, N-methyl D-aspartate 2D	6352	0.025877593085169792	-0.019986125	No	
+row_32	EIF2AK3	EIF2AK3	eukaryotic translation initiation factor 2-alpha kinase 3	7044	0.018379120156168938	-0.052176766	No	
+row_33	BAD	BAD	BCL2-antagonist of cell death	7150	0.017483798786997795	-0.05579929	No	
+row_34	ATP5G2	ATP5G2	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C2 (subunit 9)	7758	0.012343437410891056	-0.0844051	No	
+row_35	CALM2	CALM2	calmodulin 2 (phosphorylase kinase, delta)	8041	0.010458714328706264	-0.09728672	No	
+row_36	COX7A2L	COX7A2L	cytochrome c oxidase subunit VIIa polypeptide 2 like	8147	0.009709681384265423	-0.101580754	No	
+row_37	GRIN1	GRIN1	glutamate receptor, ionotropic, N-methyl D-aspartate 1	8396	0.00783795677125454	-0.11302672	No	
+row_38	NDUFA4L2	NDUFA4L2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4-like 2	8559	0.006760948337614536	-0.12036179	No	
+row_39	UQCRB	UQCRB	ubiquinol-cytochrome c reductase binding protein	8872	0.004692324437201023	-0.13520798	No	
+row_40	PPP3R2	PPP3R2	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, beta isoform (calcineurin B, type II)	9227	0.002597975078970194	-0.15228817	No	
+row_41	CHP	CHP	-	9318	0.0019631197210401297	-0.15651807	No	
+row_42	CALML6	CALML6	calmodulin-like 6	9636	1.7859096988104284E-4	-0.17199856	No	
+row_43	COX6A2	COX6A2	cytochrome c oxidase subunit VIa polypeptide 2	9704	-2.787542762234807E-4	-0.17524965	No	
+row_44	PLCB2	PLCB2	phospholipase C, beta 2	9907	-0.0015001260908320546	-0.18499444	No	
+row_45	CAPN2	CAPN2	calpain 2, (m/II) large subunit	10065	-0.00228131003677845	-0.19247203	No	
+row_46	CACNA1C	CACNA1C	calcium channel, voltage-dependent, L type, alpha 1C subunit	10377	-0.0037953569553792477	-0.20734681	No	
+row_47	ATP5E	ATP5E	ATP synthase, H+ transporting, mitochondrial F1 complex, epsilon subunit	10662	-0.005484619177877903	-0.22075585	No	
+row_48	NCSTN	NCSTN	nicastrin	10748	-0.005981432739645243	-0.22439425	No	
+row_49	COX6B2	COX6B2	cytochrome c oxidase subunit VIb polypeptide 2 (testis)	10940	-0.007002809084951878	-0.23312603	No	
+row_50	COX4I1	COX4I1	cytochrome c oxidase subunit IV isoform 1	11138	-0.008036800660192966	-0.2420618	No	
+row_51	NDUFC2	NDUFC2	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 2, 14.5kDa	11981	-0.012836318463087082	-0.28211254	No	
+row_52	FAS	FAS	Fas (TNF receptor superfamily, member 6)	12008	-0.013006375171244144	-0.28226006	No	
+row_53	COX6C	COX6C	cytochrome c oxidase subunit VIc	12095	-0.013523687608540058	-0.28529587	No	
+row_54	CACNA1S	CACNA1S	calcium channel, voltage-dependent, L type, alpha 1S subunit	12273	-0.014676528051495552	-0.29268044	No	
+row_55	COX8C	COX8C	cytochrome c oxidase subunit 8C	12384	-0.015330789610743523	-0.29673335	No	
+row_56	COX7C	COX7C	cytochrome c oxidase subunit VIIc	12386	-0.015345015563070774	-0.2954568	No	
+row_57	PSEN1	PSEN1	presenilin 1 (Alzheimer disease 3)	13102	-0.019809698686003685	-0.32869706	No	
+row_58	COX4I2	COX4I2	cytochrome c oxidase subunit IV isoform 2 (lung)	13134	-0.020028188824653625	-0.32848245	No	
+row_59	ATP5A1	ATP5A1	ATP synthase, H+ transporting, mitochondrial F1 complex, alpha subunit 1, cardiac muscle	13193	-0.020448992028832436	-0.32955137	No	
+row_60	CACNA1F	CACNA1F	calcium channel, voltage-dependent, alpha 1F subunit	13666	-0.023778825998306274	-0.3505702	No	
+row_61	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	13932	-0.026090212166309357	-0.36127064	No	
+row_62	COX5B	COX5B	cytochrome c oxidase subunit Vb	13958	-0.026374461129307747	-0.36021456	No	
+row_63	NDUFS5	NDUFS5	NADH dehydrogenase (ubiquinone) Fe-S protein 5, 15kDa (NADH-coenzyme Q reductase)	14269	-0.029218586161732674	-0.3728445	No	
+row_64	NDUFB5	NDUFB5	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 5, 16kDa	14313	-0.02954816445708275	-0.3723942	No	
+row_65	NDUFB1	NDUFB1	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 1, 7kDa	14382	-0.03014245256781578	-0.37311465	No	
+row_66	ATP5O	ATP5O	ATP synthase, H+ transporting, mitochondrial F1 complex, O subunit (oligomycin sensitivity conferring protein)	14392	-0.030207466334104538	-0.37094536	No	
+row_67	ATP5H	ATP5H	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit d	14468	-0.03099927492439747	-0.37193397	No	
+row_68	NDUFS2	NDUFS2	NADH dehydrogenase (ubiquinone) Fe-S protein 2, 49kDa (NADH-coenzyme Q reductase)	14481	-0.03112080506980419	-0.36983246	No	
+row_69	NDUFA10	NDUFA10	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 10, 42kDa	14643	-0.032743487507104874	-0.37487435	No	
+row_70	BACE1	BACE1	beta-site APP-cleaving enzyme 1	14821	-0.0345841720700264	-0.3805394	No	
+row_71	CASP9	CASP9	caspase 9, apoptosis-related cysteine peptidase	14866	-0.03495873138308525	-0.37967062	No	
+row_72	NDUFC1	NDUFC1	NADH dehydrogenase (ubiquinone) 1, subcomplex unknown, 1, 6kDa	14934	-0.03586198762059212	-0.37984815	No	
+row_73	ATP2A1	ATP2A1	ATPase, Ca++ transporting, cardiac muscle, fast twitch 1	14962	-0.0361333005130291	-0.3780469	No	
+row_74	UQCRC2	UQCRC2	ubiquinol-cytochrome c reductase core protein II	15158	-0.03839165344834328	-0.38426295	No	
+row_75	NDUFA4	NDUFA4	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 4, 9kDa	15248	-0.039479631930589676	-0.38520342	No	
+row_76	GAPDH	GAPDH	glyceraldehyde-3-phosphate dehydrogenase	15331	-0.04061920568346977	-0.3857033	No	
+row_77	MME	MME	membrane metallo-endopeptidase (neutral endopeptidase, enkephalinase)	15363	-0.04096357896924019	-0.38368034	No	
+row_78	ATP5C1	ATP5C1	ATP synthase, H+ transporting, mitochondrial F1 complex, gamma polypeptide 1	15620	-0.04455607011914253	-0.39234582	No	
+row_79	MAPK3	MAPK3	mitogen-activated protein kinase 3	15752	-0.046106308698654175	-0.394767	Yes	
+row_80	PSEN2	PSEN2	presenilin 2 (Alzheimer disease 4)	15798	-0.04677164554595947	-0.39292672	Yes	
+row_81	NDUFB6	NDUFB6	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 6, 17kDa	15814	-0.0469626784324646	-0.3896035	Yes	
+row_82	NDUFA1	NDUFA1	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 1, 7.5kDa	15854	-0.04755541309714317	-0.38740227	Yes	
+row_83	CALM1	CALM1	calmodulin 1 (phosphorylase kinase, delta)	15901	-0.048199187964200974	-0.3854876	Yes	
+row_84	SDHD	SDHD	succinate dehydrogenase complex, subunit D, integral membrane protein	15993	-0.049481723457574844	-0.38566187	Yes	
+row_85	COX6A1	COX6A1	cytochrome c oxidase subunit VIa polypeptide 1	16162	-0.05278322100639343	-0.38931498	Yes	
+row_86	GRIN2B	GRIN2B	glutamate receptor, ionotropic, N-methyl D-aspartate 2B	16191	-0.05322638899087906	-0.3860862	Yes	
+row_87	NDUFB8	NDUFB8	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 8, 19kDa	16234	-0.05402877554297447	-0.38347247	Yes	
+row_88	NDUFA2	NDUFA2	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 2, 8kDa	16239	-0.054193656891584396	-0.37898692	Yes	
+row_89	ATP5F1	ATP5F1	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit B1	16351	-0.056376323103904724	-0.37954333	Yes	
+row_90	COX7A2	COX7A2	cytochrome c oxidase subunit VIIa polypeptide 2 (liver)	16373	-0.05671379715204239	-0.37567115	Yes	
+row_91	NDUFB9	NDUFB9	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 9, 22kDa	16381	-0.056847553700208664	-0.37110302	Yes	
+row_92	APAF1	APAF1	apoptotic peptidase activating factor	16400	-0.05723408982157707	-0.3670392	Yes	
+row_93	NDUFV1	NDUFV1	NADH dehydrogenase (ubiquinone) flavoprotein 1, 51kDa	16448	-0.05817672982811928	-0.3643116	Yes	
+row_94	NDUFB2	NDUFB2	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 2, 8kDa	16473	-0.05853152647614479	-0.36042905	Yes	
+row_95	ADAM17	ADAM17	ADAM metallopeptidase domain 17 (tumor necrosis factor, alpha, converting enzyme)	16604	-0.06151381880044937	-0.3614705	Yes	
+row_96	NDUFS1	NDUFS1	NADH dehydrogenase (ubiquinone) Fe-S protein 1, 75kDa (NADH-coenzyme Q reductase)	16606	-0.061564210802316666	-0.35620165	Yes	
+row_97	NDUFAB1	NDUFAB1	NADH dehydrogenase (ubiquinone) 1, alpha/beta subcomplex, 1, 8kDa	16660	-0.06274165958166122	-0.35337302	Yes	
+row_98	NDUFA8	NDUFA8	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 8, 19kDa	16662	-0.0627681314945221	-0.34800023	Yes	
+row_99	COX7B2	COX7B2	cytochrome c oxidase subunit VIIb2	16666	-0.06283026933670044	-0.3427198	Yes	
+row_100	NDUFV2	NDUFV2	NADH dehydrogenase (ubiquinone) flavoprotein 2, 24kDa	16818	-0.06631819158792496	-0.34437278	Yes	
+row_101	NDUFA6	NDUFA6	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 6, 14kDa	16830	-0.06645743548870087	-0.33917013	Yes	
+row_102	UQCRC1	UQCRC1	ubiquinol-cytochrome c reductase core protein I	16919	-0.06856516748666763	-0.33754942	Yes	
+row_103	NDUFA3	NDUFA3	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 3, 9kDa	17004	-0.07065526396036148	-0.3355526	Yes	
+row_104	UQCRFS1	UQCRFS1	ubiquinol-cytochrome c reductase, Rieske iron-sulfur polypeptide 1	17012	-0.07079735398292542	-0.32977957	Yes	
+row_105	NDUFS6	NDUFS6	NADH dehydrogenase (ubiquinone) Fe-S protein 6, 13kDa (NADH-coenzyme Q reductase)	17040	-0.07126620411872864	-0.32494366	Yes	
+row_106	ATP5B	ATP5B	ATP synthase, H+ transporting, mitochondrial F1 complex, beta polypeptide	17062	-0.07171040773391724	-0.3197761	Yes	
+row_107	NDUFS3	NDUFS3	NADH dehydrogenase (ubiquinone) Fe-S protein 3, 30kDa (NADH-coenzyme Q reductase)	17064	-0.07177604734897614	-0.31362522	Yes	
+row_108	ATP5J	ATP5J	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit F6	17119	-0.07280188798904419	-0.3099765	Yes	
+row_109	COX8A	COX8A	cytochrome c oxidase subunit 8A (ubiquitous)	17275	-0.0769781544804573	-0.31090426	Yes	
+row_110	SDHC	SDHC	succinate dehydrogenase complex, subunit C, integral membrane protein, 15kDa	17291	-0.07719895988702774	-0.3049693	Yes	
+row_111	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	17355	-0.07889081537723541	-0.3012346	Yes	
+row_112	TNFRSF1A	TNFRSF1A	tumor necrosis factor receptor superfamily, member 1A	17365	-0.07907898724079132	-0.29484397	Yes	
+row_113	NDUFB7	NDUFB7	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 7, 18kDa	17372	-0.07917628437280655	-0.2882983	Yes	
+row_114	NDUFB3	NDUFB3	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 3, 12kDa	17416	-0.08012554794549942	-0.2834793	Yes	
+row_115	COX6B1	COX6B1	cytochrome c oxidase subunit Vib polypeptide 1 (ubiquitous)	17420	-0.08025913685560226	-0.27669343	Yes	
+row_116	COX5A	COX5A	cytochrome c oxidase subunit Va	17467	-0.08166995644569397	-0.27188766	Yes	
+row_117	PLCB3	PLCB3	phospholipase C, beta 3 (phosphatidylinositol-specific)	17496	-0.08250203728675842	-0.26613015	Yes	
+row_118	COX7B	COX7B	cytochrome c oxidase subunit VIIb	17598	-0.08505704253911972	-0.2637204	Yes	
+row_119	FADD	FADD	Fas (TNFRSF6)-associated via death domain	17633	-0.08608520776033401	-0.25794664	Yes	
+row_120	NDUFB10	NDUFB10	NADH dehydrogenase (ubiquinone) 1 beta subcomplex, 10, 22kDa	17651	-0.08649921417236328	-0.25130615	Yes	
+row_121	NDUFS8	NDUFS8	NADH dehydrogenase (ubiquinone) Fe-S protein 8, 23kDa (NADH-coenzyme Q reductase)	17728	-0.08886786550283432	-0.24734515	Yes	
+row_122	UQCRH	UQCRH	ubiquinol-cytochrome c reductase hinge protein	17836	-0.09176281094551086	-0.24464947	Yes	
+row_123	CALML5	CALML5	calmodulin-like 5	17841	-0.09182657301425934	-0.23691332	Yes	
+row_124	IDE	IDE	insulin-degrading enzyme	17982	-0.09693371504545212	-0.23538414	Yes	
+row_125	ATP5G1	ATP5G1	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C1 (subunit 9)	18194	-0.10367230325937271	-0.23674358	Yes	
+row_126	SDHB	SDHB	succinate dehydrogenase complex, subunit B, iron sulfur (Ip)	18266	-0.10647184401750565	-0.2310176	Yes	
+row_127	UQCRQ	UQCRQ	ubiquinol-cytochrome c reductase, complex III subunit VII, 9.5kDa	18286	-0.10743139684200287	-0.22266681	Yes	
+row_128	NDUFV3	NDUFV3	NADH dehydrogenase (ubiquinone) flavoprotein 3, 10kDa	18345	-0.10951655358076096	-0.21604235	Yes	
+row_129	ATP5D	ATP5D	ATP synthase, H+ transporting, mitochondrial F1 complex, delta subunit	18425	-0.1126861497759819	-0.21017066	Yes	
+row_130	ATP5G3	ATP5G3	ATP synthase, H+ transporting, mitochondrial F0 complex, subunit C3 (subunit 9)	18465	-0.11470304429531097	-0.20216943	Yes	
+row_131	NDUFA9	NDUFA9	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 9, 39kDa	18536	-0.11822084337472916	-0.19537972	Yes	
+row_132	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	18571	-0.12010274827480316	-0.18666767	Yes	
+row_133	NDUFA7	NDUFA7	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex, 7, 14.5kDa	18671	-0.12471150606870651	-0.18073492	Yes	
+row_134	CYC1	CYC1	cytochrome c-1	18735	-0.12869659066200256	-0.17269817	Yes	
+row_135	NDUFS7	NDUFS7	NADH dehydrogenase (ubiquinone) Fe-S protein 7, 20kDa (NADH-coenzyme Q reductase)	19016	-0.14594195783138275	-0.17377944	Yes	
+row_136	ERN1	ERN1	endoplasmic reticulum to nucleus signalling 1	19057	-0.1486457735300064	-0.16289523	Yes	
+row_137	CDK5	CDK5	cyclin-dependent kinase 5	19322	-0.16804572939872742	-0.16128512	Yes	
+row_138	CALM3	CALM3	calmodulin 3 (phosphorylase kinase, delta)	19355	-0.17109844088554382	-0.14807047	Yes	
+row_139	CYCS	CYCS	cytochrome c, somatic	19368	-0.17204831540584564	-0.1337961	Yes	
+row_140	CAPN1	CAPN1	calpain 1, (mu/I) large subunit	19537	-0.18790431320667267	-0.1257779	Yes	
+row_141	BID	BID	BH3 interacting domain death agonist	19582	-0.1924111694097519	-0.11130892	Yes	
+row_142	CASP8	CASP8	caspase 8, apoptosis-related cysteine peptidase	19714	-0.2124568372964859	-0.099361286	Yes	
+row_143	ATP2A2	ATP2A2	ATPase, Ca++ transporting, cardiac muscle, slow twitch 2	19721	-0.2138683795928955	-0.08118134	Yes	
+row_144	ADAM10	ADAM10	ADAM metallopeptidase domain 10	19774	-0.22209565341472626	-0.06453938	Yes	
+row_145	CASP7	CASP7	caspase 7, apoptosis-related cysteine peptidase	19997	-0.2673352360725403	-0.052299883	Yes	
+row_146	CDK5R1	CDK5R1	cyclin-dependent kinase 5, regulatory subunit 1 (p35)	20097	-0.2941051423549652	-0.03173548	Yes	
+row_147	CALML3	CALML3	calmodulin-like 3	20140	-0.30616286396980286	-0.0073432396	Yes	
+row_148	IL1B	IL1B	interleukin 1, beta	20245	-0.3476039469242096	0.017597795	Yes	

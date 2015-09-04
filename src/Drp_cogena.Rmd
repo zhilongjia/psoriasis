@@ -1,0 +1,250 @@
+---
+title: "Pathway analysis and Drug repositioning for Psoriasis based on cogena"
+author: "Zhilong Jia"
+date: '`r Sys.Date()`'
+output:
+  pdf_document:
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+    toc_depth: 2
+vignette: |
+  %\VignetteIndexEntry{Vignette Title} %\VignetteEngine{knitr::rmarkdown} %\usepackage[utf8]{inputenc}
+---
+
+# Introduction
+_As a reproducible research, this is the whole code and files necessary for 
+the manuscript, **Drug repositioning and drug mode of action discovering 
+based on co-expressed gene-set enrichment analysis**._
+
+# Downloading the raw data of [GSE13355](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13355)
+```{r data, eval=TRUE}
+# Download file from GEO and untar them if nothing in ../data/GSE13355_RAW
+if (length(dir("../data/GSE13355_RAW", all.files=FALSE)) ==0) {
+    
+    download.file("http://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE13355&format=file",
+              destfile="../data/GSE13355_RAW.tar")
+    untar("../data/GSE13355_RAW.tar", exdir="../data/GSE13355_RAW")
+}
+
+```
+
+# Differential Expression Analysis
+
+```{r DEA, cache=TRUE, message=FALSE}
+library(GEOquery)
+library (affy)
+
+# GSE13355
+GSE13355raw <- ReadAffy(celfile.path="../data/GSE13355_RAW")
+sampleNames(GSE13355raw) <- sub("(_|\\.).*CEL\\.gz","", sampleNames(GSE13355raw))
+
+# Sample Label preprocessing
+GSE13355series <- getGEO("GSE13355", destdir="../data")
+GSE13355label <- pData(GSE13355series$GSE13355_series_matrix.txt.gz)[,c("title", "geo_accession")]
+GSE13355label$title <- as.character(GSE13355label$title)
+
+GSE13355label <- GSE13355label[grep("NN", GSE13355label$title, invert = T),]
+GSE13355label[grep("PN", GSE13355label$title),"state"] = "ct"
+GSE13355label[grep("PP", GSE13355label$title),"state"] = "Psoriasis"
+GSE13355label$state <- as.factor(GSE13355label$state)
+GSE13355label[,"gse_id"] = "GSE13355"
+GSE13355label$rep <- sapply(strsplit(GSE13355label$title, "_"), "[", 2)
+
+GSE13355raw <- GSE13355raw[,as.character(GSE13355label$geo_accession)]
+
+vmd = data.frame(labelDescription = c("title", "geo_accession", "state", "gse_id", "rep"))
+phenoData(GSE13355raw) = new("AnnotatedDataFrame", data = GSE13355label, varMetadata = vmd)
+pData(protocolData(GSE13355raw)) <- 
+    pData(protocolData(GSE13355raw))[rownames(GSE13355label),,drop=FALSE]
+
+# RMA normalization
+GSE13355rma <- rma(GSE13355raw)
+
+################################################################################
+# Filter the non-informative and non-expressed genes first.
+library(MetaDE)
+library(annotate)
+library(hgu133plus2.db)
+
+GSE13355.Explist <- list(GSE13355=list(x = exprs(GSE13355rma), 
+                         y = ifelse (GSE13355label$state=="ct", 0, 1), 
+                         symbol = getSYMBOL(rownames(exprs(GSE13355rma)), "hgu133plus2") ))
+GSE13355.Explist <- MetaDE.match(GSE13355.Explist, pool.replicate="IQR")
+GSE13355.Explist.filtered <- MetaDE.filter(GSE13355.Explist, c(0.2,0.2))
+colnames(GSE13355.Explist.filtered$GSE13355$x) <- colnames(exprs(GSE13355rma))
+
+# DEG analysis via limma
+DElimma <- function (Expdata, Explabel){
+    
+    library(limma)
+    Expdesign <- model.matrix(~as.factor(Explabel$rep) + Explabel$state)
+    Expfit1 <- lmFit(Expdata, Expdesign)
+    Expfit2 <- eBayes(Expfit1)
+    dif_Exp <- topTable(Expfit2, coef=tail(colnames(Expdesign), 1), number=Inf)
+    
+    return (dif_Exp)
+}
+
+GSE13355.limma <- DElimma(GSE13355.Explist.filtered$GSE13355$x, GSE13355label)
+GSE13355.DE <- GSE13355.limma[GSE13355.limma$adj.P.Val<=0.05 & abs(GSE13355.limma$logFC)>=1,]
+GSE13355.DEG <- rownames(GSE13355.DE)
+GSE13355.DEG.expr <- GSE13355.Explist.filtered$GSE13355$x[GSE13355.DEG,]
+
+```
+
+# Pathway Analysis by cogena
+```{r pathway, cache=FALSE, message=FALSE}
+# Install cogena if not
+# devtools::install_github("zhilongjia/cogena") 
+library(cogena)
+annoGMT <- "c2.cp.kegg.v5.0.symbols.gmt.xz"
+annofile <- system.file("extdata", annoGMT, package="cogena")
+# nClust <- 2:20
+# clMethods <- c("hierarchical","kmeans","diana","fanny","som","sota","pam","clara","agnes")
+nClust <- 7
+clMethods <- c("pam")
+ncore <- 7
+# Co-expression analysis
+genecl_result <- coExp(GSE13355.DEG.expr, nClust=nClust, 
+                       clMethods=clMethods, 
+                       metric="correlation", 
+                       method="complete", 
+                       ncore=ncore, 
+                       verbose=FALSE)
+sampleLabel <- GSE13355label$state
+names(sampleLabel) <- rownames(GSE13355label)
+# cogena analysis (Pathway analysis)
+cogena_result <- clEnrich(genecl_result, annofile=annofile, sampleLabel=sampleLabel)
+
+# Summary the results obtained by cogena
+summary(cogena_result)
+
+```
+
+## The heatmap with co-expression information
+```{r figure1, fig.width=10, fig.height=10, cache=TRUE, fig.cap="Heatmap with co-expression information"}
+heatmapCluster(cogena_result, "pam", "7", maintitle="Psoriasis")
+```
+
+## Figure 2: The result of pathway analysis
+```{r figure2, fig.width=10, fig.height=10, cache=TRUE, fig.cap="Pathway Analysis"}
+heatmapPEI(cogena_result, "pam", "7", printGS=FALSE, maintitle="Psoriasis")
+```
+
+## Table S1: Make Input for GSEA
+
+This is to get the *Table S1*. The result can be obtained from *../result/GSEA_output*, too.
+See [gct](http://www.broadinstitute.org/cancer/software/genepattern/file-formats-guide#GCT)
+and [cls](http://www.broadinstitute.org/cancer/software/genepattern/file-formats-guide#CLS) 
+file format if needed.
+
+```{r gsea, eval=FALSE}
+expData <- as.data.frame(exprs(GSE13355rma))
+expData$DESCRIPTION <- NA
+expData <- expData[,c("DESCRIPTION", colnames(expData)[1:116])]
+
+write.table(expData, file="../result/GSEA_input/GSE13355_exp.gct", sep="\t", quote=FALSE)
+################################################################################
+# Add the following 3 lines at the begining of GSE13355_exp.gct manually.
+#1.2
+54675	116
+NAME	
+################################################################################
+write.table(t(as.character(GSE13355label$state)), 
+    file="../result/GSEA_input/GSE13355.cls",quote=FALSE, col.names=FALSE, 
+    row.names=FALSE)
+################################################################################
+# Add the following 2 lines at the begining of GSE13355.cls manually
+116 2 1
+#ct Psoriasis
+################################################################################
+# Download gsea2-2.1.0.jar from the GSEA website
+# Or from [my github](https://github.com/zhilongjia/geneRanking/blob/master/src/gsea2-2.1.0.jar)
+# to the current directory.
+#
+# GSEA analysis
+# java -cp ./gsea2-2.1.0.jar -Xmx512m xtools.gsea.Gsea -res ../result/GSEA_input/GSE13355_exp.gct 
+# -cls ../result/GSEA_input/GSE13355.cls -gmx ../result/GSEA_input/c2.cp.kegg.v5.0.symbols.gmt 
+# -collapse true -mode Max_probe -norm meandiv -nperm 1000 -permute phenotype 
+# -rnd_type no_balance -scoring_scheme weighted -rpt_label GSE13355 -metric Signal2Noise 
+# -sort real -order descending -chip ../result/GSEA_input/HG_U133_Plus_2.chip 
+# -include_only_symbols true -make_sets true -median false -num 100 -plot_top_x 20 
+# -rnd_seed timestamp -save_rnd_lists false -set_max 500 -set_min 15 -zip_report false 
+# -out ../result/GSEA_output -gui false
+
+```
+
+
+# Drug repositioning by cogena
+```{r drp}
+# Drug repositioning based on CmapDn100 gene set
+cmapDn100_cogena_result <- clEnrich_one(genecl_result, "pam", "7", 
+        annofile=system.file("extdata", "CmapDn100.gmt.xz", package="cogena"), 
+        sampleLabel=sampleLabel)
+
+# Drug repositioning based on CmapUp100 gene set
+cmapUp100_cogena_result <- clEnrich_one(genecl_result, method="pam", nCluster="7",
+        annofile=system.file("extdata", "CmapUp100.gmt.xz", package="cogena"), 
+        sampleLabel=sampleLabel)
+
+```
+
+## Figure 3: Drug repositioning for cluster 3 (A)
+```{r Figure3, fig.width=10, fig.height=10, cache=TRUE, fig.cap="Drug Repositioning for cluster 3"}
+heatmapPEI(cmapDn100_cogena_result, "pam", "7", printGS=FALSE, 
+           orderMethod = "3", maintitle="Psoriasis")
+```
+
+## Figure 4: Drug repositioning for cluster 4 (B)
+```{r Figure4, fig.width=10, fig.height=10, cache=TRUE, fig.cap="Drug Repositioning for cluster 4"}
+heatmapPEI(cmapDn100_cogena_result, "pam", "7", printGS=FALSE, 
+           orderMethod = "4", maintitle="Psoriasis")
+
+```
+
+## Figure S1: Drug repositioning for cluster 6 (C)
+```{r FigureS1, fig.width=10, fig.height=10, cache=TRUE, fig.cap="Drug Repositioning for cluster 6"}
+# See Figure 5
+heatmapPEI(cmapUp100_cogena_result, "pam", "7", printGS=FALSE, 
+           orderMethod = "6", maintitle="Psoriasis")
+
+```
+
+
+## Table S2: Output DEGs for CMAP and NFFinder Analysis
+
+These outputs are used for [CMap](connectivitymap.org/cmap) and 
+[NFFinder](http://nffinder.cnb.csic.es/) analysis to get the *Table S2*.
+The results can be obtained from 
+*../result/CMAP_output* and *../result/NFFinder_output*, as well.
+For NFFinder, the CMap database and Profile matching, "Inverse", are used.
+```{r deg_drp, eval=FALSE}
+# Convert gene symbols to probes in HGU133a.
+symbol2Probe <- function(gs){
+    library(hgu133a.db)
+    p <- AnnotationDbi::select(hgu133a.db, gs, "PROBEID", "SYMBOL")$PROBEID
+    p <- unique(p[which(!is.na(p))])
+}
+
+upGene <- rownames(GSE13355.limma[GSE13355.limma$logFC>= 1 & GSE13355.limma$adj.P.Val<=0.05,])
+dnGene <- rownames(GSE13355.limma[GSE13355.limma$logFC<= -1 & GSE13355.limma$adj.P.Val<=0.05,])
+upProbe <- symbol2Probe(upGene)
+dnProbe <- symbol2Probe(dnGene)
+
+# Output files for CMap and NFFinder
+write.table(upProbe, file=paste0("../result/CMAP_input/", "GSE13355_Up.grp"), 
+            quote=F, col.names = F, row.names = F)
+write.table(dnProbe, file=paste0("../result/CMAP_input/", "GSE13355_Dn.grp"), 
+            quote=F, col.names = F, row.names = F)
+write.table(upGene, file=paste0("../result/NFFinder_input/", "GSE13355_Up.txt"), 
+            quote=F, col.names = F, row.names = F)
+write.table(dnGene, file=paste0("../result/NFFinder_input/", "GSE13355_Dn.txt"), 
+            quote=F, col.names = F, row.names = F)
+################################################################################
+```
+
+# System Info
+```{r sessionInfo, echo=FALSE}
+sessionInfo()
+```

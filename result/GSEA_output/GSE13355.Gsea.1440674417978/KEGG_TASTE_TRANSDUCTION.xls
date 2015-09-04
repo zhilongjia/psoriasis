@@ -1,0 +1,45 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	KCNB1	KCNB1	potassium voltage-gated channel, Shab-related subfamily, member 1	892	0.1876080483198166	0.062034186	Yes	
+row_1	ITPR3	ITPR3	inositol 1,4,5-triphosphate receptor, type 3	1424	0.15044300258159637	0.12074234	Yes	
+row_2	TAS2R14	TAS2R14	taste receptor, type 2, member 14	1754	0.13249075412750244	0.17918724	Yes	
+row_3	PDE1A	PDE1A	phosphodiesterase 1A, calmodulin-dependent	2596	0.10026339441537857	0.1946236	Yes	
+row_4	ADCY4	ADCY4	adenylate cyclase 4	2603	0.1000470221042633	0.25054726	Yes	
+row_5	GNB1	GNB1	guanine nucleotide binding protein (G protein), beta polypeptide 1	2846	0.093088299036026	0.29108343	Yes	
+row_6	ADCY6	ADCY6	adenylate cyclase 6	3240	0.08240547776222229	0.31827334	Yes	
+row_7	ADCY8	ADCY8	adenylate cyclase 8 (brain)	3718	0.07142163068056107	0.33520633	Yes	
+row_8	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	4768	0.0502064973115921	0.31240046	Yes	
+row_9	TAS2R45	TAS2R45	taste receptor, type 2, member 45	4955	0.04682285338640213	0.32966396	Yes	
+row_10	TAS2R4	TAS2R4	taste receptor, type 2, member 4	4984	0.0464303158223629	0.35439098	Yes	
+row_11	GNAS	GNAS	GNAS complex locus	5482	0.03830386698246002	0.35174274	No	
+row_12	SCNN1B	SCNN1B	sodium channel, nonvoltage-gated 1, beta (Liddle syndrome)	6339	0.026007095351815224	0.3247257	No	
+row_13	TAS2R10	TAS2R10	taste receptor, type 2, member 10	7029	0.018520671874284744	0.30162388	No	
+row_14	GNB3	GNB3	guanine nucleotide binding protein (G protein), beta polypeptide 3	7975	0.010878161527216434	0.26177764	No	
+row_15	TAS2R40	TAS2R40	taste receptor, type 2, member 40	7998	0.010702998377382755	0.2667216	No	
+row_16	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	8005	0.010629871860146523	0.27240264	No	
+row_17	CACNA1B	CACNA1B	calcium channel, voltage-dependent, L type, alpha 1B subunit	8342	0.008159363642334938	0.2606465	No	
+row_18	GRM4	GRM4	glutamate receptor, metabotropic 4	8976	0.004021883010864258	0.2321214	No	
+row_19	TAS1R1	TAS1R1	taste receptor, type 1, member 1	9250	0.0024372211191803217	0.22021393	No	
+row_20	GNG3	GNG3	guanine nucleotide binding protein (G protein), gamma 3	9382	0.001601346186362207	0.21474274	No	
+row_21	PRKACG	PRKACG	protein kinase, cAMP-dependent, catalytic, gamma	9520	8.407512214034796E-4	0.20855238	No	
+row_22	TAS2R7	TAS2R7	taste receptor, type 2, member 7	9527	7.82832212280482E-4	0.20870043	No	
+row_23	GNG13	GNG13	guanine nucleotide binding protein (G protein), gamma 13	9574	5.410027806647122E-4	0.20676729	No	
+row_24	PLCB2	PLCB2	phospholipase C, beta 2	9907	-0.0015001260908320546	0.1914639	No	
+row_25	TAS2R8	TAS2R8	taste receptor, type 2, member 8	10393	-0.0038670734502375126	0.17004958	No	
+row_26	TAS2R16	TAS2R16	taste receptor, type 2, member 16	10910	-0.006803290452808142	0.14877744	No	
+row_27	TAS2R3	TAS2R3	taste receptor, type 2, member 3	11375	-0.009491818957030773	0.1315449	No	
+row_28	TRPM5	TRPM5	transient receptor potential cation channel, subfamily M, member 5	11615	-0.010861391201615334	0.12602444	No	
+row_29	CACNA1A	CACNA1A	calcium channel, voltage-dependent, P/Q type, alpha 1A subunit	11731	-0.01144786924123764	0.12686405	No	
+row_30	TAS2R41	TAS2R41	taste receptor, type 2, member 41	11748	-0.0115274116396904	0.13256305	No	
+row_31	TAS2R39	TAS2R39	taste receptor, type 2, member 39	12037	-0.013178805820643902	0.12596168	No	
+row_32	TAS2R50	TAS2R50	taste receptor, type 2, member 50	12260	-0.014647012576460838	0.12339508	No	
+row_33	GNAT3	GNAT3	guanine nucleotide binding protein, alpha transducing 3	12753	-0.017574187368154526	0.10934221	No	
+row_34	TAS2R5	TAS2R5	taste receptor, type 2, member 5	12888	-0.01841616816818714	0.1131732	No	
+row_35	TAS1R2	TAS1R2	taste receptor, type 1, member 2	13174	-0.02028101310133934	0.11070839	No	
+row_36	TAS2R13	TAS2R13	taste receptor, type 2, member 13	13393	-0.02175099402666092	0.112327985	No	
+row_37	TAS2R9	TAS2R9	taste receptor, type 2, member 9	13540	-0.022647859528660774	0.11795313	No	
+row_38	ACCN1	ACCN1	amiloride-sensitive cation channel 1, neuronal (degenerin)	13678	-0.023834839463233948	0.12468292	No	
+row_39	TAS2R38	TAS2R38	taste receptor, type 2, member 38	14712	-0.033359967172145844	0.09318926	No	
+row_40	TAS2R1	TAS2R1	taste receptor, type 2, member 1	15362	-0.040955834090709686	0.08463888	No	
+row_41	SCNN1A	SCNN1A	sodium channel, nonvoltage-gated 1 alpha	17802	-0.09075986593961716	0.017019114	No	
+row_42	PRKX	PRKX	protein kinase, X-linked	17937	-0.09542178362607956	0.064118825	No	
+row_43	SCNN1G	SCNN1G	sodium channel, nonvoltage-gated 1, gamma	18510	-0.11672431975603104	0.10188681	No	

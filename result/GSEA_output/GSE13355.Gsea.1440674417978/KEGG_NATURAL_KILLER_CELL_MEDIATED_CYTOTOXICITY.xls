@@ -1,0 +1,130 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	923	0.18487268686294556	-0.029287867	No	
+row_1	NFATC1	NFATC1	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 1	985	0.179091677069664	-0.01697339	No	
+row_2	NFAT5	NFAT5	nuclear factor of activated T-cells 5, tonicity-responsive	1370	0.15359097719192505	-0.022610325	No	
+row_3	PRKCA	PRKCA	protein kinase C, alpha	1371	0.1535395234823227	-0.009498908	No	
+row_4	VAV3	VAV3	vav 3 oncogene	1686	0.13612529635429382	-0.013208846	No	
+row_5	FYN	FYN	FYN oncogene related to SRC, FGR, YES	2010	0.12130510061979294	-0.018623862	No	
+row_6	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	2167	0.11541412770748138	-0.016386446	No	
+row_7	SOS2	SOS2	son of sevenless homolog 2 (Drosophila)	2520	0.10297029465436935	-0.024783375	No	
+row_8	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2599	0.10018502920866013	-0.020037284	No	
+row_9	SHC2	SHC2	SHC (Src homology 2 domain containing) transforming protein 2	2950	0.09007123112678528	-0.029438052	No	
+row_10	PPP3CC	PPP3CC	protein phosphatase 3 (formerly 2B), catalytic subunit, gamma isoform (calcineurin A gamma)	3004	0.0888252705335617	-0.02444114	No	
+row_11	SHC3	SHC3	SHC (Src homology 2 domain containing) transforming protein 3	3032	0.0879606381058693	-0.018248346	No	
+row_12	SH3BP2	SH3BP2	SH3-domain binding protein 2	3053	0.08758751302957535	-0.011745567	No	
+row_13	PPP3CB	PPP3CB	protein phosphatase 3 (formerly 2B), catalytic subunit, beta isoform (calcineurin A beta)	3937	0.06640442460775375	-0.049196552	No	
+row_14	MAPK1	MAPK1	mitogen-activated protein kinase 1	4056	0.06382760405540466	-0.049508594	No	
+row_15	NFATC3	NFATC3	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 3	4080	0.06328673660755157	-0.04522747	No	
+row_16	SHC4	SHC4	SHC (Src homology 2 domain containing) family, member 4	4179	0.060758382081985474	-0.044824902	No	
+row_17	ICAM2	ICAM2	intercellular adhesion molecule 2	4243	0.059471238404512405	-0.042823013	No	
+row_18	PPP3R1	PPP3R1	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, alpha isoform (calcineurin B, type I)	5640	0.035525862127542496	-0.10796335	No	
+row_19	MICA	MICA	MHC class I polypeptide-related sequence A	6189	0.028006035834550858	-0.13233352	No	
+row_20	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	6261	0.027018386870622635	-0.13349362	No	
+row_21	NFATC4	NFATC4	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 4	6388	0.025582220405340195	-0.13746227	No	
+row_22	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	6431	0.02512730099260807	-0.13736762	No	
+row_23	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	6597	0.02326851710677147	-0.14343844	No	
+row_24	RAC3	RAC3	ras-related C3 botulinum toxin substrate 3 (rho family, small GTP binding protein Rac3)	6878	0.019998839125037193	-0.15540454	No	
+row_25	IFNA16	IFNA16	interferon, alpha 16	6985	0.018966812640428543	-0.15896142	No	
+row_26	PTK2B	PTK2B	PTK2B protein tyrosine kinase 2 beta	7132	0.017637988552451134	-0.16458517	No	
+row_27	NCR1	NCR1	natural cytotoxicity triggering receptor 1	7346	0.015787294134497643	-0.17363894	No	
+row_28	TNFRSF10D	TNFRSF10D	tumor necrosis factor receptor superfamily, member 10d, decoy with truncated death domain	7361	0.015632230788469315	-0.17298773	No	
+row_29	IFNA17	IFNA17	interferon, alpha 17	7726	0.012544333003461361	-0.18969256	No	
+row_30	IFNA6	IFNA6	interferon, alpha 6	7749	0.012410681694746017	-0.18970713	No	
+row_31	IFNA1	IFNA1	interferon, alpha 1	8126	0.009837904013693333	-0.2072291	No	
+row_32	IFNB1	IFNB1	interferon, beta 1, fibroblast	8695	0.0058927820064127445	-0.23446432	No	
+row_33	IFNA8	IFNA8	interferon, alpha 8	8721	0.0057288240641355515	-0.235196	No	
+row_34	IFNA10	IFNA10	interferon, alpha 10	8773	0.005367598496377468	-0.23722823	No	
+row_35	NFATC2	NFATC2	nuclear factor of activated T-cells, cytoplasmic, calcineurin-dependent 2	8994	0.003932109568268061	-0.24763621	No	
+row_36	PPP3R2	PPP3R2	protein phosphatase 3 (formerly 2B), regulatory subunit B, 19kDa, beta isoform (calcineurin B, type II)	9227	0.002597975078970194	-0.25874415	No	
+row_37	PRKCG	PRKCG	protein kinase C, gamma	9281	0.00225631520152092	-0.26113975	No	
+row_38	CHP	CHP	-	9318	0.0019631197210401297	-0.26273018	No	
+row_39	IFNA14	IFNA14	interferon, alpha 14	9485	0.0010603942209854722	-0.27074626	No	
+row_40	IFNA13	IFNA13	interferon, alpha 13	9760	-6.71029498334974E-4	-0.28406984	No	
+row_41	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	9972	-0.0018481340957805514	-0.29421628	No	
+row_42	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	10214	-0.002982295351102948	-0.30573088	No	
+row_43	SH2D1B	SH2D1B	SH2 domain containing 1B	10330	-0.003592952387407422	-0.31104013	No	
+row_44	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	10502	-0.004510073456913233	-0.31900582	No	
+row_45	IFNA7	IFNA7	interferon, alpha 7	10744	-0.0059497905895113945	-0.33026704	No	
+row_46	ULBP3	ULBP3	UL16 binding protein 3	10788	-0.006202326156198978	-0.33183733	No	
+row_47	IFNA4	IFNA4	interferon, alpha 4	10845	-0.006495883222669363	-0.3340174	No	
+row_48	IFNA21	IFNA21	interferon, alpha 21	10857	-0.0065699610859155655	-0.33399352	No	
+row_49	PTPN6	PTPN6	protein tyrosine phosphatase, non-receptor type 6	11122	-0.007975391112267971	-0.346205	No	
+row_50	TNFRSF10C	TNFRSF10C	tumor necrosis factor receptor superfamily, member 10c, decoy without an intracellular domain	11680	-0.011206218972802162	-0.3724493	No	
+row_51	KIR3DL1	KIR3DL1	killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 1	11869	-0.012165707536041737	-0.38059145	No	
+row_52	FAS	FAS	Fas (TNF receptor superfamily, member 6)	12008	-0.013006375171244144	-0.38622004	No	
+row_53	IFNAR1	IFNAR1	interferon (alpha, beta and omega) receptor 1	12042	-0.013209199532866478	-0.3867036	No	
+row_54	KIR2DS3	KIR2DS3	killer cell immunoglobulin-like receptor, two domains, short cytoplasmic tail, 3	12121	-0.013681010343134403	-0.38934448	No	
+row_55	IFNA5	IFNA5	interferon, alpha 5	12995	-0.01903395727276802	-0.4303523	No	
+row_56	KIR2DL5A	KIR2DL5A	killer cell immunoglobulin-like receptor, two domains, long cytoplasmic tail, 5A	13002	-0.019069116562604904	-0.42901692	No	
+row_57	PLCG1	PLCG1	phospholipase C, gamma 1	13004	-0.019074443727731705	-0.4274369	No	
+row_58	IFNA2	IFNA2	interferon, alpha 2	13486	-0.022340629249811172	-0.4490189	No	
+row_59	CSF2	CSF2	colony stimulating factor 2 (granulocyte-macrophage)	13635	-0.02350674383342266	-0.45423916	No	
+row_60	KIR2DS1	KIR2DS1	killer cell immunoglobulin-like receptor, two domains, short cytoplasmic tail, 1	13697	-0.02394922450184822	-0.455173	No	
+row_61	KLRK1	KLRK1	killer cell lectin-like receptor subfamily K, member 1	13703	-0.02398826740682125	-0.4533687	No	
+row_62	HLA-C	HLA-C	major histocompatibility complex, class I, C	13870	-0.025574462488293648	-0.45929146	No	
+row_63	PPP3CA	PPP3CA	protein phosphatase 3 (formerly 2B), catalytic subunit, alpha isoform (calcineurin A alpha)	13932	-0.026090212166309357	-0.46004245	No	
+row_64	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	14102	-0.027552086859941483	-0.4659428	No	
+row_65	HLA-A	HLA-A	major histocompatibility complex, class I, A	14128	-0.02778988890349865	-0.46479058	No	
+row_66	KIR2DL3	KIR2DL3	killer cell immunoglobulin-like receptor, two domains, long cytoplasmic tail, 3	14461	-0.03095625340938568	-0.4783604	No	
+row_67	KIR2DS5	KIR2DS5	killer cell immunoglobulin-like receptor, two domains, short cytoplasmic tail, 5	14516	-0.03151754289865494	-0.47830608	No	
+row_68	KIR2DS4	KIR2DS4	killer cell immunoglobulin-like receptor, two domains, short cytoplasmic tail, 4	14597	-0.032348498702049255	-0.47945052	No	
+row_69	GRB2	GRB2	growth factor receptor-bound protein 2	14682	-0.03304972127079964	-0.48073044	No	
+row_70	KIR2DL1	KIR2DL1	killer cell immunoglobulin-like receptor, two domains, long cytoplasmic tail, 1	14878	-0.03508444130420685	-0.4872573	No	
+row_71	KIR3DL2	KIR3DL2	killer cell immunoglobulin-like receptor, three domains, long cytoplasmic tail, 2	14993	-0.03651757538318634	-0.48970613	No	
+row_72	HLA-B	HLA-B	major histocompatibility complex, class I, B	15309	-0.0402238667011261	-0.5016543	No	
+row_73	KIR2DL2	KIR2DL2	killer cell immunoglobulin-like receptor, two domains, long cytoplasmic tail, 2	15450	-0.04213544353842735	-0.5048931	No	
+row_74	ARAF	ARAF	v-raf murine sarcoma 3611 viral oncogene homolog	15710	-0.04556696489453316	-0.5136503	No	
+row_75	MAPK3	MAPK3	mitogen-activated protein kinase 3	15752	-0.046106308698654175	-0.51171535	No	
+row_76	NCR2	NCR2	natural cytotoxicity triggering receptor 2	15858	-0.04759293049573898	-0.5127789	No	
+row_77	ULBP1	ULBP1	UL16 binding protein 1	16131	-0.05206616222858429	-0.5216159	No	
+row_78	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	16199	-0.05333591625094414	-0.5203333	No	
+row_79	HLA-G	HLA-G	HLA-G histocompatibility antigen, class I, G	16246	-0.054369065910577774	-0.5179369	No	
+row_80	KLRC3	KLRC3	killer cell lectin-like receptor subfamily C, member 3	16299	-0.05527002364397049	-0.5157566	No	
+row_81	IFNGR2	IFNGR2	interferon gamma receptor 2 (interferon gamma transducer 1)	16449	-0.05820001661777496	-0.51806307	No	
+row_82	VAV2	VAV2	vav 2 oncogene	16516	-0.05950302630662918	-0.516205	No	
+row_83	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	16600	-0.06135908514261246	-0.5150186	No	
+row_84	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	16705	-0.06366253644227982	-0.514661	No	
+row_85	CD244	CD244	CD244 molecule, natural killer cell receptor 2B4	17044	-0.07132206112146378	-0.52507687	Yes	
+row_86	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	17146	-0.0735296905040741	-0.5237302	Yes	
+row_87	HCST	HCST	hematopoietic cell signal transducer	17297	-0.07729536294937134	-0.5244549	Yes	
+row_88	HLA-E	HLA-E	major histocompatibility complex, class I, E	17348	-0.07872050255537033	-0.5201744	Yes	
+row_89	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	17355	-0.07889081537723541	-0.5137305	Yes	
+row_90	VAV1	VAV1	vav 1 oncogene	17360	-0.07896383106708527	-0.50718284	Yes	
+row_91	ZAP70	ZAP70	zeta-chain (TCR) associated protein kinase 70kDa	17489	-0.08230213075876236	-0.5064056	Yes	
+row_92	IFNAR2	IFNAR2	interferon (alpha, beta and omega) receptor 2	17689	-0.08744032680988312	-0.5086569	Yes	
+row_93	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	17956	-0.0961809828877449	-0.51343375	Yes	
+row_94	NCR3	NCR3	natural cytotoxicity triggering receptor 3	17986	-0.09711086750030518	-0.5065572	Yes	
+row_95	LAT	LAT	linker for activation of T cells	18207	-0.10416235774755478	-0.50840616	Yes	
+row_96	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	18235	-0.10513981431722641	-0.5007463	Yes	
+row_97	FCER1G	FCER1G	Fc fragment of IgE, high affinity I, receptor for; gamma polypeptide	18261	-0.10627340525388718	-0.49289206	Yes	
+row_98	BRAF	BRAF	v-raf murine sarcoma viral oncogene homolog B1	18317	-0.10838621854782104	-0.48632243	Yes	
+row_99	IFNGR1	IFNGR1	interferon gamma receptor 1	18331	-0.10898890346288681	-0.47765023	Yes	
+row_100	FASLG	FASLG	Fas ligand (TNF superfamily, member 6)	18461	-0.11450967192649841	-0.4741715	Yes	
+row_101	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	18571	-0.12010274827480316	-0.46923846	Yes	
+row_102	ICAM1	ICAM1	intercellular adhesion molecule 1 (CD54), human rhinovirus receptor	18584	-0.12077058851718903	-0.45951134	Yes	
+row_103	TYROBP	TYROBP	TYRO protein tyrosine kinase binding protein	18620	-0.122723788022995	-0.45074064	Yes	
+row_104	KLRD1	KLRD1	killer cell lectin-like receptor subfamily D, member 1	18669	-0.12461107224225998	-0.44244364	Yes	
+row_105	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	19014	-0.14554114639759064	-0.4468146	Yes	
+row_106	SHC1	SHC1	SHC (Src homology 2 domain containing) transforming protein 1	19043	-0.14769190549850464	-0.4355699	Yes	
+row_107	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	19293	-0.16583073139190674	-0.43356887	Yes	
+row_108	TNFRSF10A	TNFRSF10A	tumor necrosis factor receptor superfamily, member 10a	19303	-0.1665833443403244	-0.41978312	Yes	
+row_109	SYK	SYK	spleen tyrosine kinase	19395	-0.17483137547969818	-0.4092975	Yes	
+row_110	SH2D1A	SH2D1A	SH2 domain protein 1A, Duncan's disease (lymphoproliferative syndrome)	19409	-0.17612147331237793	-0.39489257	Yes	
+row_111	TNFRSF10B	TNFRSF10B	tumor necrosis factor receptor superfamily, member 10b	19425	-0.1772383749485016	-0.38048992	Yes	
+row_112	ITGB2	ITGB2	integrin, beta 2 (complement component 3 receptor 3 and 4 subunit)	19440	-0.17824995517730713	-0.36595207	Yes	
+row_113	ITGAL	ITGAL	integrin, alpha L (antigen CD11A (p180), lymphocyte function-associated antigen 1; alpha polypeptide)	19461	-0.18023554980754852	-0.35153767	Yes	
+row_114	PRF1	PRF1	perforin 1 (pore forming protein)	19533	-0.18717487156391144	-0.3390213	Yes	
+row_115	BID	BID	BH3 interacting domain death agonist	19582	-0.1924111694097519	-0.32493454	Yes	
+row_116	TNFSF10	TNFSF10	tumor necrosis factor (ligand) superfamily, member 10	19604	-0.19582854211330414	-0.30923742	Yes	
+row_117	IFNG	IFNG	interferon, gamma	19624	-0.19866402447223663	-0.2932005	Yes	
+row_118	RAC2	RAC2	ras-related C3 botulinum toxin substrate 2 (rho family, small GTP binding protein Rac2)	19644	-0.20114722847938538	-0.27695152	Yes	
+row_119	PLCG2	PLCG2	phospholipase C, gamma 2 (phosphatidylinositol-specific)	19658	-0.20291317999362946	-0.2602587	Yes	
+row_120	LCP2	LCP2	lymphocyte cytosolic protein 2 (SH2 domain containing leukocyte protein of 76kDa)	19810	-0.22967059910297394	-0.24802026	Yes	
+row_121	CD247	CD247	CD247 molecule	19918	-0.2507966160774231	-0.231829	Yes	
+row_122	MICB	MICB	MHC class I polypeptide-related sequence B	20038	-0.2789304554462433	-0.21382129	Yes	
+row_123	RAET1E	RAET1E	retinoic acid early transcript 1E	20092	-0.292742520570755	-0.19141099	Yes	
+row_124	CD48	CD48	CD48 molecule	20102	-0.2955993413925171	-0.16660798	Yes	
+row_125	FCGR3B	FCGR3B	Fc fragment of IgG, low affinity IIIb, receptor (CD16b)	20397	-0.45108562707901	-0.14244536	Yes	
+row_126	ULBP2	ULBP2	UL16 binding protein 2	20407	-0.4577087461948395	-0.10379911	Yes	
+row_127	LCK	LCK	lymphocyte-specific protein tyrosine kinase	20412	-0.4638550877571106	-0.06438382	Yes	
+row_128	GZMB	GZMB	granzyme B (granzyme 2, cytotoxic T-lymphocyte-associated serine esterase 1)	20568	-0.8637585639953613	0.0018068658	Yes	

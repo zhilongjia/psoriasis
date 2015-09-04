@@ -1,0 +1,54 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PTCH1	PTCH1	patched homolog 1 (Drosophila)	432	0.24855048954486847	0.0319654	Yes	
+row_1	TCF7L1	TCF7L1	transcription factor 7-like 1 (T-cell specific, HMG-box)	483	0.24023249745368958	0.08074372	Yes	
+row_2	AXIN2	AXIN2	axin 2 (conductin, axil)	524	0.23347121477127075	0.12856728	Yes	
+row_3	FZD8	FZD8	frizzled homolog 8 (Drosophila)	694	0.20953145623207092	0.16501106	Yes	
+row_4	GLI2	GLI2	GLI-Kruppel family member GLI2	1032	0.1761142909526825	0.18615723	Yes	
+row_5	TCF7L2	TCF7L2	transcription factor 7-like 2 (T-cell specific, HMG-box)	1182	0.16470065712928772	0.21401739	Yes	
+row_6	FZD4	FZD4	frizzled homolog 4 (Drosophila)	1185	0.16459956765174866	0.24900824	Yes	
+row_7	FZD7	FZD7	frizzled homolog 7 (Drosophila)	1313	0.1569654941558838	0.27628988	Yes	
+row_8	FZD10	FZD10	frizzled homolog 10 (Drosophila)	1430	0.14985980093479156	0.302592	Yes	
+row_9	WNT2	WNT2	wingless-type MMTV integration site family member 2	1579	0.14148575067520142	0.32555202	Yes	
+row_10	BMP2	BMP2	bone morphogenetic protein 2	1695	0.13567876815795898	0.34887978	Yes	
+row_11	BMP4	BMP4	bone morphogenetic protein 4	2159	0.11587738990783691	0.35105458	Yes	
+row_12	FZD1	FZD1	frizzled homolog 1 (Drosophila)	2515	0.10312392562627792	0.35576537	Yes	
+row_13	DVL2	DVL2	dishevelled, dsh homolog 2 (Drosophila)	2632	0.09935885667800903	0.37130204	Yes	
+row_14	GSK3B	GSK3B	glycogen synthase kinase 3 beta	2765	0.0953335389494896	0.38520217	Yes	
+row_15	WNT3	WNT3	wingless-type MMTV integration site family, member 3	2773	0.09504430741071701	0.40512246	Yes	
+row_16	APC	APC	adenomatosis polyposis coli	3369	0.07931366562843323	0.3930804	Yes	
+row_17	WNT2B	WNT2B	wingless-type MMTV integration site family, member 2B	3597	0.0740775465965271	0.39782715	Yes	
+row_18	APC2	APC2	adenomatosis polyposis coli 2	3736	0.07118085026741028	0.40628663	Yes	
+row_19	GLI3	GLI3	GLI-Kruppel family member GLI3 (Greig cephalopolysyndactyly syndrome)	4094	0.06295536458492279	0.40233728	Yes	
+row_20	DVL1	DVL1	dishevelled, dsh homolog 1 (Drosophila)	4560	0.05389434099197388	0.39120165	Yes	
+row_21	GLI1	GLI1	glioma-associated oncogene homolog 1 (zinc finger protein)	4922	0.04744474217295647	0.38375124	Yes	
+row_22	WNT5B	WNT5B	wingless-type MMTV integration site family, member 5B	4981	0.04648495465517044	0.3908386	Yes	
+row_23	WNT11	WNT11	wingless-type MMTV integration site family, member 11	5040	0.045305002480745316	0.3976744	Yes	
+row_24	CTNNB1	CTNNB1	catenin (cadherin-associated protein), beta 1, 88kDa	5048	0.04522417485713959	0.4069744	Yes	
+row_25	WNT6	WNT6	wingless-type MMTV integration site family, member 6	5210	0.04265126958489418	0.4082331	Yes	
+row_26	DVL3	DVL3	dishevelled, dsh homolog 3 (Drosophila)	5285	0.04137158766388893	0.41345197	Yes	
+row_27	WNT4	WNT4	wingless-type MMTV integration site family, member 4	5387	0.039709463715553284	0.41700283	Yes	
+row_28	WNT10B	WNT10B	wingless-type MMTV integration site family, member 10B	5618	0.036083437502384186	0.41350424	No	
+row_29	HHIP	HHIP	hedgehog interacting protein	5889	0.03200475871562958	0.40719002	No	
+row_30	FZD9	FZD9	frizzled homolog 9 (Drosophila)	6459	0.024841558188199997	0.38480106	No	
+row_31	WNT9A	WNT9A	wingless-type MMTV integration site family, member 9A	6487	0.02458936907351017	0.38872916	No	
+row_32	AXIN1	AXIN1	axin 1	6896	0.019837843254208565	0.37310693	No	
+row_33	SHH	SHH	sonic hedgehog homolog (Drosophila)	7542	0.01415164116770029	0.3447414	No	
+row_34	TP53	TP53	tumor protein p53 (Li-Fraumeni syndrome)	8804	0.0051474072970449924	0.28448513	No	
+row_35	PTCH2	PTCH2	patched homolog 2 (Drosophila)	8874	0.004681267775595188	0.28212586	No	
+row_36	FZD3	FZD3	frizzled homolog 3 (Drosophila)	9036	0.003711298806592822	0.2750836	No	
+row_37	WNT8B	WNT8B	wingless-type MMTV integration site family, member 8B	9311	0.0020123901776969433	0.2621812	No	
+row_38	TCF7	TCF7	transcription factor 7 (T-cell specific, HMG-box)	10595	-0.005040103103965521	0.20083164	No	
+row_39	WNT8A	WNT8A	wingless-type MMTV integration site family, member 8A	11781	-0.011730741709470749	0.14567651	No	
+row_40	WNT1	WNT1	wingless-type MMTV integration site family, member 1	12505	-0.016128892078995705	0.1139374	No	
+row_41	SUFU	SUFU	suppressor of fused homolog (Drosophila)	12632	-0.016815345734357834	0.111391485	No	
+row_42	WNT16	WNT16	wingless-type MMTV integration site family, member 16	12938	-0.018691755831241608	0.10053638	No	
+row_43	STK36	STK36	serine/threonine kinase 36 (fused homolog, Drosophila)	14153	-0.02799476496875286	0.047437306	No	
+row_44	WNT7A	WNT7A	wingless-type MMTV integration site family, member 7A	14549	-0.031914934515953064	0.0350221	No	
+row_45	WNT9B	WNT9B	wingless-type MMTV integration site family, member 9B	14696	-0.03321557492017746	0.034999173	No	
+row_46	SMO	SMO	smoothened homolog (Drosophila)	15359	-0.040924303233623505	0.011513719	No	
+row_47	FZD6	FZD6	frizzled homolog 6 (Drosophila)	15737	-0.04592185840010643	0.0029601948	No	
+row_48	FZD2	FZD2	frizzled homolog 2 (Drosophila)	17618	-0.08564595133066177	-0.07025324	No	
+row_49	FZD5	FZD5	frizzled homolog 5 (Drosophila)	17670	-0.08686254173517227	-0.054217886	No	
+row_50	WNT10A	WNT10A	wingless-type MMTV integration site family, member 10A	18668	-0.12459143251180649	-0.0761671	No	
+row_51	LEF1	LEF1	lymphoid enhancer-binding factor 1	18711	-0.1272207647562027	-0.051090576	No	
+row_52	WNT5A	WNT5A	wingless-type MMTV integration site family, member 5A	20531	-0.6717262864112854	0.0036003718	No	

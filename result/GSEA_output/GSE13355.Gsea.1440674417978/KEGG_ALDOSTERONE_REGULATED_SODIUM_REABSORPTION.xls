@@ -1,0 +1,41 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	HSD11B1	HSD11B1	hydroxysteroid (11-beta) dehydrogenase 1	7	0.6929967999458313	0.16225779	Yes	
+row_1	NR3C2	NR3C2	nuclear receptor subfamily 3, group C, member 2	42	0.49596643447875977	0.27697343	Yes	
+row_2	ATP1A2	ATP1A2	ATPase, Na+/K+ transporting, alpha 2 (+) polypeptide	115	0.3700413107872009	0.36029544	Yes	
+row_3	IRS1	IRS1	insulin receptor substrate 1	529	0.23300707340240479	0.39488432	Yes	
+row_4	HSD11B2	HSD11B2	hydroxysteroid (11-beta) dehydrogenase 2	648	0.21667028963565826	0.43998414	Yes	
+row_5	IRS2	IRS2	insulin receptor substrate 2	717	0.2067963182926178	0.48519844	Yes	
+row_6	PIK3R1	PIK3R1	phosphoinositide-3-kinase, regulatory subunit 1 (p85 alpha)	923	0.18487268686294556	0.5186073	Yes	
+row_7	PRKCA	PRKCA	protein kinase C, alpha	1371	0.1535395234823227	0.5328975	Yes	
+row_8	NEDD4L	NEDD4L	neural precursor cell expressed, developmentally down-regulated 4-like	1687	0.13608859479427338	0.54951143	Yes	
+row_9	PIK3CB	PIK3CB	phosphoinositide-3-kinase, catalytic, beta polypeptide	2167	0.11541412770748138	0.55330026	Yes	
+row_10	PIK3CA	PIK3CA	phosphoinositide-3-kinase, catalytic, alpha polypeptide	2599	0.10018502920866013	0.5558498	Yes	
+row_11	MAPK1	MAPK1	mitogen-activated protein kinase 1	4056	0.06382760405540466	0.5000292	No	
+row_12	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	4776	0.05006628483533859	0.47681567	No	
+row_13	PDPK1	PDPK1	3-phosphoinositide dependent protein kinase-1	4936	0.04715616628527641	0.48014876	No	
+row_14	ATP1B2	ATP1B2	ATPase, Na+/K+ transporting, beta 2 polypeptide	5318	0.04083169624209404	0.4712034	No	
+row_15	IRS4	IRS4	insulin receptor substrate 4	5519	0.037714164704084396	0.4703275	No	
+row_16	FXYD2	FXYD2	FXYD domain containing ion transport regulator 2	6319	0.026219919323921204	0.43762895	No	
+row_17	SCNN1B	SCNN1B	sodium channel, nonvoltage-gated 1, beta (Liddle syndrome)	6339	0.026007095351815224	0.44280714	No	
+row_18	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	6597	0.02326851710677147	0.4357703	No	
+row_19	ATP1B4	ATP1B4	ATPase, (Na+)/K+ transporting, beta 4 polypeptide	6820	0.020659254863858223	0.42982307	No	
+row_20	INSR	INSR	insulin receptor	6984	0.018971534445881844	0.4263487	No	
+row_21	SLC9A3R2	SLC9A3R2	solute carrier family 9 (sodium/hydrogen exchanger), member 3 regulator 2	8294	0.00852205604314804	0.36469945	No	
+row_22	KCNJ1	KCNJ1	potassium inwardly-rectifying channel, subfamily J, member 1	8712	0.005774906370788813	0.34577826	No	
+row_23	PRKCG	PRKCG	protein kinase C, gamma	9281	0.00225631520152092	0.31868926	No	
+row_24	PIK3R3	PIK3R3	phosphoinositide-3-kinase, regulatory subunit 3 (p55, gamma)	10214	-0.002982295351102948	0.27407148	No	
+row_25	ATP1A3	ATP1A3	ATPase, Na+/K+ transporting, alpha 3 polypeptide	11203	-0.008404980413615704	0.22800308	No	
+row_26	ATP1A4	ATP1A4	ATPase, Na+/K+ transporting, alpha 4 polypeptide	12453	-0.015764081850647926	0.1709705	No	
+row_27	FXYD4	FXYD4	FXYD domain containing ion transport regulator 4	12709	-0.017308736220002174	0.16263255	No	
+row_28	INS	INS	insulin	12748	-0.017566416412591934	0.16490646	No	
+row_29	SFN	SFN	stratifin	15416	-0.04158519580960274	0.04498356	No	
+row_30	MAPK3	MAPK3	mitogen-activated protein kinase 3	15752	-0.046106308698654175	0.03951248	No	
+row_31	PIK3CG	PIK3CG	phosphoinositide-3-kinase, catalytic, gamma polypeptide	16600	-0.06135908514261246	0.0127247125	No	
+row_32	ATP1A1	ATP1A1	ATPase, Na+/K+ transporting, alpha 1 polypeptide	16975	-0.06994383782148361	0.010950313	No	
+row_33	PIK3R5	PIK3R5	phosphoinositide-3-kinase, regulatory subunit 5, p101	17146	-0.0735296905040741	0.019936549	No	
+row_34	ATP1B3	ATP1B3	ATPase, Na+/K+ transporting, beta 3 polypeptide	17154	-0.07363557070493698	0.03687333	No	
+row_35	SCNN1A	SCNN1A	sodium channel, nonvoltage-gated 1 alpha	17802	-0.09075986593961716	0.026708666	No	
+row_36	PIK3R2	PIK3R2	phosphoinositide-3-kinase, regulatory subunit 2 (p85 beta)	17956	-0.0961809828877449	0.04183619	No	
+row_37	ATP1B1	ATP1B1	ATPase, Na+/K+ transporting, beta 1 polypeptide	18300	-0.10777478665113449	0.050445426	No	
+row_38	SCNN1G	SCNN1G	sodium channel, nonvoltage-gated 1, gamma	18510	-0.11672431975603104	0.06767011	No	
+row_39	PIK3CD	PIK3CD	phosphoinositide-3-kinase, catalytic, delta polypeptide	19014	-0.14554114639759064	0.07736065	No	

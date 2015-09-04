@@ -1,0 +1,83 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	DES	DES	desmin	72	0.4344356954097748	0.05178262	Yes	
+row_1	SLC8A1	SLC8A1	solute carrier family 8 (sodium/calcium exchanger), member 1	132	0.3560972809791565	0.0942285	Yes	
+row_2	SGCG	SGCG	sarcoglycan, gamma (35kDa dystrophin-associated glycoprotein)	142	0.35171422362327576	0.13855271	Yes	
+row_3	DMD	DMD	dystrophin (muscular dystrophy, Duchenne and Becker types)	209	0.3183691203594208	0.17585586	Yes	
+row_4	ACTC1	ACTC1	actin, alpha, cardiac muscle 1	218	0.3133798837661743	0.21534999	Yes	
+row_5	TPM2	TPM2	tropomyosin 2 (beta)	249	0.30241668224334717	0.2523769	Yes	
+row_6	ITGA8	ITGA8	integrin, alpha 8	292	0.2856520414352417	0.2866855	Yes	
+row_7	TNNC1	TNNC1	troponin C type 1 (slow)	449	0.2450535148382187	0.31027266	Yes	
+row_8	SGCD	SGCD	sarcoglycan, delta (35kDa dystrophin-associated glycoprotein)	557	0.22846683859825134	0.33413625	Yes	
+row_9	TPM1	TPM1	tropomyosin 1 (alpha)	571	0.22675025463104248	0.3623614	Yes	
+row_10	PRKAB2	PRKAB2	protein kinase, AMP-activated, beta 2 non-catalytic subunit	592	0.22464071214199066	0.38997698	Yes	
+row_11	ITGA9	ITGA9	integrin, alpha 9	718	0.20678485929965973	0.41020408	Yes	
+row_12	CACNA2D2	CACNA2D2	calcium channel, voltage-dependent, alpha 2/delta subunit 2	1000	0.17842409014701843	0.41922086	Yes	
+row_13	SGCB	SGCB	sarcoglycan, beta (43kDa dystrophin-associated glycoprotein)	1128	0.16905999183654785	0.4345493	Yes	
+row_14	TGFB2	TGFB2	transforming growth factor, beta 2	1445	0.14865437150001526	0.43807194	Yes	
+row_15	ITGA7	ITGA7	integrin, alpha 7	1561	0.14212560653686523	0.4505571	Yes	
+row_16	PRKAG2	PRKAG2	protein kinase, AMP-activated, gamma 2 non-catalytic subunit	2306	0.11074026674032211	0.42840078	Yes	
+row_17	CACNA1D	CACNA1D	calcium channel, voltage-dependent, L type, alpha 1D subunit	2325	0.10991614311933517	0.44151282	Yes	
+row_18	LAMA2	LAMA2	laminin, alpha 2 (merosin, congenital muscular dystrophy)	2668	0.09808577597141266	0.43733278	Yes	
+row_19	CACNB2	CACNB2	calcium channel, voltage-dependent, beta 2 subunit	2803	0.0943247377872467	0.44280857	Yes	
+row_20	ITGB8	ITGB8	integrin, beta 8	2887	0.09201736748218536	0.4504756	Yes	
+row_21	ITGA11	ITGA11	integrin, alpha 11	3013	0.088530533015728	0.45565245	Yes	
+row_22	ITGB5	ITGB5	integrin, beta 5	3279	0.08133204281330109	0.4530919	No	
+row_23	ITGB3	ITGB3	integrin, beta 3 (platelet glycoprotein IIIa, antigen CD61)	3710	0.07154463976621628	0.4412463	No	
+row_24	DAG1	DAG1	dystroglycan 1 (dystrophin-associated glycoprotein 1)	3916	0.06669893860816956	0.43974677	No	
+row_25	ITGA5	ITGA5	integrin, alpha 5 (fibronectin receptor, alpha polypeptide)	4026	0.06441482901573181	0.44263402	No	
+row_26	IGF1	IGF1	insulin-like growth factor 1 (somatomedin C)	4776	0.05006628483533859	0.4125121	No	
+row_27	ITGB1	ITGB1	integrin, beta 1 (fibronectin receptor, beta polypeptide, antigen CD29 includes MDF2, MSK12)	4907	0.04779071360826492	0.41226038	No	
+row_28	SGCA	SGCA	sarcoglycan, alpha (50kDa dystrophin-associated glycoprotein)	4991	0.046365272253751755	0.41411725	No	
+row_29	ITGAV	ITGAV	integrin, alpha V (vitronectin receptor, alpha polypeptide, antigen CD51)	5327	0.04072028025984764	0.40297738	No	
+row_30	ACE	ACE	angiotensin I converting enzyme (peptidyl-dipeptidase A) 1	5722	0.03431643173098564	0.3881478	No	
+row_31	CACNA2D4	CACNA2D4	calcium channel, voltage-dependent, alpha 2/delta subunit 4	5738	0.034137364476919174	0.3917616	No	
+row_32	CACNB1	CACNB1	calcium channel, voltage-dependent, beta 1 subunit	6296	0.026483925059437752	0.36799327	No	
+row_33	ITGA2	ITGA2	integrin, alpha 2 (CD49B, alpha 2 subunit of VLA-2 receptor)	6316	0.026259297505021095	0.37040955	No	
+row_34	CACNG2	CACNG2	calcium channel, voltage-dependent, gamma subunit 2	6727	0.021671798080205917	0.3531911	No	
+row_35	CACNA2D1	CACNA2D1	calcium channel, voltage-dependent, alpha 2/delta subunit 1	6869	0.02014899253845215	0.34888545	No	
+row_36	PRKAA2	PRKAA2	protein kinase, AMP-activated, alpha 2 catalytic subunit	7165	0.017398567870259285	0.33672637	No	
+row_37	CACNG3	CACNG3	calcium channel, voltage-dependent, gamma subunit 3	7562	0.01387098990380764	0.31919724	No	
+row_38	CACNG5	CACNG5	calcium channel, voltage-dependent, gamma subunit 5	7704	0.012703347019851208	0.31394398	No	
+row_39	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	7743	0.012451207265257835	0.31367716	No	
+row_40	CACNG1	CACNG1	calcium channel, voltage-dependent, gamma subunit 1	8367	0.008002789691090584	0.28434098	No	
+row_41	CACNG4	CACNG4	calcium channel, voltage-dependent, gamma subunit 4	8468	0.007343998644500971	0.28040332	No	
+row_42	CACNG8	CACNG8	calcium channel, voltage-dependent, gamma subunit 8	8708	0.005817465018481016	0.2694988	No	
+row_43	ITGB7	ITGB7	integrin, beta 7	8914	0.004412902053445578	0.2600721	No	
+row_44	MYBPC3	MYBPC3	myosin binding protein C, cardiac	8958	0.004096753429621458	0.2584984	No	
+row_45	ACTG1	ACTG1	actin, gamma 1	9251	0.0024297256022691727	0.24458039	No	
+row_46	TTN	TTN	titin	9743	-6.016549887135625E-4	0.22073375	No	
+row_47	RYR2	RYR2	ryanodine receptor 2 (cardiac)	10213	-0.0029807453975081444	0.19826181	No	
+row_48	CACNA1C	CACNA1C	calcium channel, voltage-dependent, L type, alpha 1C subunit	10377	-0.0037953569553792477	0.19080293	No	
+row_49	CACNG7	CACNG7	calcium channel, voltage-dependent, gamma subunit 7	10985	-0.007250875700265169	0.1621506	No	
+row_50	ITGA2B	ITGA2B	integrin, alpha 2b (platelet glycoprotein IIb of IIb/IIIa complex, antigen CD41)	11810	-0.011886607855558395	0.12351531	No	
+row_51	ITGA6	ITGA6	integrin, alpha 6	12146	-0.013824736699461937	0.108952425	No	
+row_52	TNNT2	TNNT2	troponin T type 2 (cardiac)	12246	-0.014527399092912674	0.10597771	No	
+row_53	CACNA1S	CACNA1S	calcium channel, voltage-dependent, L type, alpha 1S subunit	12273	-0.014676528051495552	0.10657878	No	
+row_54	ACTB	ACTB	actin, beta	12290	-0.014778896234929562	0.10768012	No	
+row_55	LMNA	LMNA	lamin A/C	12298	-0.014833016321063042	0.10922686	No	
+row_56	PRKAB1	PRKAB1	protein kinase, AMP-activated, beta 1 non-catalytic subunit	12330	-0.01498178020119667	0.109623164	No	
+row_57	PRKAA1	PRKAA1	protein kinase, AMP-activated, alpha 1 catalytic subunit	12512	-0.016154911369085312	0.10286026	No	
+row_58	CACNG6	CACNG6	calcium channel, voltage-dependent, gamma subunit 6	12649	-0.016911210492253304	0.09838616	No	
+row_59	ITGB4	ITGB4	integrin, beta 4	12951	-0.018758423626422882	0.08610779	No	
+row_60	MYH7	MYH7	myosin, heavy chain 7, cardiac muscle, beta	13130	-0.02000954933464527	0.07998164	No	
+row_61	PRKAG3	PRKAG3	protein kinase, AMP-activated, gamma 3 non-catalytic subunit	13336	-0.021391475573182106	0.07271583	No	
+row_62	TGFB3	TGFB3	transforming growth factor, beta 3	13446	-0.02210051380097866	0.070217706	No	
+row_63	CACNA1F	CACNA1F	calcium channel, voltage-dependent, alpha 1F subunit	13666	-0.023778825998306274	0.06257361	No	
+row_64	MYH6	MYH6	myosin, heavy chain 6, cardiac muscle, alpha (cardiomyopathy, hypertrophic 1)	13672	-0.023808952420949936	0.06536016	No	
+row_65	ITGA10	ITGA10	integrin, alpha 10	13834	-0.025264879688620567	0.060731154	No	
+row_66	EMD	EMD	emerin (Emery-Dreifuss muscular dystrophy)	15446	-0.04209582880139351	-0.012404776	No	
+row_67	TPM3	TPM3	tropomyosin 3	15746	-0.04605332389473915	-0.021111872	No	
+row_68	MYL3	MYL3	myosin, light chain 3, alkali; ventricular, skeletal, slow	15926	-0.04848026484251022	-0.023663277	No	
+row_69	PRKAG1	PRKAG1	protein kinase, AMP-activated, gamma 1 non-catalytic subunit	16379	-0.05682053044438362	-0.038454715	No	
+row_70	CACNB3	CACNB3	calcium channel, voltage-dependent, beta 3 subunit	16621	-0.06192688271403313	-0.04231562	No	
+row_71	TNNI3	TNNI3	troponin I type 3 (cardiac)	16721	-0.0640564113855362	-0.038986772	No	
+row_72	ITGB6	ITGB6	integrin, beta 6	18443	-0.11348582059144974	-0.10839646	No	
+row_73	ITGA3	ITGA3	integrin, alpha 3 (antigen CD49C, alpha 3 subunit of VLA-3 receptor)	18486	-0.11560852080583572	-0.095729336	No	
+row_74	TNF	TNF	tumor necrosis factor (TNF superfamily, member 2)	18571	-0.12010274827480316	-0.084536605	No	
+row_75	TGFB1	TGFB1	transforming growth factor, beta 1 (Camurati-Engelmann disease)	18875	-0.13706232607364655	-0.08185586	No	
+row_76	TPM4	TPM4	tropomyosin 4	18985	-0.1440374255180359	-0.06883505	No	
+row_77	CACNA2D3	CACNA2D3	calcium channel, voltage-dependent, alpha 2/delta 3 subunit	19552	-0.1894519329071045	-0.07230094	No	
+row_78	IL6	IL6	interleukin 6 (interferon, beta 2)	19629	-0.19911010563373566	-0.050663147	No	
+row_79	ATP2A2	ATP2A2	ATPase, Ca++ transporting, cardiac muscle, slow twitch 2	19721	-0.2138683795928955	-0.027877918	No	
+row_80	CACNB4	CACNB4	calcium channel, voltage-dependent, beta 4 subunit	19926	-0.2521694600582123	-0.0057238494	No	
+row_81	ITGA4	ITGA4	integrin, alpha 4 (antigen CD49D, alpha 4 subunit of VLA-4 receptor)	20137	-0.3045349419116974	0.022802442	No	

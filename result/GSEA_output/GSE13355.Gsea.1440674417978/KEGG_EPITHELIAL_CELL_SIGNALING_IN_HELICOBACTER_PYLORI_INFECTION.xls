@@ -1,0 +1,63 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ATP6V0A4	ATP6V0A4	ATPase, H+ transporting, lysosomal V0 subunit a4	398	0.25540757179260254	0.016064558	No	
+row_1	ATP6V1B1	ATP6V1B1	ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B1 (Renal tubular acidosis with deafness)	1097	0.17145442962646484	0.005877875	No	
+row_2	JAM3	JAM3	junctional adhesion molecule 3	1224	0.16184961795806885	0.02220121	No	
+row_3	MET	MET	met proto-oncogene (hepatocyte growth factor receptor)	1703	0.13532499969005585	0.017710319	No	
+row_4	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	2007	0.12139586359262466	0.019805072	No	
+row_5	JAM2	JAM2	junctional adhesion molecule 2	2787	0.09478666633367538	-0.004961962	No	
+row_6	ATP6V1E2	ATP6V1E2	ATPase, H+ transporting, lysosomal 31kDa, V1 subunit E2	3376	0.078982874751091	-0.022624642	No	
+row_7	PAK1	PAK1	p21/Cdc42/Rac1-activated kinase 1 (STE20 homolog, yeast)	6261	0.027018386870622635	-0.15925747	No	
+row_8	GIT1	GIT1	G protein-coupled receptor kinase interactor 1	6408	0.025376569479703903	-0.1628432	No	
+row_9	PTPN11	PTPN11	protein tyrosine phosphatase, non-receptor type 11 (Noonan syndrome 1)	6431	0.02512730099260807	-0.16042767	No	
+row_10	F11R	F11R	F11 receptor	6447	0.024939799681305885	-0.15769744	No	
+row_11	ATP6V1G2	ATP6V1G2	ATPase, H+ transporting, lysosomal 13kDa, V1 subunit G2	6610	0.023159485310316086	-0.1623696	No	
+row_12	JUN	JUN	jun oncogene	6916	0.01967180334031582	-0.17448632	No	
+row_13	MAPK10	MAPK10	mitogen-activated protein kinase 10	7013	0.01872413419187069	-0.17656127	No	
+row_14	IKBKB	IKBKB	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase beta	7652	0.012999311089515686	-0.20581292	No	
+row_15	MAP3K14	MAP3K14	mitogen-activated protein kinase kinase kinase 14	8741	0.00556626170873642	-0.2580001	No	
+row_16	MAPK11	MAPK11	mitogen-activated protein kinase 11	9397	0.0015218708431348205	-0.28967172	No	
+row_17	MAPK12	MAPK12	mitogen-activated protein kinase 12	9446	0.001311225933022797	-0.29182625	No	
+row_18	RAC1	RAC1	ras-related C3 botulinum toxin substrate 1 (rho family, small GTP binding protein Rac1)	9972	-0.0018481340957805514	-0.31712472	No	
+row_19	ATP6V1E1	ATP6V1E1	ATPase, H+ transporting, lysosomal 31kDa, V1 subunit E1	9992	-0.0019605401903390884	-0.31777754	No	
+row_20	ATP6V1G3	ATP6V1G3	ATPase, H+ transporting, lysosomal 13kDa, V1 subunit G3	10050	-0.0022121770307421684	-0.32024515	No	
+row_21	NFKBIA	NFKBIA	nuclear factor of kappa light polypeptide gene enhancer in B-cells inhibitor, alpha	10766	-0.006066058296710253	-0.35420683	No	
+row_22	ATP6AP1	ATP6AP1	ATPase, H+ transporting, lysosomal accessory protein 1	11390	-0.009569978341460228	-0.38320416	No	
+row_23	TCIRG1	TCIRG1	T-cell, immune regulator 1, ATPase, H+ transporting, lysosomal V0 subunit A3	11925	-0.012453927658498287	-0.40746915	No	
+row_24	ATP6V0D2	ATP6V0D2	ATPase, H+ transporting, lysosomal 38kDa, V0 subunit d2	12354	-0.015150642022490501	-0.42620036	No	
+row_25	CDC42	CDC42	cell division cycle 42 (GTP binding protein, 25kDa)	12393	-0.015372229740023613	-0.42591715	No	
+row_26	TJP1	TJP1	tight junction protein 1 (zona occludens 1)	12438	-0.015655605122447014	-0.4258867	No	
+row_27	MAPK9	MAPK9	mitogen-activated protein kinase 9	12618	-0.016687721014022827	-0.4322843	No	
+row_28	RELA	RELA	v-rel reticuloendotheliosis viral oncogene homolog A, nuclear factor of kappa light polypeptide gene enhancer in B-cells 3, p65 (avian)	12920	-0.01861437037587166	-0.44435304	No	
+row_29	PLCG1	PLCG1	phospholipase C, gamma 1	13004	-0.019074443727731705	-0.4457466	No	
+row_30	PTPRZ1	PTPRZ1	protein tyrosine phosphatase, receptor-type, Z polypeptide 1	13934	-0.02610665187239647	-0.48734432	No	
+row_31	ATP6V1A	ATP6V1A	ATPase, H+ transporting, lysosomal 70kDa, V1 subunit A	14410	-0.030412789434194565	-0.5062457	No	
+row_32	MAPK14	MAPK14	mitogen-activated protein kinase 14	14886	-0.03522529453039169	-0.5244793	No	
+row_33	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	15031	-0.03685727342963219	-0.52637476	No	
+row_34	ATP6V0A1	ATP6V0A1	ATPase, H+ transporting, lysosomal V0 subunit a1	15136	-0.038103580474853516	-0.52615017	No	
+row_35	ATP6V1H	ATP6V1H	ATPase, H+ transporting, lysosomal 50/57kDa, V1 subunit H	15692	-0.04535209387540817	-0.5468728	No	
+row_36	ATP6V0C	ATP6V0C	ATPase, H+ transporting, lysosomal 16kDa, V0 subunit c	16256	-0.054452214390039444	-0.5667222	No	
+row_37	MAP2K4	MAP2K4	mitogen-activated protein kinase kinase 4	16445	-0.05809054896235466	-0.5678133	No	
+row_38	IKBKG	IKBKG	inhibitor of kappa light polypeptide gene enhancer in B-cells, kinase gamma	16559	-0.06045064330101013	-0.5649262	No	
+row_39	MAPK8	MAPK8	mitogen-activated protein kinase 8	16573	-0.06072334572672844	-0.5571337	No	
+row_40	ADAM17	ADAM17	ADAM metallopeptidase domain 17 (tumor necrosis factor, alpha, converting enzyme)	16604	-0.06151381880044937	-0.55005896	No	
+row_41	ATP6V1F	ATP6V1F	ATPase, H+ transporting, lysosomal 14kDa, V1 subunit F	17208	-0.07513142377138138	-0.5689861	No	
+row_42	CASP3	CASP3	caspase 3, apoptosis-related cysteine peptidase	17355	-0.07889081537723541	-0.5651468	No	
+row_43	ATP6V1G1	ATP6V1G1	ATPase, H+ transporting, lysosomal 13kDa, V1 subunit G1	17806	-0.09085041284561157	-0.57444555	No	
+row_44	CHUK	CHUK	conserved helix-loop-helix ubiquitous kinase	18136	-0.1015922799706459	-0.5763641	Yes	
+row_45	CSK	CSK	c-src tyrosine kinase	18356	-0.10975029319524765	-0.5717964	Yes	
+row_46	ATP6V0B	ATP6V0B	ATPase, H+ transporting, lysosomal 21kDa, V0 subunit b	18493	-0.11584176868200302	-0.56234336	Yes	
+row_47	ATP6V1D	ATP6V1D	ATPase, H+ transporting, lysosomal 34kDa, V1 subunit D	18759	-0.1302272528409958	-0.5571736	Yes	
+row_48	ATP6V1C1	ATP6V1C1	ATPase, H+ transporting, lysosomal 42kDa, V1 subunit C1	18857	-0.13610005378723145	-0.54301137	Yes	
+row_49	ATP6V0A2	ATP6V0A2	ATPase, H+ transporting, lysosomal V0 subunit a2	18921	-0.1395058035850525	-0.52672166	Yes	
+row_50	ATP6V0D1	ATP6V0D1	ATPase, H+ transporting, lysosomal 38kDa, V0 subunit d1	18958	-0.1421520709991455	-0.5087505	Yes	
+row_51	NFKB1	NFKB1	nuclear factor of kappa light polypeptide gene enhancer in B-cells 1 (p105)	18960	-0.14241111278533936	-0.48903972	Yes	
+row_52	ATP6V1B2	ATP6V1B2	ATPase, H+ transporting, lysosomal 56/58kDa, V1 subunit B2	19291	-0.16576966643333435	-0.4821024	Yes	
+row_53	CCL5	CCL5	chemokine (C-C motif) ligand 5	19556	-0.18972182273864746	-0.4686291	Yes	
+row_54	MAPK13	MAPK13	mitogen-activated protein kinase 13	19650	-0.20172441005706787	-0.44516686	Yes	
+row_55	PLCG2	PLCG2	phospholipase C, gamma 2 (phosphatidylinositol-specific)	19658	-0.20291317999362946	-0.41735354	Yes	
+row_56	ATP6V1C2	ATP6V1C2	ATPase, H+ transporting, lysosomal 42kDa, V1 subunit C2	19726	-0.21433040499687195	-0.39087665	Yes	
+row_57	ADAM10	ADAM10	ADAM metallopeptidase domain 10	19774	-0.22209565341472626	-0.36234882	Yes	
+row_58	LYN	LYN	v-yes-1 Yamaguchi sarcoma viral related oncogene homolog	20091	-0.2927112579345703	-0.337117	Yes	
+row_59	HBEGF	HBEGF	heparin-binding EGF-like growth factor	20311	-0.38282179832458496	-0.29466078	Yes	
+row_60	CXCL1	CXCL1	chemokine (C-X-C motif) ligand 1 (melanoma growth stimulating activity, alpha)	20580	-1.0780316591262817	-0.15812987	Yes	
+row_61	IL8	IL8	interleukin 8	20592	-1.1481014490127563	6.3289725E-4	Yes	

@@ -1,0 +1,150 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	ADCY2	ADCY2	adenylate cyclase 2 (brain)	207	0.3189501166343689	0.012750034	No	
+row_1	PDE8B	PDE8B	phosphodiesterase 8B	613	0.22158674895763397	0.008840247	No	
+row_2	POLR3GL	POLR3GL	polymerase (RNA) III (DNA directed) polypeptide G (32kD) like	733	0.20551182329654694	0.017758427	No	
+row_3	ADSSL1	ADSSL1	adenylosuccinate synthase like 1	780	0.20013365149497986	0.029859452	No	
+row_4	PDE6A	PDE6A	phosphodiesterase 6A, cGMP-specific, rod, alpha	898	0.18747049570083618	0.037581827	No	
+row_5	ENPP1	ENPP1	ectonucleotide pyrophosphatase/phosphodiesterase 1	1107	0.17044749855995178	0.039635297	No	
+row_6	PDE4A	PDE4A	phosphodiesterase 4A, cAMP-specific (phosphodiesterase E2 dunce homolog, Drosophila)	1376	0.15342769026756287	0.03753546	No	
+row_7	AK7	AK7	adenylate kinase 7	1422	0.15063969790935516	0.046136636	No	
+row_8	PDE2A	PDE2A	phosphodiesterase 2A, cGMP-stimulated	1584	0.1411903351545334	0.04838986	No	
+row_9	PDE9A	PDE9A	phosphodiesterase 9A	1647	0.137942373752594	0.05524962	No	
+row_10	NME5	NME5	non-metastatic cells 5, protein expressed in (nucleoside-diphosphate kinase)	2154	0.11621937155723572	0.038847774	No	
+row_11	PDE5A	PDE5A	phosphodiesterase 5A, cGMP-specific	2310	0.11062158644199371	0.039202508	No	
+row_12	ADCY9	ADCY9	adenylate cyclase 9	2593	0.10038696974515915	0.03261527	No	
+row_13	PDE1A	PDE1A	phosphodiesterase 1A, calmodulin-dependent	2596	0.10026339441537857	0.03970642	No	
+row_14	ADCY4	ADCY4	adenylate cyclase 4	2603	0.1000470221042633	0.046586525	No	
+row_15	RRM2B	RRM2B	ribonucleotide reductase M2 B (TP53 inducible)	2755	0.09547518193721771	0.046050787	No	
+row_16	ENPP3	ENPP3	ectonucleotide pyrophosphatase/phosphodiesterase 3	2900	0.09160656481981277	0.04557985	No	
+row_17	ADCY6	ADCY6	adenylate cyclase 6	3240	0.08240547776222229	0.034917004	No	
+row_18	PDE4C	PDE4C	phosphodiesterase 4C, cAMP-specific (phosphodiesterase E1 dunce homolog, Drosophila)	3348	0.07978414744138718	0.03540707	No	
+row_19	NPR2	NPR2	natriuretic peptide receptor B/guanylate cyclase B (atrionatriuretic peptide receptor B)	3433	0.0776149332523346	0.03686591	No	
+row_20	ADCY8	ADCY8	adenylate cyclase 8 (brain)	3718	0.07142163068056107	0.028104084	No	
+row_21	ENTPD6	ENTPD6	ectonucleoside triphosphate diphosphohydrolase 6 (putative function)	4194	0.060307372361421585	0.009208704	No	
+row_22	GUCY2C	GUCY2C	guanylate cyclase 2C (heat stable enterotoxin receptor)	4333	0.05786018818616867	0.0066114403	No	
+row_23	NPR1	NPR1	natriuretic peptide receptor A/guanylate cyclase A (atrionatriuretic peptide receptor A)	4352	0.05759960412979126	0.009861455	No	
+row_24	PDE4D	PDE4D	phosphodiesterase 4D, cAMP-specific (phosphodiesterase E3 dunce homolog, Drosophila)	4470	0.05551809445023537	0.0081228055	No	
+row_25	PRUNE	PRUNE	prune homolog (Drosophila)	4659	0.05212420970201492	0.0026701186	No	
+row_26	NME3	NME3	non-metastatic cells 3, protein expressed in	5003	0.04610409215092659	-0.010791081	No	
+row_27	NME4	NME4	non-metastatic cells 4, protein expressed in	5516	0.03779527172446251	-0.033109255	No	
+row_28	NT5E	NT5E	5'-nucleotidase, ecto (CD73)	5597	0.03640662506222725	-0.03440953	No	
+row_29	PAPSS1	PAPSS1	3'-phosphoadenosine 5'-phosphosulfate synthase 1	5865	0.032259415835142136	-0.04514829	No	
+row_30	ENTPD2	ENTPD2	ectonucleoside triphosphate diphosphohydrolase 2	6259	0.027031052857637405	-0.062421184	No	
+row_31	POLR1E	POLR1E	polymerase (RNA) I polypeptide E, 53kDa	6879	0.01999104768037796	-0.09124641	No	
+row_32	POLE	POLE	polymerase (DNA directed), epsilon	6922	0.019617857411503792	-0.09189289	No	
+row_33	GUCY1A3	GUCY1A3	guanylate cyclase 1, soluble, alpha 3	7016	0.018703708425164223	-0.09509795	No	
+row_34	POLR3C	POLR3C	polymerase (RNA) III (DNA directed) polypeptide C (62kD)	7164	0.017411185428500175	-0.101035364	No	
+row_35	PDE1C	PDE1C	phosphodiesterase 1C, calmodulin-dependent 70kDa	7202	0.017052609473466873	-0.10162136	No	
+row_36	GUCY2D	GUCY2D	guanylate cyclase 2D, membrane (retina-specific)	7384	0.01539205014705658	-0.109365575	No	
+row_37	DGUOK	DGUOK	deoxyguanosine kinase	7783	0.012117166072130203	-0.12795222	No	
+row_38	NUDT9	NUDT9	nudix (nucleoside diphosphate linked moiety X)-type motif 9	7793	0.012066834606230259	-0.12752697	No	
+row_39	GUCY1B3	GUCY1B3	guanylate cyclase 1, soluble, beta 3	7937	0.01108128484338522	-0.13372271	No	
+row_40	PDE3A	PDE3A	phosphodiesterase 3A, cGMP-inhibited	7952	0.010991872288286686	-0.13361895	No	
+row_41	ENTPD4	ENTPD4	ectonucleoside triphosphate diphosphohydrolase 4	8351	0.008087114430963993	-0.15249453	No	
+row_42	AMPD2	AMPD2	adenosine monophosphate deaminase 2 (isoform L)	8499	0.007087805774062872	-0.15917215	No	
+row_43	POLR2B	POLR2B	polymerase (RNA) II (DNA directed) polypeptide B, 140kDa	8503	0.007062819786369801	-0.15881239	No	
+row_44	GUCY2F	GUCY2F	guanylate cyclase 2F, retinal	8777	0.005352045875042677	-0.17177372	No	
+row_45	PDE11A	PDE11A	phosphodiesterase 11A	8863	0.004757698159664869	-0.17558764	No	
+row_46	POLR1D	POLR1D	polymerase (RNA) I polypeptide D, 16kDa	9028	0.003750099102035165	-0.18333557	No	
+row_47	ALLC	ALLC	allantoicase	9032	0.0037147747352719307	-0.18321587	No	
+row_48	PRPS1L1	PRPS1L1	phosphoribosyl pyrophosphate synthetase 1-like 1	9056	0.0036344064865261316	-0.18407959	No	
+row_49	POLR2K	POLR2K	polymerase (RNA) II (DNA directed) polypeptide K, 7.0kDa	9337	0.0018342884723097086	-0.19763532	No	
+row_50	PDE3B	PDE3B	phosphodiesterase 3B, cGMP-inhibited	9497	9.726876160129905E-4	-0.20533799	No	
+row_51	PRPS2	PRPS2	phosphoribosyl pyrophosphate synthetase 2	9558	6.316900253295898E-4	-0.20822567	No	
+row_52	DCK	DCK	deoxycytidine kinase	9785	-7.888381369411945E-4	-0.21921667	No	
+row_53	ADCY5	ADCY5	adenylate cyclase 5	10022	-0.0020849970169365406	-0.23060358	No	
+row_54	PDE10A	PDE10A	phosphodiesterase 10A	10052	-0.0022189372684806585	-0.23186208	No	
+row_55	AMPD1	AMPD1	adenosine monophosphate deaminase 1 (isoform M)	10273	-0.003354762913659215	-0.2423758	No	
+row_56	ADA	ADA	adenosine deaminase	10497	-0.004493097774684429	-0.25295457	No	
+row_57	NT5C1A	NT5C1A	5'-nucleotidase, cytosolic IA	10706	-0.005759791005402803	-0.26270926	No	
+row_58	POLR2A	POLR2A	polymerase (RNA) II (DNA directed) polypeptide A, 220kDa	10970	-0.00715529453009367	-0.27505246	No	
+row_59	PDE6H	PDE6H	phosphodiesterase 6H, cGMP-specific, cone, gamma	11189	-0.008343225345015526	-0.28511074	No	
+row_60	GUK1	GUK1	guanylate kinase 1	11202	-0.00839676521718502	-0.28509527	No	
+row_61	POLA1	POLA1	polymerase (DNA directed), alpha 1	11221	-0.008489164523780346	-0.2853665	No	
+row_62	PKLR	PKLR	pyruvate kinase, liver and RBC	11241	-0.008585401810705662	-0.2856797	No	
+row_63	IMPDH2	IMPDH2	IMP (inosine monophosphate) dehydrogenase 2	11242	-0.00858699157834053	-0.285064	No	
+row_64	PDE6C	PDE6C	phosphodiesterase 6C, cGMP-specific, cone, alpha prime	11635	-0.01096078846603632	-0.30344027	No	
+row_65	NT5C1B	NT5C1B	5'-nucleotidase, cytosolic IB	11751	-0.011538366787135601	-0.3082345	No	
+row_66	GUCY1A2	GUCY1A2	guanylate cyclase 1, soluble, alpha 2	11786	-0.011777044273912907	-0.3090521	No	
+row_67	NT5M	NT5M	5',3'-nucleotidase, mitochondrial	12256	-0.014621425420045853	-0.3309299	No	
+row_68	GMPR	GMPR	guanosine monophosphate reductase	12357	-0.015172792598605156	-0.3347303	No	
+row_69	POLR2J	POLR2J	polymerase (RNA) II (DNA directed) polypeptide J, 13.3kDa	12439	-0.015667801722884178	-0.33756644	No	
+row_70	POLR2J2	POLR2J2	-	12539	-0.016281796619296074	-0.34123844	No	
+row_71	PDE7B	PDE7B	phosphodiesterase 7B	12646	-0.016890449449419975	-0.345209	No	
+row_72	ADCY1	ADCY1	adenylate cyclase 1 (brain)	13557	-0.022757036611437798	-0.38806087	No	
+row_73	PDE6B	PDE6B	phosphodiesterase 6B, cGMP-specific, rod, beta (congenital stationary night blindness 3, autosomal dominant)	13576	-0.022903883829712868	-0.38729855	No	
+row_74	ADSS	ADSS	adenylosuccinate synthase	13656	-0.02366541139781475	-0.38946348	No	
+row_75	PAICS	PAICS	phosphoribosylaminoimidazole carboxylase, phosphoribosylaminoimidazole succinocarboxamide synthetase	13835	-0.02526679076254368	-0.39635304	No	
+row_76	POLR2C	POLR2C	polymerase (RNA) II (DNA directed) polypeptide C, 33kDa	13843	-0.02534029260277748	-0.3948783	No	
+row_77	PRPS1	PRPS1	phosphoribosyl pyrophosphate synthetase 1	13960	-0.026384474709630013	-0.39865696	No	
+row_78	GMPR2	GMPR2	guanosine monophosphate reductase 2	14227	-0.028774600476026535	-0.40959668	No	
+row_79	POLR3F	POLR3F	polymerase (RNA) III (DNA directed) polypeptide F, 39 kDa	14457	-0.03089865855872631	-0.41857547	No	
+row_80	NUDT2	NUDT2	nudix (nucleoside diphosphate linked moiety X)-type motif 2	14501	-0.03130001202225685	-0.41843322	No	
+row_81	FHIT	FHIT	fragile histidine triad gene	14509	-0.03140867128968239	-0.4165234	No	
+row_82	POLR2I	POLR2I	polymerase (RNA) II (DNA directed) polypeptide I, 14.5kDa	14526	-0.031664974987506866	-0.41503513	No	
+row_83	CANT1	CANT1	calcium activated nucleotidase 1	14918	-0.03571126237511635	-0.43158787	No	
+row_84	PDE1B	PDE1B	phosphodiesterase 1B, calmodulin-dependent	15133	-0.03806694969534874	-0.43931943	No	
+row_85	POLR3A	POLR3A	polymerase (RNA) III (DNA directed) polypeptide A, 155kDa	15406	-0.0414838008582592	-0.4496412	No	
+row_86	AK5	AK5	adenylate kinase 5	15493	-0.042590122669935226	-0.45079142	No	
+row_87	POLR3H	POLR3H	polymerase (RNA) III (DNA directed) polypeptide H (22.9kD)	15611	-0.04440635070204735	-0.4533268	No	
+row_88	PFAS	PFAS	phosphoribosylformylglycinamidine synthase (FGAR amidotransferase)	15802	-0.04678888991475105	-0.45925978	No	
+row_89	ENTPD5	ENTPD5	ectonucleoside triphosphate diphosphohydrolase 5	15870	-0.0478314533829689	-0.45910543	No	
+row_90	POLD4	POLD4	polymerase (DNA-directed), delta 4	16241	-0.054238948971033096	-0.4733032	No	
+row_91	ADCY7	ADCY7	adenylate cyclase 7	16458	-0.05839945003390312	-0.47967467	No	
+row_92	POLR2L	POLR2L	polymerase (RNA) II (DNA directed) polypeptide L, 7.6kDa	16501	-0.05916008725762367	-0.47748595	No	
+row_93	POLD3	POLD3	polymerase (DNA-directed), delta 3, accessory subunit	16686	-0.0632738471031189	-0.48194367	Yes	
+row_94	POLD1	POLD1	polymerase (DNA directed), delta 1, catalytic subunit 125kDa	16769	-0.06511788070201874	-0.48128313	Yes	
+row_95	POLR2G	POLR2G	polymerase (RNA) II (DNA directed) polypeptide G	16781	-0.06558679789304733	-0.47711822	Yes	
+row_96	ENTPD3	ENTPD3	ectonucleoside triphosphate diphosphohydrolase 3	16840	-0.0668967068195343	-0.47515693	Yes	
+row_97	PDE6D	PDE6D	phosphodiesterase 6D, cGMP-specific, rod, delta	16898	-0.06816031038761139	-0.47305617	Yes	
+row_98	PDE7A	PDE7A	phosphodiesterase 7A	17058	-0.07165349274873734	-0.475691	Yes	
+row_99	POLR2E	POLR2E	polymerase (RNA) II (DNA directed) polypeptide E, 25kDa	17098	-0.0725063607096672	-0.4723987	Yes	
+row_100	RRM1	RRM1	ribonucleotide reductase M1 polypeptide	17180	-0.07449463754892349	-0.4710169	Yes	
+row_101	PDE6G	PDE6G	phosphodiesterase 6G, cGMP-specific, rod, gamma	17251	-0.0764097198843956	-0.46896014	Yes	
+row_102	NME6	NME6	non-metastatic cells 6, protein expressed in (nucleoside-diphosphate kinase)	17406	-0.07987374067306519	-0.47076115	Yes	
+row_103	ADK	ADK	adenosine kinase	17522	-0.08317390084266663	-0.4704191	Yes	
+row_104	POLR1A	POLR1A	polymerase (RNA) I polypeptide A, 194kDa	17611	-0.08557385951280594	-0.46858513	Yes	
+row_105	ADSL	ADSL	adenylosuccinate lyase	17644	-0.08630557358264923	-0.46396124	Yes	
+row_106	GMPS	GMPS	guanine monphosphate synthetase	17693	-0.0876055508852005	-0.4600263	Yes	
+row_107	POLR1C	POLR1C	polymerase (RNA) I polypeptide C, 30kDa	17833	-0.09154684841632843	-0.4602571	Yes	
+row_108	PPAT	PPAT	phosphoribosyl pyrophosphate amidotransferase	17940	-0.09546325355768204	-0.45859396	Yes	
+row_109	ITPA	ITPA	inosine triphosphatase (nucleoside triphosphate pyrophosphatase)	18122	-0.10115591436624527	-0.46018887	Yes	
+row_110	NT5C	NT5C	5', 3'-nucleotidase, cytosolic	18237	-0.10539714246988297	-0.45820454	Yes	
+row_111	POLR2F	POLR2F	polymerase (RNA) II (DNA directed) polypeptide F	18290	-0.10748028010129929	-0.4530401	Yes	
+row_112	APRT	APRT	adenine phosphoribosyltransferase	18350	-0.10960644483566284	-0.44806537	Yes	
+row_113	PDE4B	PDE4B	phosphodiesterase 4B, cAMP-specific (phosphodiesterase E4 dunce homolog, Drosophila)	18390	-0.11151579022407532	-0.44197607	Yes	
+row_114	POLR3B	POLR3B	polymerase (RNA) III (DNA directed) polypeptide B	18449	-0.11361008137464523	-0.43666542	Yes	
+row_115	ADCY3	ADCY3	adenylate cyclase 3	18472	-0.11486440896987915	-0.42950505	Yes	
+row_116	POLR2H	POLR2H	polymerase (RNA) II (DNA directed) polypeptide H	18488	-0.11567041277885437	-0.42194468	Yes	
+row_117	POLR2D	POLR2D	polymerase (RNA) II (DNA directed) polypeptide D	18497	-0.11610174924135208	-0.4140112	Yes	
+row_118	ENTPD1	ENTPD1	ectonucleoside triphosphate diphosphohydrolase 1	18498	-0.11611601710319519	-0.40568566	Yes	
+row_119	HPRT1	HPRT1	hypoxanthine phosphoribosyltransferase 1 (Lesch-Nyhan syndrome)	18512	-0.11675325781106949	-0.3979499	Yes	
+row_120	PRIM1	PRIM1	primase, polypeptide 1, 49kDa	18565	-0.11971620470285416	-0.3919081	Yes	
+row_121	ZNRD1	ZNRD1	zinc ribbon domain containing 1	18626	-0.12297786772251129	-0.38602355	Yes	
+row_122	NT5C2	NT5C2	5'-nucleotidase, cytosolic II	18715	-0.12743254005908966	-0.3811883	Yes	
+row_123	PDE8A	PDE8A	phosphodiesterase 8A	18728	-0.1282694786787033	-0.37257794	Yes	
+row_124	POLE3	POLE3	polymerase (DNA directed), epsilon 3 (p17 subunit)	18833	-0.1345004141330719	-0.36801806	Yes	
+row_125	ATIC	ATIC	5-aminoimidazole-4-carboxamide ribonucleotide formyltransferase/IMP cyclohydrolase	18839	-0.13476905226707458	-0.35859948	Yes	
+row_126	POLA2	POLA2	polymerase (DNA directed), alpha 2 (70kD subunit)	18872	-0.13687191903591156	-0.35035	Yes	
+row_127	POLR3D	POLR3D	polymerase (RNA) III (DNA directed) polypeptide D, 44kDa	18885	-0.1374746412038803	-0.34107962	Yes	
+row_128	IMPDH1	IMPDH1	IMP (inosine monophosphate) dehydrogenase 1	18961	-0.1424274742603302	-0.33453375	Yes	
+row_129	AK1	AK1	adenylate kinase 1	19010	-0.1454787254333496	-0.32644928	Yes	
+row_130	POLR3K	POLR3K	polymerase (RNA) III (DNA directed) polypeptide K, 12.3 kDa	19072	-0.14965635538101196	-0.31870073	Yes	
+row_131	POLD2	POLD2	polymerase (DNA directed), delta 2, regulatory subunit 50kDa	19214	-0.1592390090227127	-0.31417572	Yes	
+row_132	PAPSS2	PAPSS2	3'-phosphoadenosine 5'-phosphosulfate synthase 2	19272	-0.1643293797969818	-0.3051796	Yes	
+row_133	POLR1B	POLR1B	polymerase (RNA) I polypeptide B, 128kDa	19275	-0.16445007920265198	-0.29348624	Yes	
+row_134	AK2	AK2	adenylate kinase 2	19375	-0.17256276309490204	-0.28595287	Yes	
+row_135	NME7	NME7	non-metastatic cells 7, protein expressed in (nucleoside-diphosphate kinase)	19380	-0.17348580062389374	-0.27370942	Yes	
+row_136	POLE4	POLE4	polymerase (DNA-directed), epsilon 4 (p12 subunit)	19392	-0.17460143566131592	-0.26172814	Yes	
+row_137	NUDT5	NUDT5	nudix (nucleoside diphosphate linked moiety X)-type motif 5	19433	-0.17756326496601105	-0.25095212	Yes	
+row_138	PKM2	PKM2	pyruvate kinase, muscle	19483	-0.18228855729103088	-0.24027726	Yes	
+row_139	NME1	NME1	non-metastatic cells 1, protein (NM23A) expressed in	19581	-0.19233056902885437	-0.23122875	Yes	
+row_140	PNPT1	PNPT1	polyribonucleotide nucleotidyltransferase 1	19863	-0.23921822011470795	-0.22781286	Yes	
+row_141	POLR3G	POLR3G	polymerase (RNA) III (DNA directed) polypeptide G (32kD)	19938	-0.25467756390571594	-0.21316974	Yes	
+row_142	AMPD3	AMPD3	adenosine monophosphate deaminase (isoform E)	20017	-0.2715606391429901	-0.19751164	Yes	
+row_143	GART	GART	phosphoribosylglycinamide formyltransferase, phosphoribosylglycinamide synthetase, phosphoribosylaminoimidazole synthetase	20040	-0.27953386306762695	-0.1785444	Yes	
+row_144	NT5C3	NT5C3	5'-nucleotidase, cytosolic III	20062	-0.2849113643169403	-0.15914272	Yes	
+row_145	POLE2	POLE2	polymerase (DNA directed), epsilon 2 (p59 subunit)	20272	-0.36045190691947937	-0.14351475	Yes	
+row_146	XDH	XDH	xanthine dehydrogenase	20395	-0.45020559430122375	-0.11719861	Yes	
+row_147	RRM2	RRM2	ribonucleotide reductase M2 polypeptide	20526	-0.6563659906387329	-0.07649176	Yes	
+row_148	GDA	GDA	guanine deaminase	20587	-1.120003342628479	8.798368E-4	Yes	

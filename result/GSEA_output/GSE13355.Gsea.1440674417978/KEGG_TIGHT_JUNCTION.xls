@@ -1,0 +1,126 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CLDN23	CLDN23	claudin 23	6	0.7003730535507202	0.060100712	Yes	
+row_1	CLDN8	CLDN8	claudin 8	22	0.5766852498054504	0.1090963	Yes	
+row_2	MAGI2	MAGI2	membrane associated guanylate kinase, WW and PDZ domain containing 2	211	0.3169625997543335	0.12724897	Yes	
+row_3	CLDN1	CLDN1	claudin 1	266	0.29573962092399597	0.15011422	Yes	
+row_4	MYH3	MYH3	myosin, heavy chain 3, skeletal muscle, embryonic	298	0.28403905034065247	0.17309351	Yes	
+row_5	MYH11	MYH11	myosin, heavy chain 11, smooth muscle	332	0.274993896484375	0.19519518	Yes	
+row_6	PPP2R2B	PPP2R2B	protein phosphatase 2 (formerly 2A), regulatory subunit B (PR 52), beta isoform	340	0.27128031849861145	0.21824609	Yes	
+row_7	RAB3B	RAB3B	RAB3B, member RAS oncogene family	373	0.2602410614490509	0.23912443	Yes	
+row_8	CGN	CGN	cingulin	586	0.22524641454219818	0.24819654	Yes	
+row_9	MYL9	MYL9	myosin, light chain 9, regulatory	594	0.2244129776954651	0.26720604	Yes	
+row_10	MAGI1	MAGI1	membrane associated guanylate kinase, WW and PDZ domain containing 1	709	0.20755809545516968	0.2795378	Yes	
+row_11	MYH14	MYH14	myosin, heavy chain 14	800	0.1974516063928604	0.29216987	Yes	
+row_12	PARD3	PARD3	par-3 partitioning defective 3 homolog (C. elegans)	889	0.18814226984977722	0.30409685	Yes	
+row_13	SPTAN1	SPTAN1	spectrin, alpha, non-erythrocytic 1 (alpha-fodrin)	991	0.17897377908229828	0.31459847	Yes	
+row_14	CSNK2A2	CSNK2A2	casein kinase 2, alpha prime polypeptide	1174	0.1653883010149002	0.31997374	Yes	
+row_15	JAM3	JAM3	junctional adhesion molecule 3	1224	0.16184961795806885	0.3315377	Yes	
+row_16	AKT3	AKT3	v-akt murine thymoma viral oncogene homolog 3 (protein kinase B, gamma)	1287	0.15852610766887665	0.3421803	Yes	
+row_17	PRKCA	PRKCA	protein kinase C, alpha	1371	0.1535395234823227	0.3513676	Yes	
+row_18	GNAI1	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1	1524	0.1442887783050537	0.3563882	Yes	
+row_19	MYH10	MYH10	myosin, heavy chain 10, non-muscle	1683	0.1363249570131302	0.36042914	Yes	
+row_20	EPB41L2	EPB41L2	erythrocyte membrane protein band 4.1-like 2	1748	0.1326897293329239	0.36874622	Yes	
+row_21	ASH1L	ASH1L	ash1 (absent, small, or homeotic)-like (Drosophila)	1930	0.1245463415980339	0.37064847	Yes	
+row_22	MPDZ	MPDZ	multiple PDZ domain protein	2013	0.12124928832054138	0.3771002	Yes	
+row_23	CLDN11	CLDN11	claudin 11 (oligodendrocyte transmembrane protein)	2028	0.12073054164648056	0.38682732	Yes	
+row_24	CLDN5	CLDN5	claudin 5 (transmembrane protein deleted in velocardiofacial syndrome)	2324	0.1099192425608635	0.38190213	Yes	
+row_25	EPB41	EPB41	erythrocyte membrane protein band 4.1 (elliptocytosis 1, RH-linked)	2359	0.10871005803346634	0.3896162	Yes	
+row_26	CLDN3	CLDN3	claudin 3	2443	0.10578636825084686	0.3946857	Yes	
+row_27	CLDN4	CLDN4	claudin 4	2488	0.10400471091270447	0.40150577	Yes	
+row_28	ZAK	ZAK	-	2573	0.10071232914924622	0.4060889	Yes	
+row_29	JAM2	JAM2	junctional adhesion molecule 2	2787	0.09478666633367538	0.40386254	Yes	
+row_30	MAGI3	MAGI3	membrane associated guanylate kinase, WW and PDZ domain containing 3	2797	0.09460420161485672	0.4115809	Yes	
+row_31	RRAS	RRAS	related RAS viral (r-ras) oncogene homolog	2964	0.08974484354257584	0.4112146	Yes	
+row_32	MRAS	MRAS	muscle RAS oncogene homolog	3063	0.08734903484582901	0.41396183	Yes	
+row_33	PARD6G	PARD6G	par-6 partitioning defective 6 homolog gamma (C. elegans)	3077	0.0869409516453743	0.42082408	Yes	
+row_34	ACTN4	ACTN4	actinin, alpha 4	3539	0.07518953830003738	0.40479904	No	
+row_35	INADL	INADL	InaD-like (Drosophila)	3814	0.0694635733962059	0.3974107	No	
+row_36	AMOTL1	AMOTL1	angiomotin like 1	3964	0.06582667678594589	0.39581195	No	
+row_37	TJAP1	TJAP1	tight junction associated protein 1 (peripheral)	4355	0.05749933421611786	0.3817281	No	
+row_38	PRKCE	PRKCE	protein kinase C, epsilon	4460	0.05577158182859421	0.38145944	No	
+row_39	CTNNB1	CTNNB1	catenin (cadherin-associated protein), beta 1, 88kDa	5048	0.04522417485713959	0.35669845	No	
+row_40	CTNNA1	CTNNA1	catenin (cadherin-associated protein), alpha 1, 102kDa	5279	0.04146786406636238	0.34904435	No	
+row_41	TJP3	TJP3	tight junction protein 3 (zona occludens 3)	5392	0.03957287594676018	0.34698826	No	
+row_42	CLDN16	CLDN16	claudin 16	5454	0.038676850497722626	0.34734502	No	
+row_43	MYH15	MYH15	myosin, heavy chain 15	5681	0.03490028157830238	0.33931988	No	
+row_44	EXOC4	EXOC4	exocyst complex component 4	5963	0.03093712404370308	0.32826757	No	
+row_45	CLDN15	CLDN15	claudin 15	6001	0.030470240861177444	0.32908848	No	
+row_46	MYH2	MYH2	myosin, heavy chain 2, skeletal muscle, adult	6033	0.030051574110984802	0.33016625	No	
+row_47	PPP2CB	PPP2CB	protein phosphatase 2 (formerly 2A), catalytic subunit, beta isoform	6071	0.029523374512791634	0.33090553	No	
+row_48	SYMPK	SYMPK	symplekin	6262	0.02698882669210434	0.3239559	No	
+row_49	ACTN1	ACTN1	actinin, alpha 1	6423	0.025217827409505844	0.31831834	No	
+row_50	F11R	F11R	F11 receptor	6447	0.024939799681305885	0.31934592	No	
+row_51	PRKCZ	PRKCZ	protein kinase C, zeta	6596	0.023269958794116974	0.3141263	No	
+row_52	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	6597	0.02326851710677147	0.31613275	No	
+row_53	MYH7B	MYH7B	myosin, heavy chain 7B, cardiac muscle, beta	6989	0.01892460510134697	0.29867378	No	
+row_54	CSDA	CSDA	cold shock domain protein A	7224	0.016894513741135597	0.28870538	No	
+row_55	MYH1	MYH1	myosin, heavy chain 1, skeletal muscle, adult	7244	0.016714170575141907	0.28921896	No	
+row_56	CLDN19	CLDN19	claudin 19	7646	0.013043422251939774	0.2707646	No	
+row_57	MYL2	MYL2	myosin, light chain 2, regulatory, cardiac, slow	7743	0.012451207265257835	0.267151	No	
+row_58	MYH4	MYH4	myosin, heavy chain 4, skeletal muscle	7796	0.012051139026880264	0.26565123	No	
+row_59	AKT1	AKT1	v-akt murine thymoma viral oncogene homolog 1	7940	0.011065361090004444	0.25962332	No	
+row_60	ACTN3	ACTN3	actinin, alpha 3	8285	0.00859405379742384	0.24356835	No	
+row_61	RAB13	RAB13	RAB13, member RAS oncogene family	8715	0.0057649556547403336	0.22311921	No	
+row_62	CLDN2	CLDN2	claudin 2	8909	0.0044462732039391994	0.21407926	No	
+row_63	RHOA	RHOA	ras homolog gene family, member A	9206	0.0027156078722327948	0.199861	No	
+row_64	ACTG1	ACTG1	actin, gamma 1	9251	0.0024297256022691727	0.19792219	No	
+row_65	MYLPF	MYLPF	-	9257	0.002418228890746832	0.19788659	No	
+row_66	PRKCG	PRKCG	protein kinase C, gamma	9281	0.00225631520152092	0.19695815	No	
+row_67	MYH8	MYH8	myosin, heavy chain 8, skeletal muscle, perinatal	9892	-0.0014309573452919722	0.16729786	No	
+row_68	LLGL1	LLGL1	lethal giant larvae homolog 1 (Drosophila)	9968	-0.0018264413811266422	0.16379341	No	
+row_69	MLLT4	MLLT4	myeloid/lymphoid or mixed-lineage leukemia (trithorax homolog, Drosophila); translocated to, 4	10126	-0.002555146347731352	0.15634811	No	
+row_70	CLDN20	CLDN20	claudin 20	10389	-0.003841729136183858	0.14388704	No	
+row_71	CLDN18	CLDN18	claudin 18	10503	-0.0045114862732589245	0.13875876	No	
+row_72	ACTN2	ACTN2	actinin, alpha 2	10983	-0.007227269932627678	0.11599444	No	
+row_73	EPB41L3	EPB41L3	erythrocyte membrane protein band 4.1-like 3	11894	-0.012286203913390636	0.07262246	No	
+row_74	CTNNA2	CTNNA2	catenin (cadherin-associated protein), alpha 2	11946	-0.01259348914027214	0.0712183	No	
+row_75	CLDN10	CLDN10	claudin 10	12262	-0.014650994911789894	0.057101555	No	
+row_76	ACTB	ACTB	actin, beta	12290	-0.014778896234929562	0.057057656	No	
+row_77	CDC42	CDC42	cell division cycle 42 (GTP binding protein, 25kDa)	12393	-0.015372229740023613	0.05340299	No	
+row_78	TJP1	TJP1	tight junction protein 1 (zona occludens 1)	12438	-0.015655605122447014	0.05260465	No	
+row_79	OCLN	OCLN	occludin	12619	-0.016691869124770164	0.045255367	No	
+row_80	MYL7	MYL7	myosin, light chain 7, regulatory	12712	-0.01732669584453106	0.042257495	No	
+row_81	CLDN7	CLDN7	claudin 7	12935	-0.018676113337278366	0.033028632	No	
+row_82	CSNK2B	CSNK2B	casein kinase 2, beta polypeptide	12939	-0.0186935942620039	0.034494117	No	
+row_83	MYH7	MYH7	myosin, heavy chain 7, cardiac muscle, beta	13130	-0.02000954933464527	0.026942667	No	
+row_84	CTTN	CTTN	cortactin	13380	-0.021671578288078308	0.016653812	No	
+row_85	CLDN6	CLDN6	claudin 6	13602	-0.023153962567448616	0.007859906	No	
+row_86	MYH6	MYH6	myosin, heavy chain 6, cardiac muscle, alpha (cardiomyopathy, hypertrophic 1)	13672	-0.023808952420949936	0.0065439935	No	
+row_87	CLDN9	CLDN9	claudin 9	13950	-0.026289183646440506	-0.0047138017	No	
+row_88	PRKCI	PRKCI	protein kinase C, iota	14084	-0.027366463094949722	-0.008847795	No	
+row_89	CTNNA3	CTNNA3	catenin (cadherin-associated protein), alpha 3	14223	-0.028763551265001297	-0.0131054465	No	
+row_90	MPP5	MPP5	membrane protein, palmitoylated 5 (MAGUK p55 subfamily member 5)	14391	-0.030198227614164352	-0.01865533	No	
+row_91	GNAI2	GNAI2	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2	14880	-0.03511705622076988	-0.03945412	No	
+row_92	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	15031	-0.03685727342963219	-0.043599755	No	
+row_93	GNAI3	GNAI3	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 3	15756	-0.04612606391310692	-0.07497211	No	
+row_94	PARD6A	PARD6A	par-6 partitioning defective 6 homolog alpha (C.elegans)	15985	-0.04943085461854935	-0.081841916	No	
+row_95	MYH13	MYH13	myosin, heavy chain 13, skeletal muscle	15994	-0.0494845025241375	-0.07796544	No	
+row_96	CLDN14	CLDN14	claudin 14	16052	-0.050630971789360046	-0.07638256	No	
+row_97	YES1	YES1	v-yes-1 Yamaguchi sarcoma viral oncogene homolog 1	16237	-0.054075077176094055	-0.080703564	No	
+row_98	CDK4	CDK4	cyclin-dependent kinase 4	16303	-0.055331725627183914	-0.07910594	No	
+row_99	PTEN	PTEN	phosphatase and tensin homolog (mutated in multiple advanced cancers 1)	16331	-0.05586269497871399	-0.07560716	No	
+row_100	VAPA	VAPA	VAMP (vesicle-associated membrane protein)-associated protein A, 33kDa	16338	-0.05596853047609329	-0.07107391	No	
+row_101	MYH9	MYH9	myosin, heavy chain 9, non-muscle	16532	-0.05982060357928276	-0.07533891	No	
+row_102	EPB41L1	EPB41L1	erythrocyte membrane protein band 4.1-like 1	16643	-0.0624946728348732	-0.07532077	No	
+row_103	AKT2	AKT2	v-akt murine thymoma viral oncogene homolog 2	16833	-0.06657346338033676	-0.078808166	No	
+row_104	CSNK2A1	CSNK2A1	casein kinase 2, alpha 1 polypeptide	16869	-0.06735292822122574	-0.07470918	No	
+row_105	PPP2R2D	PPP2R2D	protein phosphatase 2, regulatory subunit B, delta isoform	16887	-0.0678107738494873	-0.069691844	No	
+row_106	PPP2R2A	PPP2R2A	protein phosphatase 2 (formerly 2A), regulatory subunit B (PR 52), alpha isoform	16909	-0.06830892711877823	-0.06482685	No	
+row_107	CRB3	CRB3	crumbs homolog 3 (Drosophila)	16967	-0.06978848576545715	-0.061592013	No	
+row_108	PPP2R1A	PPP2R1A	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), alpha isoform	17099	-0.0725131407380104	-0.061735325	No	
+row_109	LLGL2	LLGL2	lethal giant larvae homolog 2 (Drosophila)	17168	-0.07416912168264389	-0.058659818	No	
+row_110	PRKCD	PRKCD	protein kinase C, delta	17328	-0.07828245311975479	-0.059672758	No	
+row_111	CASK	CASK	calcium/calmodulin-dependent serine protein kinase (MAGUK family)	17463	-0.08146362006664276	-0.059190743	No	
+row_112	PPP2CA	PPP2CA	protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform	17912	-0.09441856294870377	-0.07292289	No	
+row_113	PARD6B	PARD6B	par-6 partitioning defective 6 homolog beta (C. elegans)	17943	-0.09561620652675629	-0.06614261	No	
+row_114	PPP2R1B	PPP2R1B	protein phosphatase 2 (formerly 2A), regulatory subunit A (PR 65), beta isoform	18141	-0.10169636458158493	-0.06699193	No	
+row_115	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	18235	-0.10513981431722641	-0.06246645	No	
+row_116	TJP2	TJP2	tight junction protein 2 (zona occludens 2)	18475	-0.11497286707162857	-0.064221606	No	
+row_117	PPP2R2C	PPP2R2C	protein phosphatase 2 (formerly 2A), regulatory subunit B (PR 52), gamma isoform	18598	-0.1214795708656311	-0.059703078	No	
+row_118	EXOC3	EXOC3	exocyst complex component 3	18781	-0.13154490292072296	-0.057246152	No	
+row_119	PRKCH	PRKCH	protein kinase C, eta	19140	-0.15421521663665771	-0.061427683	No	
+row_120	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	19293	-0.16583073139190674	-0.054549493	No	
+row_121	RRAS2	RRAS2	related RAS viral (r-ras) oncogene homolog 2	19403	-0.17560963332653046	-0.044728555	No	
+row_122	HCLS1	HCLS1	hematopoietic cell-specific Lyn substrate 1	19476	-0.181661918759346	-0.032579172	No	
+row_123	CLDN17	CLDN17	claudin 17	20404	-0.4529286026954651	-0.03878428	No	
+row_124	PRKCQ	PRKCQ	protein kinase C, theta	20477	-0.5630186200141907	0.006249759	No	

@@ -1,0 +1,76 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PLCB4	PLCB4	phospholipase C, beta 4	87	0.40694916248321533	0.067708805	Yes	
+row_1	ADCY2	ADCY2	adenylate cyclase 2 (brain)	207	0.3189501166343689	0.118301265	Yes	
+row_2	PDGFC	PDGFC	platelet derived growth factor C	470	0.24242866039276123	0.14840008	Yes	
+row_3	PDGFD	PDGFD	platelet derived growth factor D	526	0.23343122005462646	0.18699053	Yes	
+row_4	PLCB1	PLCB1	phospholipase C, beta 1 (phosphoinositide-specific)	825	0.19446337223052979	0.20685592	Yes	
+row_5	PDGFRA	PDGFRA	platelet-derived growth factor receptor, alpha polypeptide	1283	0.15868598222732544	0.21265167	Yes	
+row_6	PDGFA	PDGFA	platelet-derived growth factor alpha polypeptide	1294	0.15822575986385345	0.24013802	Yes	
+row_7	PRKCA	PRKCA	protein kinase C, alpha	1371	0.1535395234823227	0.26358122	Yes	
+row_8	ITPR3	ITPR3	inositol 1,4,5-triphosphate receptor, type 3	1424	0.15044300258159637	0.28764594	Yes	
+row_9	GNAI1	GNAI1	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 1	1524	0.1442887783050537	0.3083334	Yes	
+row_10	GNA11	GNA11	guanine nucleotide binding protein (G protein), alpha 11 (Gq class)	1829	0.12898306548595428	0.31633	Yes	
+row_11	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	2007	0.12139586359262466	0.32917097	Yes	
+row_12	EGF	EGF	epidermal growth factor (beta-urogastrone)	2374	0.1081993579864502	0.3304733	Yes	
+row_13	SOS2	SOS2	son of sevenless homolog 2 (Drosophila)	2520	0.10297029465436935	0.34161538	Yes	
+row_14	ADCY9	ADCY9	adenylate cyclase 9	2593	0.10038696974515915	0.35585636	Yes	
+row_15	ADCY4	ADCY4	adenylate cyclase 4	2603	0.1000470221042633	0.37310573	Yes	
+row_16	ITPR2	ITPR2	inositol 1,4,5-triphosphate receptor, type 2	2727	0.09635354578495026	0.38414955	Yes	
+row_17	PDGFRB	PDGFRB	platelet-derived growth factor receptor, beta polypeptide	3153	0.08495847135782242	0.37846932	Yes	
+row_18	MAP3K2	MAP3K2	mitogen-activated protein kinase kinase kinase 2	3200	0.08324078470468521	0.39094532	Yes	
+row_19	ADCY6	ADCY6	adenylate cyclase 6	3240	0.08240547776222229	0.40361455	Yes	
+row_20	ITPR1	ITPR1	inositol 1,4,5-triphosphate receptor, type 1	3545	0.07510926574468613	0.4020866	Yes	
+row_21	PRKG2	PRKG2	protein kinase, cGMP-dependent, type II	3698	0.071870818734169	0.4073895	Yes	
+row_22	ADCY8	ADCY8	adenylate cyclase 8 (brain)	3718	0.07142163068056107	0.419091	Yes	
+row_23	CSNK1D	CSNK1D	casein kinase 1, delta	3783	0.07015795260667801	0.4283773	Yes	
+row_24	PDGFB	PDGFB	platelet-derived growth factor beta polypeptide (simian sarcoma viral (v-sis) oncogene homolog)	3846	0.06861432641744614	0.43748808	Yes	
+row_25	GNAQ	GNAQ	guanine nucleotide binding protein (G protein), q polypeptide	4020	0.06454916298389435	0.44047374	Yes	
+row_26	MAPK1	MAPK1	mitogen-activated protein kinase 1	4056	0.06382760405540466	0.45005336	Yes	
+row_27	MAP2K5	MAP2K5	mitogen-activated protein kinase kinase 5	4206	0.060167379677295685	0.45343328	Yes	
+row_28	PRKACB	PRKACB	protein kinase, cAMP-dependent, catalytic, beta	4768	0.0502064973115921	0.43498498	No	
+row_29	GNAS	GNAS	GNAS complex locus	5482	0.03830386698246002	0.4070289	No	
+row_30	TUBB1	TUBB1	tubulin, beta 1	5494	0.03809983283281326	0.413229	No	
+row_31	HTR2A	HTR2A	5-hydroxytryptamine (serotonin) receptor 2A	6098	0.029277365654706955	0.38903484	No	
+row_32	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	6597	0.02326851710677147	0.36889258	No	
+row_33	GUCY1A3	GUCY1A3	guanylate cyclase 1, soluble, alpha 3	7016	0.018703708425164223	0.3518398	No	
+row_34	TUBAL3	TUBAL3	tubulin, alpha-like 3	7217	0.016930732876062393	0.3450917	No	
+row_35	GUCY1B3	GUCY1B3	guanylate cyclase 1, soluble, beta 3	7937	0.01108128484338522	0.3120306	No	
+row_36	PRKACA	PRKACA	protein kinase, cAMP-dependent, catalytic, alpha	8005	0.010629871860146523	0.31064656	No	
+row_37	PRKG1	PRKG1	protein kinase, cGMP-dependent, type I	8617	0.006374871823936701	0.2820137	No	
+row_38	PRKCG	PRKCG	protein kinase C, gamma	9281	0.00225631520152092	0.25011998	No	
+row_39	PRKACG	PRKACG	protein kinase, cAMP-dependent, catalytic, gamma	9520	8.407512214034796E-4	0.2386764	No	
+row_40	TUBB2B	TUBB2B	tubulin, beta 2B	9617	3.102337068412453E-4	0.2340554	No	
+row_41	ADRB1	ADRB1	adrenergic, beta-1-, receptor	9839	-0.0011364985257387161	0.22349212	No	
+row_42	PLCB2	PLCB2	phospholipase C, beta 2	9907	-0.0015001260908320546	0.22049397	No	
+row_43	ADCY5	ADCY5	adenylate cyclase 5	10022	-0.0020849970169365406	0.21531	No	
+row_44	TUBB	TUBB	tubulin, beta	10073	-0.0023483717814087868	0.21328984	No	
+row_45	HTR2C	HTR2C	5-hydroxytryptamine (serotonin) receptor 2C	10196	-0.0029003985691815615	0.20786038	No	
+row_46	RAF1	RAF1	v-raf-1 murine leukemia viral oncogene homolog 1	10502	-0.004510073456913233	0.19380216	No	
+row_47	GRM1	GRM1	glutamate receptor, metabotropic 1	11510	-0.010186560451984406	0.1465553	No	
+row_48	GUCY1A2	GUCY1A2	guanylate cyclase 1, soluble, alpha 2	11786	-0.011777044273912907	0.13524304	No	
+row_49	GJA1	GJA1	gap junction protein, alpha 1, 43kDa (connexin 43)	12010	-0.013020888902246952	0.12668343	No	
+row_50	DRD1	DRD1	dopamine receptor D1	12164	-0.01394720934331417	0.121697076	No	
+row_51	TJP1	TJP1	tight junction protein 1 (zona occludens 1)	12438	-0.015655605122447014	0.11116793	No	
+row_52	ADCY1	ADCY1	adenylate cyclase 1 (brain)	13557	-0.022757036611437798	0.06073701	No	
+row_53	TUBA8	TUBA8	tubulin, alpha 8	13591	-0.02308632992208004	0.06321122	No	
+row_54	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	14102	-0.027552086859941483	0.043241788	No	
+row_55	GRB2	GRB2	growth factor receptor-bound protein 2	14682	-0.03304972127079964	0.020883534	No	
+row_56	GRM5	GRM5	glutamate receptor, metabotropic 5	14688	-0.033132441341876984	0.026497627	No	
+row_57	GNAI2	GNAI2	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 2	14880	-0.03511705622076988	0.02340312	No	
+row_58	SRC	SRC	v-src sarcoma (Schmidt-Ruppin A-2) viral oncogene homolog (avian)	15031	-0.03685727342963219	0.02261325	No	
+row_59	DRD2	DRD2	dopamine receptor D2	15121	-0.037904102355241776	0.024979573	No	
+row_60	HTR2B	HTR2B	5-hydroxytryptamine (serotonin) receptor 2B	15607	-0.04429832473397255	0.009188452	No	
+row_61	MAPK3	MAPK3	mitogen-activated protein kinase 3	15752	-0.046106308698654175	0.010326002	No	
+row_62	GNAI3	GNAI3	guanine nucleotide binding protein (G protein), alpha inhibiting activity polypeptide 3	15756	-0.04612606391310692	0.018334707	No	
+row_63	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	16199	-0.05333591625094414	0.0062357755	No	
+row_64	ADCY7	ADCY7	adenylate cyclase 7	16458	-0.05839945003390312	0.0039941045	No	
+row_65	MAP2K2	MAP2K2	mitogen-activated protein kinase kinase 2	16705	-0.06366253644227982	0.0032673997	No	
+row_66	MAPK7	MAPK7	mitogen-activated protein kinase 7	16828	-0.06643439829349518	0.009070391	No	
+row_67	TUBB2A	TUBB2A	tubulin, beta 2A	16843	-0.066961869597435	0.020226974	No	
+row_68	PLCB3	PLCB3	phospholipase C, beta 3 (phosphatidylinositol-specific)	17496	-0.08250203728675842	0.0030560126	No	
+row_69	PRKX	PRKX	protein kinase, X-linked	17937	-0.09542178362607956	-0.0015049643	No	
+row_70	NRAS	NRAS	neuroblastoma RAS viral (v-ras) oncogene homolog	18235	-0.10513981431722641	0.0026172285	No	
+row_71	ADCY3	ADCY3	adenylate cyclase 3	18472	-0.11486440896987915	0.011429791	No	
+row_72	TUBB3	TUBB3	tubulin, beta 3	18523	-0.11761956661939621	0.02978892	No	
+row_73	HRAS	HRAS	v-Ha-ras Harvey rat sarcoma viral oncogene homolog	19293	-0.16583073139190674	0.0216513	No	
+row_74	TUBB6	TUBB6	tubulin, beta 6	19860	-0.23871497809886932	0.036286686	No	

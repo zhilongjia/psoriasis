@@ -1,0 +1,26 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	GALT	GALT	galactose-1-phosphate uridylyltransferase	5068	0.0448637455701828	-0.22291937	No	
+row_1	GALK2	GALK2	galactokinase 2	5798	0.03319836035370827	-0.24107873	No	
+row_2	UGP2	UGP2	UDP-glucose pyrophosphorylase 2	6097	0.0292789489030838	-0.24033435	No	
+row_3	PGM1	PGM1	phosphoglucomutase 1	7354	0.015689969062805176	-0.2932034	No	
+row_4	GAA	GAA	glucosidase, alpha; acid (Pompe disease, glycogen storage disease type II)	8476	0.007303549442440271	-0.34387362	No	
+row_5	PFKM	PFKM	phosphofructokinase, muscle	8619	0.006372678559273481	-0.34745967	No	
+row_6	B4GALT2	B4GALT2	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 2	9929	-0.001607268350198865	-0.41022632	No	
+row_7	LCT	LCT	lactase	10407	-0.003956361208111048	-0.4313459	No	
+row_8	HK1	HK1	hexokinase 1	10966	-0.007142646703869104	-0.45474443	No	
+row_9	PFKL	PFKL	phosphofructokinase, liver	12172	-0.0139924893155694	-0.5060181	No	
+row_10	AKR1B1	AKR1B1	aldo-keto reductase family 1, member B1 (aldose reductase)	12301	-0.0148423807695508	-0.50452006	No	
+row_11	GCK	GCK	glucokinase (hexokinase 4, maturity onset diabetes of the young 2)	14618	-0.03251140937209129	-0.60014653	No	
+row_12	B4GALT1	B4GALT1	UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1	15042	-0.037065908312797546	-0.60142684	No	
+row_13	HK3	HK3	hexokinase 3 (white cell)	15886	-0.048057232052087784	-0.61739933	Yes	
+row_14	G6PC2	G6PC2	glucose-6-phosphatase, catalytic, 2	16148	-0.05246811360120773	-0.60279983	Yes	
+row_15	LALBA	LALBA	lactalbumin, alpha-	16247	-0.05438573285937309	-0.57928336	Yes	
+row_16	GLB1	GLB1	galactosidase, beta 1	16507	-0.059246256947517395	-0.5610624	Yes	
+row_17	G6PC	G6PC	glucose-6-phosphatase, catalytic subunit	17471	-0.08178869634866714	-0.56532663	Yes	
+row_18	GLA	GLA	galactosidase, alpha	17649	-0.08646085113286972	-0.52897096	Yes	
+row_19	PFKP	PFKP	phosphofructokinase, platelet	18093	-0.10012798011302948	-0.4984336	Yes	
+row_20	GALK1	GALK1	galactokinase 1	18599	-0.12155736982822418	-0.45976636	Yes	
+row_21	GANC	GANC	glucosidase, alpha; neutral C	19179	-0.15688519179821014	-0.4063258	Yes	
+row_22	GALE	GALE	UDP-galactose-4-epimerase	19935	-0.2545933723449707	-0.31063288	Yes	
+row_23	PGM2	PGM2	phosphoglucomutase 2	20081	-0.2887252867221832	-0.16755392	Yes	
+row_24	HK2	HK2	hexokinase 2	20286	-0.37111979722976685	0.015499798	Yes	

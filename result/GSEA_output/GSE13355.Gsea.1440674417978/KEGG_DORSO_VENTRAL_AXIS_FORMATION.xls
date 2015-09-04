@@ -1,0 +1,24 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	CPEB1	CPEB1	cytoplasmic polyadenylation element binding protein 1	1065	0.17368172109127045	0.10986841	Yes	
+row_1	EGFR	EGFR	epidermal growth factor receptor (erythroblastic leukemia viral (v-erb-b) oncogene homolog, avian)	2007	0.12139586359262466	0.17710942	Yes	
+row_2	SOS2	SOS2	son of sevenless homolog 2 (Drosophila)	2520	0.10297029465436935	0.24804796	Yes	
+row_3	NOTCH3	NOTCH3	Notch homolog 3 (Drosophila)	3473	0.07669530063867569	0.27316087	Yes	
+row_4	MAPK1	MAPK1	mitogen-activated protein kinase 1	4056	0.06382760405540466	0.30427644	Yes	
+row_5	NOTCH2	NOTCH2	Notch homolog 2 (Drosophila)	4149	0.061545196920633316	0.3570743	Yes	
+row_6	ETV6	ETV6	ets variant gene 6 (TEL oncogene)	4480	0.05542399734258652	0.39261344	Yes	
+row_7	SPIRE1	SPIRE1	spire homolog 1 (Drosophila)	5127	0.04392344132065773	0.4020989	Yes	
+row_8	KRAS	KRAS	v-Ki-ras2 Kirsten rat sarcoma viral oncogene homolog	6597	0.02326851710677147	0.35238057	No	
+row_9	ETS2	ETS2	v-ets erythroblastosis virus E26 oncogene homolog 2 (avian)	6649	0.022737829014658928	0.37106025	No	
+row_10	NOTCH4	NOTCH4	Notch homolog 4 (Drosophila)	6804	0.020860813558101654	0.38298926	No	
+row_11	NOTCH1	NOTCH1	Notch homolog 1, translocation-associated (Drosophila)	7183	0.01719459891319275	0.3806241	No	
+row_12	SPIRE2	SPIRE2	spire homolog 2 (Drosophila)	7681	0.012848096899688244	0.36843306	No	
+row_13	FMN2	FMN2	formin 2	10566	-0.004864726215600967	0.23284404	No	
+row_14	PIWIL2	PIWIL2	piwi-like 2 (Drosophila)	10860	-0.006586698815226555	0.22473788	No	
+row_15	PIWIL4	PIWIL4	piwi-like 4 (Drosophila)	12733	-0.01748298481106758	0.15005688	No	
+row_16	PIWIL1	PIWIL1	piwi-like 1 (Drosophila)	12823	-0.018033944070339203	0.16251343	No	
+row_17	SOS1	SOS1	son of sevenless homolog 1 (Drosophila)	14102	-0.027552086859941483	0.12606047	No	
+row_18	ETS1	ETS1	v-ets erythroblastosis virus E26 oncogene homolog 1 (avian)	14151	-0.027987472712993622	0.14977068	No	
+row_19	GRB2	GRB2	growth factor receptor-bound protein 2	14682	-0.03304972127079964	0.1547739	No	
+row_20	ETV7	ETV7	ets variant gene 7 (TEL2 oncogene)	15543	-0.04332278296351433	0.15330352	No	
+row_21	MAPK3	MAPK3	mitogen-activated protein kinase 3	15752	-0.046106308698654175	0.18609983	No	
+row_22	MAP2K1	MAP2K1	mitogen-activated protein kinase kinase 1	16199	-0.05333591625094414	0.2140603	No	

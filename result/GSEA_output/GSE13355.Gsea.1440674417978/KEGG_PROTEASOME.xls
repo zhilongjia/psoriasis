@@ -1,0 +1,43 @@
+NAME	PROBE	GENE SYMBOL	GENE_TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PSMD4	PSMD4	proteasome (prosome, macropain) 26S subunit, non-ATPase, 4	12212	-0.014254123903810978	-0.5905642	No	
+row_1	PSMB4	PSMB4	proteasome (prosome, macropain) subunit, beta type, 4	12833	-0.01806717738509178	-0.616545	No	
+row_2	PSMA8	PSMA8	proteasome (prosome, macropain) subunit, alpha type, 8	13148	-0.02008698135614395	-0.6271794	No	
+row_3	PSMB7	PSMB7	proteasome (prosome, macropain) subunit, beta type, 7	14222	-0.028720634058117867	-0.6727307	No	
+row_4	PSMB1	PSMB1	proteasome (prosome, macropain) subunit, beta type, 1	14529	-0.03170035779476166	-0.68029624	No	
+row_5	PSMC1	PSMC1	proteasome (prosome, macropain) 26S subunit, ATPase, 1	14645	-0.03275592252612114	-0.6783302	No	
+row_6	PSMD7	PSMD7	proteasome (prosome, macropain) 26S subunit, non-ATPase, 7 (Mov34 homolog)	15206	-0.03896977752447128	-0.69657004	No	
+row_7	PSMC2	PSMC2	proteasome (prosome, macropain) 26S subunit, ATPase, 2	15428	-0.04175671562552452	-0.69768167	No	
+row_8	PSMC5	PSMC5	proteasome (prosome, macropain) 26S subunit, ATPase, 5	15483	-0.04249982163310051	-0.69050086	No	
+row_9	PSMA1	PSMA1	proteasome (prosome, macropain) subunit, alpha type, 1	15825	-0.047246579080820084	-0.6961811	No	
+row_10	SHFM1	SHFM1	split hand/foot malformation (ectrodactyly) type 1	15862	-0.04768817126750946	-0.6869278	No	
+row_11	PSMC6	PSMC6	proteasome (prosome, macropain) 26S subunit, ATPase, 6	16540	-0.05995442718267441	-0.706015	No	
+row_12	PSMD8	PSMD8	proteasome (prosome, macropain) 26S subunit, non-ATPase, 8	16957	-0.06946072727441788	-0.7102166	Yes	
+row_13	PSMD3	PSMD3	proteasome (prosome, macropain) 26S subunit, non-ATPase, 3	16972	-0.069880411028862	-0.6947726	Yes	
+row_14	PSMD13	PSMD13	proteasome (prosome, macropain) 26S subunit, non-ATPase, 13	17071	-0.071878582239151	-0.68295234	Yes	
+row_15	POMP	POMP	proteasome maturation protein	17114	-0.07270750403404236	-0.6682176	Yes	
+row_16	PSMF1	PSMF1	proteasome (prosome, macropain) inhibitor subunit 1 (PI31)	17133	-0.07312625646591187	-0.6522191	Yes	
+row_17	PSMA6	PSMA6	proteasome (prosome, macropain) subunit, alpha type, 6	17438	-0.080821692943573	-0.6483528	Yes	
+row_18	PSMD6	PSMD6	proteasome (prosome, macropain) 26S subunit, non-ATPase, 6	17585	-0.08468323945999146	-0.63591206	Yes	
+row_19	PSMA2	PSMA2	proteasome (prosome, macropain) subunit, alpha type, 2	17696	-0.08772329986095428	-0.6210192	Yes	
+row_20	PSMA7	PSMA7	proteasome (prosome, macropain) subunit, alpha type, 7	17725	-0.08874717354774475	-0.60190254	Yes	
+row_21	PSMA4	PSMA4	proteasome (prosome, macropain) subunit, alpha type, 4	17759	-0.08956527709960938	-0.5828402	Yes	
+row_22	PSMD14	PSMD14	proteasome (prosome, macropain) 26S subunit, non-ATPase, 14	17809	-0.09092584997415543	-0.564242	Yes	
+row_23	PSME1	PSME1	proteasome (prosome, macropain) activator subunit 1 (PA28 alpha)	17978	-0.0968690887093544	-0.55005926	Yes	
+row_24	PSMD1	PSMD1	proteasome (prosome, macropain) 26S subunit, non-ATPase, 1	18064	-0.09932790696620941	-0.53127295	Yes	
+row_25	PSMD2	PSMD2	proteasome (prosome, macropain) 26S subunit, non-ATPase, 2	18074	-0.09960641711950302	-0.50872654	Yes	
+row_26	PSMC3	PSMC3	proteasome (prosome, macropain) 26S subunit, ATPase, 3	18134	-0.10154394805431366	-0.48816454	Yes	
+row_27	PSMB3	PSMB3	proteasome (prosome, macropain) subunit, beta type, 3	18412	-0.11226080358028412	-0.4757307	Yes	
+row_28	PSMB6	PSMB6	proteasome (prosome, macropain) subunit, beta type, 6	18543	-0.11854394525289536	-0.4546986	Yes	
+row_29	PSMD11	PSMD11	proteasome (prosome, macropain) 26S subunit, non-ATPase, 11	18971	-0.1429963856935501	-0.44246683	Yes	
+row_30	PSMB5	PSMB5	proteasome (prosome, macropain) subunit, beta type, 5	19030	-0.14680588245391846	-0.41141206	Yes	
+row_31	PSMB2	PSMB2	proteasome (prosome, macropain) subunit, beta type, 2	19049	-0.14813558757305145	-0.37810534	Yes	
+row_32	PSMA3	PSMA3	proteasome (prosome, macropain) subunit, alpha type, 3	19099	-0.15145918726921082	-0.34553918	Yes	
+row_33	PSME3	PSME3	proteasome (prosome, macropain) activator subunit 3 (PA28 gamma; Ki)	19266	-0.16380555927753448	-0.31581366	Yes	
+row_34	PSMD12	PSMD12	proteasome (prosome, macropain) 26S subunit, non-ATPase, 12	19286	-0.16499660909175873	-0.2786649	Yes	
+row_35	PSMA5	PSMA5	proteasome (prosome, macropain) subunit, alpha type, 5	19450	-0.17903444170951843	-0.24527945	Yes	
+row_36	PSMB8	PSMB8	proteasome (prosome, macropain) subunit, beta type, 8 (large multifunctional peptidase 7)	19616	-0.19707602262496948	-0.2078282	Yes	
+row_37	IFNG	IFNG	interferon, gamma	19624	-0.19866402447223663	-0.16232719	Yes	
+row_38	PSMB9	PSMB9	proteasome (prosome, macropain) subunit, beta type, 9 (large multifunctional peptidase 2)	19627	-0.19893629848957062	-0.1165202	Yes	
+row_39	PSME4	PSME4	proteasome (prosome, macropain) activator subunit 4	19662	-0.2033294141292572	-0.07125564	Yes	
+row_40	PSMB10	PSMB10	proteasome (prosome, macropain) subunit, beta type, 10	19902	-0.24734030663967133	-0.0258045	Yes	
+row_41	PSME2	PSME2	proteasome (prosome, macropain) activator subunit 2 (PA28 beta)	19970	-0.2597725987434387	0.0308795	Yes	
