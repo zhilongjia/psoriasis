@@ -17,6 +17,19 @@ _As a reproducible research, this is the whole code and files necessary for
 the manuscript, **Drug repositioning and drug mode of action discovering 
 based on co-expressed gene-set enrichment analysis**._
 
+packages required:
+
+* knitr
+* GEOquery
+* affy
+* MetaDE
+* annotate
+* hgu133plus2.db
+* limma
+* STRINGdb
+* hgu133a.db
+* cogena (version>=1.2.0)
+
 # Downloading the raw data of [GSE13355](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13355)
 ```{r data, eval=TRUE}
 # Download file from GEO and untar them if nothing in ../data/GSE13355_RAW
@@ -93,10 +106,10 @@ GSE13355.DEG.expr <- GSE13355.Explist.filtered$GSE13355$x[GSE13355.DEG,]
 
 ```
 
-# Pathway Analysis by cogena
-```{r pathway, cache=FALSE, message=FALSE}
-# Install cogena if not
-# devtools::install_github("zhilongjia/cogena") 
+# Co-expression Analysis by cogena
+```{r coexpression, cache=TRUE, message=FALSE}
+# Install cogena if none
+# devtools::install_github("zhilongjia/cogena")
 library(cogena)
 annoGMT <- "c2.cp.kegg.v5.0.symbols.gmt.xz"
 annofile <- system.file("extdata", annoGMT, package="cogena")
@@ -112,6 +125,10 @@ genecl_result <- coExp(GSE13355.DEG.expr, nClust=nClust,
                        method="complete", 
                        ncore=ncore, 
                        verbose=FALSE)
+```
+
+# Pathway Analysis by cogena
+```{r pathway, cache=FALSE, message=FALSE}
 sampleLabel <- GSE13355label$state
 names(sampleLabel) <- rownames(GSE13355label)
 # cogena analysis (Pathway analysis)
@@ -124,17 +141,53 @@ summary(cogena_result)
 
 ## The heatmap with co-expression information
 ```{r figure1, fig.width=10, fig.height=10, cache=TRUE, fig.cap="Heatmap with co-expression information"}
+# Figure 1
 heatmapCluster(cogena_result, "pam", "7", maintitle="Psoriasis")
 ```
 
+## Table 1: Co-expressed genes are highly connected
+```{r ppi, cache=TRUE, message=FALSE}
+# pPPI function: get the PPI summary information about input genes
+pPPI <- function(geneC, string_db){
+    example1_mapped <- string_db$map(as.data.frame(geneC), "geneC", 
+                                     removeUnmappedRows = TRUE, quiet=TRUE)
+    hits <- example1_mapped$STRING_id
+    net_summary <- string_db$get_summary(unique(hits))
+    as.numeric( gsub("[^1:9]+\\: |\\)", "", strsplit(net_summary, "\n|\\(")[[1]] ) )
+}
+
+cluster_ppi <- data.frame(protein=numeric(10), interactions=numeric(10),
+                             expected_interactions=numeric(10),
+                             p_value=numeric(10), stringsAsFactors=FALSE)
+rownames(cluster_ppi) <- c(1:7, "Up", "Down", "All_DE")
+
+library(STRINGdb)
+suppressWarnings(string_db <- STRINGdb$new(version="10", species=9606, 
+                                           score_threshold=400, 
+                                           input_directory="./"))
+
+for (i in 1:7) {
+    i <- as.character(i)
+    cluster_ppi[i,] <- pPPI(geneInCluster(cogena_result, "pam", "7", i), string_db)
+}
+cluster_ppi["Up",] <- pPPI(rownames(GSE13355.DE[GSE13355.DE$logFC>0,]), string_db)
+cluster_ppi["Down",] <- pPPI(rownames(GSE13355.DE[GSE13355.DE$logFC<0,]), string_db)
+cluster_ppi["All_DE",] <- pPPI(rownames(GSE13355.DE), string_db)
+# Table 1
+knitr::kable(cluster_ppi, caption="Summary of interactions within clusters")
+```
+
+
+
 ## Figure 2: The result of pathway analysis
 ```{r figure2, fig.width=10, fig.height=10, cache=TRUE, fig.cap="Pathway Analysis"}
+# Figure 2
 heatmapPEI(cogena_result, "pam", "7", printGS=FALSE, maintitle="Psoriasis")
 ```
 
-## Table S1: Make Input for GSEA
+## Table 2 and S1: Make Input for GSEA
 
-This is to get the *Table S1*. The result can be obtained from *../result/GSEA_output*, too.
+This is to get the *Table 2 and S1*. The result can be obtained from *../result/GSEA_output*, too.
 See [gct](http://www.broadinstitute.org/cancer/software/genepattern/file-formats-guide#GCT)
 and [cls](http://www.broadinstitute.org/cancer/software/genepattern/file-formats-guide#CLS) 
 file format if needed.
@@ -177,7 +230,7 @@ write.table(t(as.character(GSE13355label$state)),
 
 
 # Drug repositioning by cogena
-```{r drp}
+```{r drp, cache=TRUE}
 # Drug repositioning based on CmapDn100 gene set
 cmapDn100_cogena_result <- clEnrich_one(genecl_result, "pam", "7", 
         annofile=system.file("extdata", "CmapDn100.gmt.xz", package="cogena"), 
@@ -192,12 +245,14 @@ cmapUp100_cogena_result <- clEnrich_one(genecl_result, method="pam", nCluster="7
 
 ## Figure 3: Drug repositioning for cluster 3 (A)
 ```{r Figure3, fig.width=10, fig.height=10, cache=TRUE, fig.cap="Drug Repositioning for cluster 3"}
+# Figure 3
 heatmapPEI(cmapDn100_cogena_result, "pam", "7", printGS=FALSE, 
            orderMethod = "3", maintitle="Psoriasis")
 ```
 
 ## Figure 4: Drug repositioning for cluster 4 (B)
 ```{r Figure4, fig.width=10, fig.height=10, cache=TRUE, fig.cap="Drug Repositioning for cluster 4"}
+# Figure 4
 heatmapPEI(cmapDn100_cogena_result, "pam", "7", printGS=FALSE, 
            orderMethod = "4", maintitle="Psoriasis")
 
