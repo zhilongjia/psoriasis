@@ -3,7 +3,7 @@ title: "Pathway analysis and Drug repositioning for Psoriasis based on cogena"
 author: "Zhilong Jia"
 date: '`r Sys.Date()`'
 output:
-  html_document:
+  pdf_document:
     fig_caption: yes
     number_sections: yes
     toc: yes
@@ -16,9 +16,10 @@ vignette: |
 ***
 
 # Introduction
-_As a reproducible research, this is the whole code and files necessary for 
-the manuscript, **Drug repositioning and drug mode of action discovering 
-based on co-expressed gene-set enrichment analysis**._
+
+_This is all the codes necessary to reproduce the results in the manuscript, 
+**Drug repositioning and drug mode of action discovering based on co-expressed
+gene-set enrichment analysis**._
 
 # Data Preparation
 

@@ -70,44 +70,46 @@ img {
 <div id="TOC">
 <ul>
 <li><a href="#introduction"><span class="toc-section-number">1</span> Introduction</a></li>
-<li><a href="#downloading-the-raw-data-of-gse13355"><span class="toc-section-number">2</span> Downloading the raw data of <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13355">GSE13355</a></a></li>
-<li><a href="#differential-expression-analysis"><span class="toc-section-number">3</span> Differential Expression Analysis</a></li>
-<li><a href="#co-expression-analysis-by-cogena"><span class="toc-section-number">4</span> Co-expression Analysis by cogena</a></li>
-<li><a href="#pathway-analysis-by-cogena"><span class="toc-section-number">5</span> Pathway Analysis by cogena</a><ul>
-<li><a href="#the-heatmap-with-co-expression-information"><span class="toc-section-number">5.1</span> The heatmap with co-expression information</a></li>
-<li><a href="#table-1-co-expressed-genes-are-highly-connected"><span class="toc-section-number">5.2</span> Table 1: Co-expressed genes are highly connected</a></li>
-<li><a href="#figure-2-the-result-of-pathway-analysis"><span class="toc-section-number">5.3</span> Figure 2: The result of pathway analysis</a></li>
-<li><a href="#table-2-and-s1-make-input-for-gsea"><span class="toc-section-number">5.4</span> Table 2 and S1: Make Input for GSEA</a></li>
+<li><a href="#data-preparation"><span class="toc-section-number">2</span> Data Preparation</a><ul>
+<li><a href="#check-package-required"><span class="toc-section-number">2.1</span> Check package required</a></li>
+<li><a href="#downloading-the-raw-data-of-gse13355"><span class="toc-section-number">2.2</span> Downloading the raw data of <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13355">GSE13355</a></a></li>
+<li><a href="#differential-expression-analysis"><span class="toc-section-number">2.3</span> Differential Expression Analysis</a></li>
 </ul></li>
-<li><a href="#drug-repositioning-by-cogena"><span class="toc-section-number">6</span> Drug repositioning by cogena</a><ul>
-<li><a href="#figure-3-drug-repositioning-for-cluster-3-a"><span class="toc-section-number">6.1</span> Figure 3: Drug repositioning for cluster 3 (A)</a></li>
-<li><a href="#figure-4-drug-repositioning-for-cluster-4-b"><span class="toc-section-number">6.2</span> Figure 4: Drug repositioning for cluster 4 (B)</a></li>
-<li><a href="#figure-s1-drug-repositioning-for-cluster-6-c"><span class="toc-section-number">6.3</span> Figure S1: Drug repositioning for cluster 6 (C)</a></li>
-<li><a href="#table-s2-output-degs-for-cmap-and-nffinder-analysis"><span class="toc-section-number">6.4</span> Table S2: Output DEGs for CMAP and NFFinder Analysis</a></li>
+<li><a href="#co-expression-analysis-by-cogena"><span class="toc-section-number">3</span> Co-expression Analysis by cogena</a></li>
+<li><a href="#pathway-analysis-by-cogena"><span class="toc-section-number">4</span> Pathway Analysis by cogena</a><ul>
+<li><a href="#the-heatmap-with-co-expression-information"><span class="toc-section-number">4.1</span> The heatmap with co-expression information</a></li>
+<li><a href="#table-1-co-expressed-genes-are-highly-connected"><span class="toc-section-number">4.2</span> Table 1: Co-expressed genes are highly connected</a></li>
+<li><a href="#figure-2-the-result-of-pathway-analysis"><span class="toc-section-number">4.3</span> Figure 2: The result of pathway analysis</a></li>
+<li><a href="#table-2-and-s1-make-input-for-gsea"><span class="toc-section-number">4.4</span> Table 2 and S1: Make Input for GSEA</a></li>
 </ul></li>
-<li><a href="#system-info"><span class="toc-section-number">7</span> System Info</a></li>
+<li><a href="#drug-repositioning-by-cogena"><span class="toc-section-number">5</span> Drug repositioning by cogena</a><ul>
+<li><a href="#figure-3-drug-repositioning-for-cluster-3-a"><span class="toc-section-number">5.1</span> Figure 3: Drug repositioning for cluster 3 (A)</a></li>
+<li><a href="#figure-4-drug-repositioning-for-cluster-4-b"><span class="toc-section-number">5.2</span> Figure 4: Drug repositioning for cluster 4 (B)</a></li>
+<li><a href="#figure-s1-drug-repositioning-for-cluster-6-c"><span class="toc-section-number">5.3</span> Figure S1: Drug repositioning for cluster 6 (C)</a></li>
+<li><a href="#table-s2-output-degs-for-cmap-and-nffinder-analysis"><span class="toc-section-number">5.4</span> Table S2: Output DEGs for CMAP and NFFinder Analysis</a></li>
+</ul></li>
+<li><a href="#system-info"><span class="toc-section-number">6</span> System Info</a></li>
 </ul>
 </div>
 
+<hr />
 <div id="introduction" class="section level1">
 <h1><span class="header-section-number">1</span> Introduction</h1>
-<p><em>As a reproducible research, this is the whole code and files necessary for the manuscript, <strong>Drug repositioning and drug mode of action discovering based on co-expressed gene-set enrichment analysis</strong>.</em></p>
-<p>packages required:</p>
-<ul>
-<li>knitr</li>
-<li>GEOquery</li>
-<li>affy</li>
-<li>MetaDE</li>
-<li>annotate</li>
-<li>hgu133plus2.db</li>
-<li>limma</li>
-<li>STRINGdb</li>
-<li>hgu133a.db</li>
-<li>cogena (version&gt;=1.2.0)</li>
-</ul>
+<p><em>This is all the codes necessary to reproduce the results in the manuscript, <strong>Drug repositioning and drug mode of action discovering based on co-expressed gene-set enrichment analysis</strong>.</em></p>
 </div>
-<div id="downloading-the-raw-data-of-gse13355" class="section level1">
-<h1><span class="header-section-number">2</span> Downloading the raw data of <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13355">GSE13355</a></h1>
+<div id="data-preparation" class="section level1">
+<h1><span class="header-section-number">2</span> Data Preparation</h1>
+<div id="check-package-required" class="section level2">
+<h2><span class="header-section-number">2.1</span> Check package required</h2>
+<pre class="r"><code># Check package required
+packages &lt;- c(&quot;knitr&quot;, &quot;GEOquery&quot;, &quot;MetaDE&quot;, &quot;annotate&quot;, &quot;hgu133plus2.db&quot;, 
+              &quot;affy&quot;, &quot;limma&quot;, &quot;STRINGdb&quot;, &quot;hgu133a.db&quot;, &quot;devtools&quot;, &quot;cogena&quot;)
+if (length(setdiff(packages, rownames(installed.packages()))) &gt; 0) {
+    stop(paste(&quot;Please install packages:&quot;, setdiff(packages, rownames(installed.packages()))) )
+}</code></pre>
+</div>
+<div id="downloading-the-raw-data-of-gse13355" class="section level2">
+<h2><span class="header-section-number">2.2</span> Downloading the raw data of <a href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13355">GSE13355</a></h2>
 <pre class="r"><code># Download file from GEO and untar them if nothing in ../data/GSE13355_RAW
 if (length(dir(&quot;../data/GSE13355_RAW&quot;, all.files=FALSE)) ==0) {
     
@@ -116,11 +118,10 @@ if (length(dir(&quot;../data/GSE13355_RAW&quot;, all.files=FALSE)) ==0) {
     untar(&quot;../data/GSE13355_RAW.tar&quot;, exdir=&quot;../data/GSE13355_RAW&quot;)
 }</code></pre>
 </div>
-<div id="differential-expression-analysis" class="section level1">
-<h1><span class="header-section-number">3</span> Differential Expression Analysis</h1>
+<div id="differential-expression-analysis" class="section level2">
+<h2><span class="header-section-number">2.3</span> Differential Expression Analysis</h2>
 <pre class="r"><code>library(GEOquery)
-library (affy)
-
+library(affy)
 # GSE13355
 GSE13355raw &lt;- ReadAffy(celfile.path=&quot;../data/GSE13355_RAW&quot;)
 sampleNames(GSE13355raw) &lt;- sub(&quot;(_|\\.).*CEL\\.gz&quot;,&quot;&quot;, sampleNames(GSE13355raw))
@@ -179,11 +180,14 @@ GSE13355.DE &lt;- GSE13355.limma[GSE13355.limma$adj.P.Val&lt;=0.05 &amp; abs(GSE
 GSE13355.DEG &lt;- rownames(GSE13355.DE)
 GSE13355.DEG.expr &lt;- GSE13355.Explist.filtered$GSE13355$x[GSE13355.DEG,]</code></pre>
 </div>
+</div>
 <div id="co-expression-analysis-by-cogena" class="section level1">
-<h1><span class="header-section-number">4</span> Co-expression Analysis by cogena</h1>
+<h1><span class="header-section-number">3</span> Co-expression Analysis by cogena</h1>
 <pre class="r"><code># Install cogena if none
-# devtools::install_github(&quot;zhilongjia/cogena&quot;)
 library(cogena)
+if (packageVersion(&quot;cogena&quot;) &lt; &quot;1.2.0&quot;) {
+    devtools::install_github(&quot;zhilongjia/cogena&quot;)
+}
 annoGMT &lt;- &quot;c2.cp.kegg.v5.0.symbols.gmt.xz&quot;
 annofile &lt;- system.file(&quot;extdata&quot;, annoGMT, package=&quot;cogena&quot;)
 # nClust &lt;- 2:20
@@ -200,7 +204,7 @@ genecl_result &lt;- coExp(GSE13355.DEG.expr, nClust=nClust,
                        verbose=FALSE)</code></pre>
 </div>
 <div id="pathway-analysis-by-cogena" class="section level1">
-<h1><span class="header-section-number">5</span> Pathway Analysis by cogena</h1>
+<h1><span class="header-section-number">4</span> Pathway Analysis by cogena</h1>
 <pre class="r"><code>sampleLabel &lt;- GSE13355label$state
 names(sampleLabel) &lt;- rownames(GSE13355label)
 # cogena analysis (Pathway analysis)
@@ -224,7 +228,7 @@ summary(cogena_result)</code></pre>
 ## Gene set:
 ##  c2.cp.kegg.v5.0.symbols.gmt.xz</code></pre>
 <div id="the-heatmap-with-co-expression-information" class="section level2">
-<h2><span class="header-section-number">5.1</span> The heatmap with co-expression information</h2>
+<h2><span class="header-section-number">4.1</span> The heatmap with co-expression information</h2>
 <pre class="r"><code># Figure 1
 heatmapCluster(cogena_result, &quot;pam&quot;, &quot;7&quot;, maintitle=&quot;Psoriasis&quot;)</code></pre>
 <pre><code>## The number of genes in each cluster:
@@ -240,7 +244,7 @@ heatmapCluster(cogena_result, &quot;pam&quot;, &quot;7&quot;, maintitle=&quot;Ps
 </div>
 </div>
 <div id="table-1-co-expressed-genes-are-highly-connected" class="section level2">
-<h2><span class="header-section-number">5.2</span> Table 1: Co-expressed genes are highly connected</h2>
+<h2><span class="header-section-number">4.2</span> Table 1: Co-expressed genes are highly connected</h2>
 <pre class="r"><code># pPPI function: get the PPI summary information about input genes
 pPPI &lt;- function(geneC, string_db){
     example1_mapped &lt;- string_db$map(as.data.frame(geneC), &quot;geneC&quot;, 
@@ -249,7 +253,7 @@ pPPI &lt;- function(geneC, string_db){
     net_summary &lt;- string_db$get_summary(unique(hits))
     as.numeric( gsub(&quot;[^1:9]+\\: |\\)&quot;, &quot;&quot;, strsplit(net_summary, &quot;\n|\\(&quot;)[[1]] ) )
 }
-
+# Init table
 cluster_ppi &lt;- data.frame(protein=numeric(10), interactions=numeric(10),
                              expected_interactions=numeric(10),
                              p_value=numeric(10), stringsAsFactors=FALSE)
@@ -258,7 +262,7 @@ rownames(cluster_ppi) &lt;- c(1:7, &quot;Up&quot;, &quot;Down&quot;, &quot;All_D
 library(STRINGdb)
 suppressWarnings(string_db &lt;- STRINGdb$new(version=&quot;10&quot;, species=9606, 
                                            score_threshold=400, 
-                                           input_directory=&quot;~/tmp/STRINGdb&quot;))
+                                           input_directory=&quot;../data&quot;))
 
 for (i in 1:7) {
     i &lt;- as.character(i)
@@ -267,6 +271,7 @@ for (i in 1:7) {
 cluster_ppi[&quot;Up&quot;,] &lt;- pPPI(rownames(GSE13355.DE[GSE13355.DE$logFC&gt;0,]), string_db)
 cluster_ppi[&quot;Down&quot;,] &lt;- pPPI(rownames(GSE13355.DE[GSE13355.DE$logFC&lt;0,]), string_db)
 cluster_ppi[&quot;All_DE&quot;,] &lt;- pPPI(rownames(GSE13355.DE), string_db)
+cluster_ppi$ratio &lt;- cluster_ppi$interactions / cluster_ppi$expected_interactions
 # Table 1
 knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&quot;)</code></pre>
 <table>
@@ -278,6 +283,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <th align="right">interactions</th>
 <th align="right">expected_interactions</th>
 <th align="right">p_value</th>
+<th align="right">ratio</th>
 </tr>
 </thead>
 <tbody>
@@ -287,6 +293,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">302</td>
 <td align="right">116</td>
 <td align="right">0.0000000</td>
+<td align="right">2.603448</td>
 </tr>
 <tr class="even">
 <td align="left">2</td>
@@ -294,6 +301,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">15</td>
 <td align="right">7</td>
 <td align="right">0.0078911</td>
+<td align="right">2.142857</td>
 </tr>
 <tr class="odd">
 <td align="left">3</td>
@@ -301,6 +309,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">287</td>
 <td align="right">24</td>
 <td align="right">0.0000000</td>
+<td align="right">11.958333</td>
 </tr>
 <tr class="even">
 <td align="left">4</td>
@@ -308,6 +317,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">500</td>
 <td align="right">92</td>
 <td align="right">0.0000000</td>
+<td align="right">5.434783</td>
 </tr>
 <tr class="odd">
 <td align="left">5</td>
@@ -315,6 +325,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">19</td>
 <td align="right">11</td>
 <td align="right">0.0348286</td>
+<td align="right">1.727273</td>
 </tr>
 <tr class="even">
 <td align="left">6</td>
@@ -322,6 +333,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">59</td>
 <td align="right">16</td>
 <td align="right">0.0000000</td>
+<td align="right">3.687500</td>
 </tr>
 <tr class="odd">
 <td align="left">7</td>
@@ -329,6 +341,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">3</td>
 <td align="right">0</td>
 <td align="right">0.0048405</td>
+<td align="right">Inf</td>
 </tr>
 <tr class="even">
 <td align="left">Up</td>
@@ -336,6 +349,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">1616</td>
 <td align="right">633</td>
 <td align="right">0.0000000</td>
+<td align="right">2.552923</td>
 </tr>
 <tr class="odd">
 <td align="left">Down</td>
@@ -343,6 +357,7 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">235</td>
 <td align="right">112</td>
 <td align="right">0.0000000</td>
+<td align="right">2.098214</td>
 </tr>
 <tr class="even">
 <td align="left">All_DE</td>
@@ -350,12 +365,13 @@ knitr::kable(cluster_ppi, caption=&quot;Summary of interactions within clusters&
 <td align="right">2407</td>
 <td align="right">1274</td>
 <td align="right">0.0000000</td>
+<td align="right">1.889325</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="figure-2-the-result-of-pathway-analysis" class="section level2">
-<h2><span class="header-section-number">5.3</span> Figure 2: The result of pathway analysis</h2>
+<h2><span class="header-section-number">4.3</span> Figure 2: The result of pathway analysis</h2>
 <pre class="r"><code># Figure 2
 heatmapPEI(cogena_result, &quot;pam&quot;, &quot;7&quot;, printGS=FALSE, maintitle=&quot;Psoriasis&quot;)</code></pre>
 <div class="figure">
@@ -364,7 +380,7 @@ heatmapPEI(cogena_result, &quot;pam&quot;, &quot;7&quot;, printGS=FALSE, maintit
 </div>
 </div>
 <div id="table-2-and-s1-make-input-for-gsea" class="section level2">
-<h2><span class="header-section-number">5.4</span> Table 2 and S1: Make Input for GSEA</h2>
+<h2><span class="header-section-number">4.4</span> Table 2 and S1: Make Input for GSEA</h2>
 <p>This is to get the <em>Table 2 and S1</em>. The result can be obtained from <em>../result/GSEA_output</em>, too. See <a href="http://www.broadinstitute.org/cancer/software/genepattern/file-formats-guide#GCT">gct</a> and <a href="http://www.broadinstitute.org/cancer/software/genepattern/file-formats-guide#CLS">cls</a> file format if needed.</p>
 <pre class="r"><code>expData &lt;- as.data.frame(exprs(GSE13355rma))
 expData$DESCRIPTION &lt;- NA
@@ -372,21 +388,25 @@ expData &lt;- expData[,c(&quot;DESCRIPTION&quot;, colnames(expData)[1:116])]
 
 write.table(expData, file=&quot;../result/GSEA_input/GSE13355_exp.gct&quot;, sep=&quot;\t&quot;, quote=FALSE)
 ################################################################################
-# Add the following 3 lines at the begining of GSE13355_exp.gct manually.
-#1.2
-54675   116
-NAME    
+# Add the following 3 lines at the begining of GSE13355_exp.gct
+fConn &lt;- file('../result/GSEA_input/GSE13355_exp.gct', 'r+')
+Lines &lt;- sub(&quot;DESCRIPTION&quot;, &quot;NAME\tDESCRIPTION&quot;, readLines(fConn))
+writeLines(c(&quot;#1.2\n54675\t116&quot;, Lines ), con = fConn)
+close(fConn)
+
 ################################################################################
 write.table(t(as.character(GSE13355label$state)), 
     file=&quot;../result/GSEA_input/GSE13355.cls&quot;,quote=FALSE, col.names=FALSE, 
     row.names=FALSE)
 ################################################################################
-# Add the following 2 lines at the begining of GSE13355.cls manually
-116 2 1
-#ct Psoriasis
+# Add cls format header
+fConn1 &lt;- file('../result/GSEA_input/GSE13355.cls', 'r+') 
+writeLines(c(&quot;116 2 1\n#ct Psoriasis&quot;, readLines(fConn1) ), con = fConn1)
+close(fConn1) 
+
 ################################################################################
 # Download gsea2-2.1.0.jar from the GSEA website
-# Or from [my github](https://github.com/zhilongjia/geneRanking/blob/master/src/gsea2-2.1.0.jar)
+# Or from https://github.com/zhilongjia/geneRanking/blob/master/src/gsea2-2.1.0.jar
 # to the current directory.
 #
 # GSEA analysis
@@ -401,7 +421,7 @@ write.table(t(as.character(GSE13355label$state)),
 </div>
 </div>
 <div id="drug-repositioning-by-cogena" class="section level1">
-<h1><span class="header-section-number">6</span> Drug repositioning by cogena</h1>
+<h1><span class="header-section-number">5</span> Drug repositioning by cogena</h1>
 <pre class="r"><code># Drug repositioning based on CmapDn100 gene set
 cmapDn100_cogena_result &lt;- clEnrich_one(genecl_result, &quot;pam&quot;, &quot;7&quot;, 
         annofile=system.file(&quot;extdata&quot;, &quot;CmapDn100.gmt.xz&quot;, package=&quot;cogena&quot;), 
@@ -412,7 +432,7 @@ cmapUp100_cogena_result &lt;- clEnrich_one(genecl_result, method=&quot;pam&quot;
         annofile=system.file(&quot;extdata&quot;, &quot;CmapUp100.gmt.xz&quot;, package=&quot;cogena&quot;), 
         sampleLabel=sampleLabel)</code></pre>
 <div id="figure-3-drug-repositioning-for-cluster-3-a" class="section level2">
-<h2><span class="header-section-number">6.1</span> Figure 3: Drug repositioning for cluster 3 (A)</h2>
+<h2><span class="header-section-number">5.1</span> Figure 3: Drug repositioning for cluster 3 (A)</h2>
 <pre class="r"><code># Figure 3
 heatmapPEI(cmapDn100_cogena_result, &quot;pam&quot;, &quot;7&quot;, printGS=FALSE, 
            orderMethod = &quot;3&quot;, maintitle=&quot;Psoriasis&quot;)</code></pre>
@@ -422,7 +442,7 @@ heatmapPEI(cmapDn100_cogena_result, &quot;pam&quot;, &quot;7&quot;, printGS=FALS
 </div>
 </div>
 <div id="figure-4-drug-repositioning-for-cluster-4-b" class="section level2">
-<h2><span class="header-section-number">6.2</span> Figure 4: Drug repositioning for cluster 4 (B)</h2>
+<h2><span class="header-section-number">5.2</span> Figure 4: Drug repositioning for cluster 4 (B)</h2>
 <pre class="r"><code># Figure 4
 heatmapPEI(cmapDn100_cogena_result, &quot;pam&quot;, &quot;7&quot;, printGS=FALSE, 
            orderMethod = &quot;4&quot;, maintitle=&quot;Psoriasis&quot;)</code></pre>
@@ -432,7 +452,7 @@ heatmapPEI(cmapDn100_cogena_result, &quot;pam&quot;, &quot;7&quot;, printGS=FALS
 </div>
 </div>
 <div id="figure-s1-drug-repositioning-for-cluster-6-c" class="section level2">
-<h2><span class="header-section-number">6.3</span> Figure S1: Drug repositioning for cluster 6 (C)</h2>
+<h2><span class="header-section-number">5.3</span> Figure S1: Drug repositioning for cluster 6 (C)</h2>
 <pre class="r"><code># See Figure 5
 heatmapPEI(cmapUp100_cogena_result, &quot;pam&quot;, &quot;7&quot;, printGS=FALSE, 
            orderMethod = &quot;6&quot;, maintitle=&quot;Psoriasis&quot;)</code></pre>
@@ -442,7 +462,7 @@ heatmapPEI(cmapUp100_cogena_result, &quot;pam&quot;, &quot;7&quot;, printGS=FALS
 </div>
 </div>
 <div id="table-s2-output-degs-for-cmap-and-nffinder-analysis" class="section level2">
-<h2><span class="header-section-number">6.4</span> Table S2: Output DEGs for CMAP and NFFinder Analysis</h2>
+<h2><span class="header-section-number">5.4</span> Table S2: Output DEGs for CMAP and NFFinder Analysis</h2>
 <p>These outputs are used for <a href="connectivitymap.org/cmap">CMap</a> and <a href="http://nffinder.cnb.csic.es/">NFFinder</a> analysis to get the <em>Table S2</em>. The results can be obtained from <em>../result/CMAP_output</em> and <em>../result/NFFinder_output</em>, as well. For NFFinder, the CMap database and Profile matching, “Inverse”, are used.</p>
 <pre class="r"><code># Convert gene symbols to probes in HGU133a.
 symbol2Probe &lt;- function(gs){
@@ -453,8 +473,9 @@ symbol2Probe &lt;- function(gs){
 
 upGene &lt;- rownames(GSE13355.limma[GSE13355.limma$logFC&gt;= 1 &amp; GSE13355.limma$adj.P.Val&lt;=0.05,])
 dnGene &lt;- rownames(GSE13355.limma[GSE13355.limma$logFC&lt;= -1 &amp; GSE13355.limma$adj.P.Val&lt;=0.05,])
-upProbe &lt;- symbol2Probe(upGene)
-dnProbe &lt;- symbol2Probe(dnGene)
+upProbe &lt;- symbol2Probe(upGene)</code></pre>
+<pre><code>## </code></pre>
+<pre class="r"><code>dnProbe &lt;- symbol2Probe(dnGene)
 
 # Output files for CMap and NFFinder
 write.table(upProbe, file=paste0(&quot;../result/CMAP_input/&quot;, &quot;GSE13355_Up.grp&quot;), 
@@ -465,11 +486,13 @@ write.table(upGene, file=paste0(&quot;../result/NFFinder_input/&quot;, &quot;GSE
             quote=F, col.names = F, row.names = F)
 write.table(dnGene, file=paste0(&quot;../result/NFFinder_input/&quot;, &quot;GSE13355_Dn.txt&quot;), 
             quote=F, col.names = F, row.names = F)
+################################################################################
+save.image(file=&quot;../result/Drp_cogena.RData&quot;)
 ################################################################################</code></pre>
 </div>
 </div>
 <div id="system-info" class="section level1">
-<h1><span class="header-section-number">7</span> System Info</h1>
+<h1><span class="header-section-number">6</span> System Info</h1>
 <pre><code>## R version 3.2.0 (2015-04-16)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
 ## Running under: Debian GNU/Linux jessie/sid
@@ -487,41 +510,42 @@ write.table(dnGene, file=paste0(&quot;../result/NFFinder_input/&quot;, &quot;GSE
 ##  [8] datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] STRINGdb_1.8.1        hash_2.2.6            gplots_2.17.0        
-##  [4] RColorBrewer_1.1-2    plotrix_3.5-12        RCurl_1.95-4.7       
-##  [7] bitops_1.0-6          igraph_1.0.1          plyr_1.8.3           
-## [10] sqldf_0.4-10          gsubfn_0.6-6          proto_0.3-10         
-## [13] png_0.1-7             limma_3.24.14         hgu133plus2.db_3.1.3 
-## [16] org.Hs.eg.db_3.1.2    RSQLite_1.0.0         DBI_0.3.1            
-## [19] annotate_1.46.1       XML_3.98-1.3          AnnotationDbi_1.30.1 
-## [22] GenomeInfoDb_1.4.1    IRanges_2.2.5         S4Vectors_0.6.3      
-## [25] MetaDE_1.0.5          combinat_0.0-8        impute_1.42.0        
-## [28] survival_2.38-3       hgu133plus2cdf_2.16.0 affy_1.46.1          
-## [31] GEOquery_2.35.4       Biobase_2.28.0        BiocGenerics_0.14.0  
-## [34] cogena_1.2.0          kohonen_2.0.18        MASS_7.3-43          
-## [37] class_7.3-13          ggplot2_1.0.1         cluster_2.0.3        
+##  [1] hgu133a.db_3.1.3      STRINGdb_1.8.1        hash_2.2.6           
+##  [4] gplots_2.17.0         RColorBrewer_1.1-2    plotrix_3.5-12       
+##  [7] RCurl_1.95-4.7        bitops_1.0-6          igraph_1.0.1         
+## [10] plyr_1.8.3            sqldf_0.4-10          gsubfn_0.6-6         
+## [13] proto_0.3-10          png_0.1-7             cogena_1.2.0         
+## [16] kohonen_2.0.18        MASS_7.3-43           class_7.3-13         
+## [19] ggplot2_1.0.1         cluster_2.0.3         limma_3.24.14        
+## [22] hgu133plus2.db_3.1.3  org.Hs.eg.db_3.1.2    RSQLite_1.0.0        
+## [25] DBI_0.3.1             annotate_1.46.1       XML_3.98-1.3         
+## [28] AnnotationDbi_1.30.1  GenomeInfoDb_1.4.1    IRanges_2.2.5        
+## [31] S4Vectors_0.6.3       MetaDE_1.0.5          combinat_0.0-8       
+## [34] impute_1.42.0         survival_2.38-3       hgu133plus2cdf_2.16.0
+## [37] affy_1.46.1           GEOquery_2.35.4       Biobase_2.28.0       
+## [40] BiocGenerics_0.14.0  
 ## 
 ## loaded via a namespace (and not attached):
 ##  [1] devtools_1.8.0        doParallel_1.0.8      R6_2.1.0             
-##  [4] affyio_1.36.0         KernSmooth_2.23-15    lazyeval_0.1.10      
-##  [7] colorspace_1.2-6      curl_0.9.1            compiler_3.2.0       
-## [10] git2r_0.10.1          preprocessCore_1.30.0 chron_2.3-47         
-## [13] biwt_1.0              formatR_1.2           xml2_0.1.1           
-## [16] caTools_1.17.1        scales_0.2.5          DEoptimR_1.0-3       
-## [19] mvtnorm_1.0-3         robustbase_0.92-5     stringr_1.0.0        
-## [22] apcluster_1.4.1       digest_0.6.8          rmarkdown_0.7        
-## [25] rrcov_1.3-8           htmltools_0.2.6       highr_0.5            
-## [28] BiocInstaller_1.18.4  mclust_5.0.2          gtools_3.5.0         
-## [31] dplyr_0.4.2           magrittr_1.5          Matrix_1.2-2         
-## [34] Rcpp_0.12.0           munsell_0.4.2         stringi_0.5-5        
-## [37] yaml_2.1.13           zlibbioc_1.14.0       grid_3.2.0           
-## [40] gdata_2.17.0          lattice_0.20-33       splines_3.2.0        
-## [43] knitr_1.10.5          tcltk_3.2.0           fastcluster_1.1.16   
-## [46] reshape2_1.4.1        codetools_0.2-14      evaluate_0.7         
-## [49] foreach_1.4.2         gtable_0.1.2          amap_0.8-14          
-## [52] assertthat_0.1        xtable_1.7-4          pcaPP_1.9-60         
-## [55] iterators_1.0.7       memoise_0.2.1         rversions_1.0.2      
-## [58] corrplot_0.73</code></pre>
+##  [4] affyio_1.36.0         KernSmooth_2.23-15    colorspace_1.2-6     
+##  [7] curl_0.9.1            git2r_0.10.1          preprocessCore_1.30.0
+## [10] chron_2.3-47          biwt_1.0              formatR_1.2          
+## [13] xml2_0.1.1            caTools_1.17.1        scales_0.2.5         
+## [16] DEoptimR_1.0-3        mvtnorm_1.0-3         robustbase_0.92-5    
+## [19] stringr_1.0.0         apcluster_1.4.1       digest_0.6.8         
+## [22] rmarkdown_0.7         rrcov_1.3-8           htmltools_0.2.6      
+## [25] BiocInstaller_1.18.4  mclust_5.0.2          gtools_3.5.0         
+## [28] dplyr_0.4.2           magrittr_1.5          Matrix_1.2-2         
+## [31] Rcpp_0.12.0           munsell_0.4.2         stringi_0.5-5        
+## [34] yaml_2.1.13           zlibbioc_1.14.0       grid_3.2.0           
+## [37] gdata_2.17.0          lattice_0.20-33       splines_3.2.0        
+## [40] knitr_1.10.5          tcltk_3.2.0           fastcluster_1.1.16   
+## [43] reshape2_1.4.1        codetools_0.2-14      evaluate_0.7         
+## [46] foreach_1.4.2         gtable_0.1.2          amap_0.8-14          
+## [49] assertthat_0.1        xtable_1.7-4          pcaPP_1.9-60         
+## [52] iterators_1.0.7       memoise_0.2.1         rversions_1.0.2      
+## [55] corrplot_0.73</code></pre>
+<hr />
 </div>
 
 
