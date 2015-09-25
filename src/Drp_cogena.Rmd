@@ -3,9 +3,10 @@ title: "Drug repositioning for psoriasis based on cogena"
 author: "Zhilong Jia (zhilongjia@gmail.com)"
 date: '`r Sys.Date()`'
 output:
-  pdf_document:
+  html_document:
     fig_caption: yes
     number_sections: yes
+    css: custom.css
     toc: yes
     toc_depth: 2
 
@@ -17,8 +18,8 @@ vignette: |
 
 # Introduction
 
-_This is a report to reproduce the results in the manuscript, 
-**Drug repositioning and drug mode of action discovering based on co-expressed
+_This report enables user to reproduce all the results in the manuscript, 
+**Drug repositioning and drug mode of action discovery based on co-expressed
 gene-set enrichment analysis**._ 
 
 ```{r opts_chunk, echo=FALSE, results="hide"}
@@ -37,7 +38,7 @@ if (length(setdiff(packages, rownames(installed.packages()))) > 0) {
 }
 ```
 
-## Downloading the raw data of [GSE13355](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13355)
+## Download the raw data of [GSE13355](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE13355)
 ```{r data}
 # Download raw files from GEO and untar them if nothing in ../data/GSE13355_RAW
 if (length(dir("../data/GSE13355_RAW", all.files=FALSE)) ==0) {
@@ -156,7 +157,7 @@ summary(cogena_result)
 
 ```
 
-## The heatmap with co-expression information
+## Heatmap with co-expressed genes
 ```{r figure1, fig.cap="Heatmap with co-expression information"}
 # Figure 1
 heatmapCluster(cogena_result, "pam", "10", maintitle="Psoriasis")
@@ -278,14 +279,14 @@ cmapUp100_cogena_result <- clEnrich_one(genecl_result, method="pam", nCluster="1
 
 ```
 
-## Figure 3: Drug repositioning for cluster 5 (A)
+## Figure 3: Drug repositioning for cluster 5
 ```{r Figure3, fig.cap="Drug Repositioning for cluster 5"}
 # Figure 3
 heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE, 
            orderMethod = "5", maintitle="Psoriasis")
 ```
 
-## Figure 4: Drug repositioning for cluster 7 (B)
+## Figure 4: Drug repositioning for cluster 7
 ```{r Figure4, fig.cap="Drug Repositioning for cluster 7"}
 # Figure 4
 heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE, 
@@ -293,9 +294,17 @@ heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE,
 
 ```
 
-## Figure S1: Drug repositioning for cluster 9 (C)
-```{r FigureS1, fig.cap="Drug Repositioning for cluster 9"}
+## Figure S1: Drug repositioning for cluster 3
+```{r FigureS1, fig.height=4, fig.cap="Drug Repositioning for cluster 3"}
 # Figure 5
+heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE, 
+           orderMethod = "3", maintitle="Psoriasis")
+
+```
+
+## Figure S2: Drug repositioning for cluster 9
+```{r FigureS2, fig.cap="Drug Repositioning for cluster 9"}
+# Figure 6
 heatmapPEI(cmapUp100_cogena_result, "pam", "10", printGS=FALSE, 
            orderMethod = "9", maintitle="Psoriasis")
 
@@ -344,7 +353,7 @@ write.table(dnGene, file=paste0("../result/NFFinder_input/", "GSE13355_Dn.txt"),
 * Website: https://github.com/zhilongjia/Drp_cogena
 * BugReports: https://github.com/zhilongjia/Drp_cogena/issues
 
-```{r sessionInfo, echo=FALSE}
+```{r sessionInfo}
 sessionInfo()
 ```
 
