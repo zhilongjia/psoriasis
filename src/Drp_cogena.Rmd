@@ -157,7 +157,7 @@ summary(cogena_result)
 
 ```
 
-## Heatmap with co-expressed genes
+## Figure S1: Heatmap with co-expressed genes
 ```{r figure1, fig.cap="Heatmap with co-expression information"}
 # Figure 1
 heatmapCluster(cogena_result, "pam", "10", maintitle="Psoriasis")
@@ -294,7 +294,7 @@ heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE,
 
 ```
 
-## Figure S1: Drug repositioning for cluster 3
+## Figure S2: Drug repositioning for cluster 3
 ```{r FigureS1, fig.height=4, fig.cap="Drug Repositioning for cluster 3"}
 # Figure 5
 heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE, 
@@ -302,7 +302,7 @@ heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE,
 
 ```
 
-## Figure S2: Drug repositioning for cluster 9
+## Figure S3: Drug repositioning for cluster 9
 ```{r FigureS2, fig.cap="Drug Repositioning for cluster 9"}
 # Figure 6
 heatmapPEI(cmapUp100_cogena_result, "pam", "10", printGS=FALSE, 

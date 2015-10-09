@@ -10,7 +10,7 @@
 
 <meta name="author" content="Zhilong Jia (zhilongjia@gmail.com)" />
 
-<meta name="date" content="2015-09-25" />
+<meta name="date" content="2015-10-09" />
 
 <title>Drug repositioning for psoriasis based on cogena</title>
 
@@ -65,7 +65,7 @@ img {
 <div id="header">
 <h1 class="title">Drug repositioning for psoriasis based on cogena</h1>
 <h4 class="author"><em>Zhilong Jia (<a href="mailto:zhilongjia@gmail.com">zhilongjia@gmail.com</a>)</em></h4>
-<h4 class="date"><em>2015-09-25</em></h4>
+<h4 class="date"><em>2015-10-09</em></h4>
 </div>
 
 <div id="TOC">
@@ -78,7 +78,7 @@ img {
 </ul></li>
 <li><a href="#co-expression-analysis-by-cogena"><span class="toc-section-number">3</span> Co-expression Analysis by cogena</a></li>
 <li><a href="#pathway-analysis-by-cogena"><span class="toc-section-number">4</span> Pathway Analysis by cogena</a><ul>
-<li><a href="#heatmap-with-co-expressed-genes"><span class="toc-section-number">4.1</span> Heatmap with co-expressed genes</a></li>
+<li><a href="#figure-s1-heatmap-with-co-expressed-genes"><span class="toc-section-number">4.1</span> Figure S1: Heatmap with co-expressed genes</a></li>
 <li><a href="#table-1-co-expressed-genes-are-highly-connected"><span class="toc-section-number">4.2</span> Table 1: Co-expressed genes are highly connected</a></li>
 <li><a href="#figure-2-the-result-of-pathway-analysis"><span class="toc-section-number">4.3</span> Figure 2: The result of pathway analysis</a></li>
 <li><a href="#table-2-and-s1-gsea"><span class="toc-section-number">4.4</span> Table 2 and S1: GSEA</a></li>
@@ -86,8 +86,8 @@ img {
 <li><a href="#drug-repositioning-by-cogena"><span class="toc-section-number">5</span> Drug repositioning by cogena</a><ul>
 <li><a href="#figure-3-drug-repositioning-for-cluster-5"><span class="toc-section-number">5.1</span> Figure 3: Drug repositioning for cluster 5</a></li>
 <li><a href="#figure-4-drug-repositioning-for-cluster-7"><span class="toc-section-number">5.2</span> Figure 4: Drug repositioning for cluster 7</a></li>
-<li><a href="#figure-s1-drug-repositioning-for-cluster-3"><span class="toc-section-number">5.3</span> Figure S1: Drug repositioning for cluster 3</a></li>
-<li><a href="#figure-s2-drug-repositioning-for-cluster-9"><span class="toc-section-number">5.4</span> Figure S2: Drug repositioning for cluster 9</a></li>
+<li><a href="#figure-s2-drug-repositioning-for-cluster-3"><span class="toc-section-number">5.3</span> Figure S2: Drug repositioning for cluster 3</a></li>
+<li><a href="#figure-s3-drug-repositioning-for-cluster-9"><span class="toc-section-number">5.4</span> Figure S3: Drug repositioning for cluster 9</a></li>
 <li><a href="#table-s2-output-degs-for-cmap-and-nffinder-analysis"><span class="toc-section-number">5.5</span> Table S2: Output DEGs for CMAP and NFFinder Analysis</a></li>
 </ul></li>
 <li><a href="#website-bugreports-and-system-info"><span class="toc-section-number">6</span> Website, BugReports and System Info</a></li>
@@ -238,8 +238,8 @@ summary(cogena_result)</code></pre>
 ## 
 ## Gene set:
 ##  c2.cp.kegg.v5.0.symbols.gmt.xz</code></pre>
-<div id="heatmap-with-co-expressed-genes" class="section level2">
-<h2><span class="header-section-number">4.1</span> Heatmap with co-expressed genes</h2>
+<div id="figure-s1-heatmap-with-co-expressed-genes" class="section level2">
+<h2><span class="header-section-number">4.1</span> Figure S1: Heatmap with co-expressed genes</h2>
 <pre class="r"><code># Figure 1
 heatmapCluster(cogena_result, &quot;pam&quot;, &quot;10&quot;, maintitle=&quot;Psoriasis&quot;)</code></pre>
 <pre><code>## The number of genes in each cluster:
@@ -501,8 +501,8 @@ heatmapPEI(cmapDn100_cogena_result, &quot;pam&quot;, &quot;10&quot;, printGS=FAL
 <p class="caption">Drug Repositioning for cluster 7</p>
 </div>
 </div>
-<div id="figure-s1-drug-repositioning-for-cluster-3" class="section level2">
-<h2><span class="header-section-number">5.3</span> Figure S1: Drug repositioning for cluster 3</h2>
+<div id="figure-s2-drug-repositioning-for-cluster-3" class="section level2">
+<h2><span class="header-section-number">5.3</span> Figure S2: Drug repositioning for cluster 3</h2>
 <pre class="r"><code># Figure 5
 heatmapPEI(cmapDn100_cogena_result, &quot;pam&quot;, &quot;10&quot;, printGS=FALSE, 
            orderMethod = &quot;3&quot;, maintitle=&quot;Psoriasis&quot;)</code></pre>
@@ -511,8 +511,8 @@ heatmapPEI(cmapDn100_cogena_result, &quot;pam&quot;, &quot;10&quot;, printGS=FAL
 <p class="caption">Drug Repositioning for cluster 3</p>
 </div>
 </div>
-<div id="figure-s2-drug-repositioning-for-cluster-9" class="section level2">
-<h2><span class="header-section-number">5.4</span> Figure S2: Drug repositioning for cluster 9</h2>
+<div id="figure-s3-drug-repositioning-for-cluster-9" class="section level2">
+<h2><span class="header-section-number">5.4</span> Figure S3: Drug repositioning for cluster 9</h2>
 <pre class="r"><code># Figure 6
 heatmapPEI(cmapUp100_cogena_result, &quot;pam&quot;, &quot;10&quot;, printGS=FALSE, 
            orderMethod = &quot;9&quot;, maintitle=&quot;Psoriasis&quot;)</code></pre>

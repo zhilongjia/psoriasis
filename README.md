@@ -1,9 +1,9 @@
 # Drug repositioning for psoriasis based on cogena
 
-This is a report, including code, to reproduce the results in the 
-manuscript, **Drug repositioning and drug mode of action discovering based 
+Here is a knitr-powered report, including code, to reproduce the results in the 
+manuscript, **Drug repositioning and drug mode of action discovery based 
 on co-expressed gene-set enrichment analysis**.
 
-See src directory for the detailed report.
+See http://zhilongjia.github.io/cogena/ or src directory for the detailed report.
 
 Thank you
