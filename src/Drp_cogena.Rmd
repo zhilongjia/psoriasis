@@ -350,8 +350,8 @@ write.table(dnGene, file=paste0("../result/NFFinder_input/", "GSE13355_Dn.txt"),
 
 # Website, BugReports and System Info
 
-* Website: https://github.com/zhilongjia/Drp_cogena
-* BugReports: https://github.com/zhilongjia/Drp_cogena/issues
+* Website: https://github.com/zhilongjia/psoriasis
+* BugReports: https://github.com/zhilongjia/psoriasis/issues
 
 ```{r sessionInfo}
 sessionInfo()
