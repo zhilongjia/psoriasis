@@ -1,4 +1,0 @@
-#! /bin/bash
-
-echo "GSE13355.csv"
-iconv -f utf-16 -t utf-8 GSE13355.csv | grep -inE "methotrexate|ciclosporin|betamethasone|isotretinoin|sulfasalazine|thioguanosine"
