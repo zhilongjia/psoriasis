@@ -1,12 +1,12 @@
 ---
 title: "Drug repositioning for psoriasis based on cogena"
-author: "Zhilong Jia (zhilongjia@gmail.com)"
+author: "Zhilong Jia et al."
 date: '`r Sys.Date()`'
 output:
-  html_document:
+  pdf_document:
     fig_caption: yes
     number_sections: yes
-    css: custom.css
+    # css: custom.css
     toc: yes
     toc_depth: 2
 
@@ -18,9 +18,10 @@ vignette: |
 
 # Introduction
 
-_This report enables user to reproduce all the results in the manuscript, 
-**Drug repositioning and drug mode of action discovery based on co-expressed
-gene-set enrichment analysis**._ 
+_This report enables user to reproduce all the results related with GSE13355
+in the manuscript, **Drug repositioning and drug mode of action discovery
+based on co-expressed gene-set enrichment analysis**._ The results related
+with GSE30999 are availiable at https://github.com/zhilongjia/psoriasis.
 
 ```{r opts_chunk, echo=FALSE, results="hide"}
 knitr::opts_chunk$set(cache=TRUE, cache.path="../tmp/", 
@@ -210,7 +211,7 @@ See [gct](http://www.broadinstitute.org/cancer/software/genepattern/file-formats
 and [cls](http://www.broadinstitute.org/cancer/software/genepattern/file-formats-guide#CLS) 
 file format if needed.
 
-```{r gsea, warning=TRUE}
+```{r gsea, warning=TRUE, eval=FALSE}
 # Prepare inputs for GSEA
 expData <- as.data.frame(exprs(GSE13355rma))
 expData$DESCRIPTION <- NA
@@ -313,13 +314,13 @@ heatmapPEI(cmapUp100_cogena_result, "pam", "10", printGS=FALSE,
 
 ## Table S2: Output DEGs for CMAP and NFFinder Analysis
 
-The input files for CMap and NFFinder , outputed by this chunk, are in *../result/CMAP_input/* and
- *../result/NFFinder_input/* respectively.
+The input files for CMap and NFFinder , outputed by this chunk, are in
+*result/CMAP_input/* and *result/NFFinder_input/* respectively.
 Please visit [CMap](http://www.connectivitymap.org/cmap/) and
 [NFFinder](http://nffinder.cnb.csic.es/) to get the final 
 results (*Table S2*) by yourself.
 
-```{r deg_drp, message=TRUE}
+```{r deg_drp, message=TRUE, eval=FALSE}
 # Convert gene symbols to probes in HGU133a.
 symbol2Probe <- function(gs){
     library(hgu133a.db)
@@ -344,7 +345,7 @@ write.table(dnGene, file=paste0("../result/NFFinder_input/", "GSE13355_Dn.txt"),
             quote=F, col.names = F, row.names = F)
 ################################################################################
 
-# save.image(file="../result/Drp_cogena.RData")
+# save.image(file="../result/GSE13355.RData")
 ################################################################################
 ```
 
