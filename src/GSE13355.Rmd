@@ -161,7 +161,7 @@ summary(cogena_result)
 ## Figure S1: Heatmap with co-expressed genes
 ```{r figure1, fig.cap="Heatmap with co-expression information"}
 # Figure 1
-heatmapCluster(cogena_result, "pam", "10", maintitle="Psoriasis")
+heatmapCluster(cogena_result, "pam", "10", maintitle="Psoriasis (GSE13355)")
 ```
 
 ## Table 1: Co-expressed genes are highly connected
@@ -201,7 +201,7 @@ knitr::kable(cluster_ppi, caption="Summary of interactions within clusters")
 ## Figure 2: The result of pathway analysis
 ```{r figure2, fig.width=12, fig.height=10, cache=TRUE, fig.cap="Pathway Analysis"}
 # Figure 2
-heatmapPEI(cogena_result, "pam", "10", printGS=FALSE, maintitle="Psoriasis")
+heatmapPEI(cogena_result, "pam", "10", printGS=FALSE, maintitle="Psoriasis (GSE13355)")
 ```
 
 ## Table 2 and S1: GSEA
@@ -284,14 +284,14 @@ cmapUp100_cogena_result <- clEnrich_one(genecl_result, method="pam", nCluster="1
 ```{r Figure3, fig.cap="Drug Repositioning for cluster 5"}
 # Figure 3
 heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE, 
-           orderMethod = "5", maintitle="Psoriasis")
+           orderMethod = "5", maintitle="Psoriasis (GSE13355)")
 ```
 
 ## Figure 4: Drug repositioning for cluster 7
 ```{r Figure4, fig.cap="Drug Repositioning for cluster 7"}
 # Figure 4
 heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE, 
-           orderMethod = "7", maintitle="Psoriasis")
+           orderMethod = "7", maintitle="Psoriasis (GSE13355)")
 
 ```
 
@@ -299,7 +299,7 @@ heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE,
 ```{r FigureS1, fig.height=4, fig.cap="Drug Repositioning for cluster 3"}
 # Figure 5
 heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE, 
-           orderMethod = "3", maintitle="Psoriasis")
+           orderMethod = "3", maintitle="Psoriasis (GSE13355)")
 
 ```
 
@@ -307,7 +307,7 @@ heatmapPEI(cmapDn100_cogena_result, "pam", "10", printGS=FALSE,
 ```{r FigureS2, fig.cap="Drug Repositioning for cluster 9"}
 # Figure 6
 heatmapPEI(cmapUp100_cogena_result, "pam", "10", printGS=FALSE, 
-           orderMethod = "9", maintitle="Psoriasis")
+           orderMethod = "9", maintitle="Psoriasis (GSE13355)")
 
 ```
 
