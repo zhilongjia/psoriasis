@@ -338,7 +338,7 @@ write.table(dnGene, file=paste0("../result/NFFinder_input/", "GSE30999_Dn.txt"),
             quote=F, col.names = F, row.names = F)
 ################################################################################
 
-# save.image(file="../result/cogena_GSE30999.RData")
+save.image(file="../result/cogena_GSE30999.RData")
 ################################################################################
 ```
 
