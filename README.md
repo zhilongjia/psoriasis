@@ -11,3 +11,6 @@ the manuscript, **Cogena, a novel tool for co-expressed gene-set enrichment anal
 * __tmp__ is to store the temporary file.
 
 cogena package is available at [Bioconductor](https://bioconductor.org/packages/cogena/) or [my Github](https://github.com/zhilongjia/cogena).
+
+Citation:
+[Jia, Zhilong, et al. "Cogena, a novel tool for co-expressed gene-set enrichment analysis, applied to drug repositioning and drug mode of action discovery." BMC Genomics 17.1 (2016): 1.](http://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2737-8)
